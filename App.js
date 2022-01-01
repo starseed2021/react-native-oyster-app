@@ -4,6 +4,7 @@ import WelcomeScreen from './app/screens/WelcomeScreen';
 import IntroScreen from './app/screens/IntroScreen';
 import OysterScreen from './app/screens/OysterScreen';
 
+
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 

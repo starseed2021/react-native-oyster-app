@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, SafeAreaView } from 'react-native'
 
 
 
+
 // HERE WILL BE AN 'ABOUT US' PAGE AND WILL HAVE A BUTTON TO 'BEGIN SEARCH'
 function IntroScreen() {
     return (
@@ -12,6 +13,7 @@ function IntroScreen() {
         </SafeAreaView>
     );
 }
+
 
 
 

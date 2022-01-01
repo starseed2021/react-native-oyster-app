@@ -12,7 +12,6 @@ import {
 } from 'react-native';
 import { useDimensions, useDeviceOrientation } from '@react-native-community/hooks';
 
-import IntroScreen from './IntroScreen';
 
 import colors from '../config/colors';
 
@@ -27,7 +26,7 @@ function WelcomeScreen({ navigation }) {
             </View>
             <TouchableOpacity style={styles.image} onPress={() => navigation.navigate("OysterScreen")} >
                 <Image 
-                source={require('../assets/cartoon_shell.png')}/>
+                source={require('../assets/images/cartoon_shell.png')}/>
             </TouchableOpacity>
             <StatusBar sytle='auto' />
 
