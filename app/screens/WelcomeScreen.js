@@ -24,7 +24,7 @@ function WelcomeScreen({ navigation }) {
                 <Text style={styles.titleText}>Birth of Pearl</Text>
                 <Text style={styles.subTitleText}>The world is your...</Text>
             </View>
-            <TouchableOpacity style={styles.image} onPress={() => navigation.navigate("OysterScreen")} >
+            <TouchableOpacity style={styles.image} onPress={() => navigation.navigate('Search')} >
                 <Image 
                 source={require('../assets/images/cartoon_shell.png')}/>
             </TouchableOpacity>
@@ -36,7 +36,7 @@ function WelcomeScreen({ navigation }) {
             <Button
             color={colors.primary}
             title='Enter'
-            onPress={() => navigation.navigate("IntroScreen")}
+            onPress={() => navigation.navigate('About Us')}
             />
             </View>
         </SafeAreaView>

@@ -2,25 +2,30 @@ import React from 'react'
 import { 
     StyleSheet, 
     Text, 
-    View,
+    View, 
     SafeAreaView,
     Button
 } from 'react-native'
 
+
 import colors from '../config/colors';
 
-function OysterScreen({ navigation }) {
+
+// HERE WILL BE THE SEARCH PAGE
+function SearchScreen({ navigation }) {
     return (
         <SafeAreaView style={styles.container}>
-            <Text style={styles.textStyle}>Oyster List</Text>
+            <Text style={styles.textStyle}>Search for Oysters</Text>
             <Button 
                 color={colors.secondary}
-                title='Go to Oyster Profile'
-                onPress={() => navigation.push('Oyster Profile')}
+                title='Go to Oyster List'
+                onPress={() => navigation.push('Oyster List')}
             />
         </SafeAreaView>
     )
 }
+
+
 
 const styles = StyleSheet.create({
     container: {
@@ -35,4 +40,6 @@ const styles = StyleSheet.create({
 })
 
 
-export default OysterScreen;
+
+
+export default SearchScreen; 

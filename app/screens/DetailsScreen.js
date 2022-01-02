@@ -3,21 +3,16 @@ import {
     StyleSheet, 
     Text, 
     View,
-    SafeAreaView,
-    Button
+    SafeAreaView
 } from 'react-native'
 
 import colors from '../config/colors';
 
-function OysterScreen({ navigation }) {
+
+function DetailsScreen() {
     return (
         <SafeAreaView style={styles.container}>
-            <Text style={styles.textStyle}>Oyster List</Text>
-            <Button 
-                color={colors.secondary}
-                title='Go to Oyster Profile'
-                onPress={() => navigation.push('Oyster Profile')}
-            />
+            <Text style={styles.textStyle}>Oyster Profile</Text>
         </SafeAreaView>
     )
 }
@@ -35,4 +30,5 @@ const styles = StyleSheet.create({
 })
 
 
-export default OysterScreen;
+
+export default DetailsScreen;
