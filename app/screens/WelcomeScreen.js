@@ -19,12 +19,12 @@ import colors from '../config/colors';
 
 function WelcomeScreen({ navigation }) {
     return (
-        <SafeAreaView style={styles.container}>
-            <View style={styles.welcomeTitles}>
-                <Text style={styles.titleText}>Birth of Pearl</Text>
-                <Text style={styles.subTitleText}>The world is your...</Text>
+        <SafeAreaView style={ styles.container }>
+            <View style={ styles.welcomeTitles }>
+                <Text style={ styles.titleText }>Birth of Pearl</Text>
+                <Text style={ styles.subTitleText }>The world is your...</Text>
             </View>
-            <TouchableOpacity style={styles.image} onPress={() => navigation.navigate('Search')} >
+            <TouchableOpacity style={ styles.image } onPress={() => navigation.navigate('Search')} >
                 <Image 
                 source={require('../assets/images/cartoon_shell.png')}/>
             </TouchableOpacity>
@@ -32,9 +32,9 @@ function WelcomeScreen({ navigation }) {
 
             {/* CREATE FOOTER BACKGROUND; COLORS REVERSED; BUTTON DISPLAYED */}
             {/* SHOULD THE BUTTON BE ANOTHER COMPONENT */}
-            <View style={styles.enterButton}>
+            <View style={ styles.footerStyle }>
             <Button
-            color={colors.primary}
+            color={ colors.primary }
             title='Enter'
             onPress={() => navigation.navigate('About Us')}
             />
@@ -56,13 +56,13 @@ const styles = StyleSheet.create({
         height: '50%',
         width: '125%'
     },
-    enterButton: {
+    footerStyle: {
         width: '100%',
-        height: 100,
+        height: 115,
         backgroundColor: colors.secondary,
-        // color: 'cadetblue',
         textAlign: 'center',
         position: 'absolute',
+        padding: 10,
         bottom: 0
     },
     subTitleText: {

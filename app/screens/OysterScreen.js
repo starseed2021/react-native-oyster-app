@@ -11,10 +11,10 @@ import colors from '../config/colors';
 
 function OysterScreen({ navigation }) {
     return (
-        <SafeAreaView style={styles.container}>
-            <Text style={styles.textStyle}>Oyster List</Text>
+        <SafeAreaView style={ styles.container }>
+            <Text style={ styles.textStyle }>Oyster List</Text>
             <Button 
-                color={colors.secondary}
+                color={ colors.secondary }
                 title='Go to Oyster Profile'
                 onPress={() => navigation.push('Oyster Profile')}
             />

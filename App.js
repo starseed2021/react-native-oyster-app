@@ -21,7 +21,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Welcome">
-        <Stack.Screen name="Welcome" component={ WelcomeScreen } options={{ headerShown: false }}/>
+        <Stack.Screen name="Home" component={ WelcomeScreen } options={{ headerShown: false }}/>
         <Stack.Screen name="About Us" component={ IntroScreen } options={{headerStyle: {backgroundColor: colors.secondary}, headerTintColor: colors.primary}} />
         <Stack.Screen name="Search" component={ SearchScreen } options={{headerStyle: {backgroundColor: colors.secondary}, headerTintColor: colors.primary}}/>
         <Stack.Screen name="Oyster List" component={ OysterScreen } options={{headerStyle: {backgroundColor: colors.secondary}, headerTintColor: colors.primary}}/>

@@ -14,10 +14,10 @@ import colors from '../config/colors';
 // HERE WILL BE THE SEARCH PAGE
 function SearchScreen({ navigation }) {
     return (
-        <SafeAreaView style={styles.container}>
-            <Text style={styles.textStyle}>Search for Oysters</Text>
+        <SafeAreaView style={ styles.container }>
+            <Text style={ styles.textStyle }>Search for Oysters</Text>
             <Button 
-                color={colors.secondary}
+                color={ colors.secondary }
                 title='Go to Oyster List'
                 onPress={() => navigation.push('Oyster List')}
             />

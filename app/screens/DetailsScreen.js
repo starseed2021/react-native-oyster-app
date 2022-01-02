@@ -11,8 +11,8 @@ import colors from '../config/colors';
 
 function DetailsScreen() {
     return (
-        <SafeAreaView style={styles.container}>
-            <Text style={styles.textStyle}>Oyster Profile</Text>
+        <SafeAreaView style={ styles.container }>
+            <Text style={ styles.textStyle }>Oyster Profile</Text>
         </SafeAreaView>
     )
 }
