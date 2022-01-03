@@ -11,9 +11,6 @@ import {
 import colors from '../config/colors';
 
 
-
-
-
 // HERE WILL BE AN 'ABOUT US' PAGE AND WILL HAVE A BUTTON TO 'BEGIN SEARCH'
 function IntroScreen({ navigation }) {
     return (
@@ -33,8 +30,6 @@ function IntroScreen({ navigation }) {
         </SafeAreaView>
     );
 }
-
-
 
 
 {/* POSSIBLY PLACE MY COPYRIGHT AT BOTTOM OF PAGE

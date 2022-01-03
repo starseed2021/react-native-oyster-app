@@ -10,8 +10,8 @@ import {
     Button, 
     Dimensions 
 } from 'react-native';
-import { useDimensions, useDeviceOrientation } from '@react-native-community/hooks';
 
+import { useDimensions, useDeviceOrientation } from '@react-native-community/hooks';
 
 import colors from '../config/colors';
 
@@ -28,6 +28,7 @@ function WelcomeScreen({ navigation }) {
                 <Image 
                 source={require('../assets/images/cartoon_shell.png')}/>
             </TouchableOpacity>
+            <Text style={styles.shellText}>Tap Oyster</Text>
             <StatusBar sytle='auto' />
 
             {/* CREATE FOOTER BACKGROUND; COLORS REVERSED; BUTTON DISPLAYED */}
@@ -62,8 +63,12 @@ const styles = StyleSheet.create({
         backgroundColor: colors.secondary,
         textAlign: 'center',
         position: 'absolute',
-        padding: 10,
+        padding: 30,
         bottom: 0
+    },
+    shellText: {
+        color: colors.secondary,
+        fontWeight: '300'
     },
     subTitleText: {
         color: colors.secondary,
@@ -72,7 +77,7 @@ const styles = StyleSheet.create({
     },
     titleText: {
         color: colors.secondary,
-        fontSize: 30,
+        fontSize: 35,
         fontWeight: '600'
     },
     welcomeTitles: {
