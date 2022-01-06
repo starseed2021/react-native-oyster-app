@@ -18,8 +18,8 @@ function SearchScreen({ navigation }) {
             <Text style={ styles.textStyle }>Search for Oysters</Text>
             <Button 
                 color={ colors.secondary }
-                title='Go to Oyster List'
-                onPress={() => navigation.push('Oyster List')}
+                title='Go to Oyster Profile'
+                onPress={() => navigation.push('Oyster Profile')}
             />
         </SafeAreaView>
     )
