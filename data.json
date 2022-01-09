@@ -2,7 +2,7 @@
     "oysters": {
         "regions": {
             "northeast": {
-                "ca": {
+                "can": {
                     "alba_bras_d'or_lakes": {
                         "location": "Nova Scotia, Canada",
                         "species": "Crassostrea Virginicas - Atlantic",
@@ -35,14 +35,14 @@
                         "location": "Nova Scotia, Canada",
                         "species":"Crassostrea Virginicas - Atlantic",
                         "flavor_profile": ["mediume to full brininess"],
-                        "cultivation": "",
+                        "cultivation": "N/A",
                         "size": "up to 4 inches"
                     },
                     "cape_north": {
                         "location": "Nova Scotia, Canada",
                         "species":"Crassostrea Virginicas - Atlantic",
                         "flavor_profile": ["meaty", "very briny", "light flavor"],
-                        "cultivation": "",
+                        "cultivation": "N/A",
                         "size": "up to 4 inches"
                     },
                     "cavendish_cup": {
@@ -65,41 +65,102 @@
                         "flavor_profile": ["full meat", "clean", "sweet", "mild brininess"],
                         "cultivation": "Rack and Bag, finished by Bottom Cultivation",
                         "size":"up to 3.5 inches"
+                    },
+                    "dune_shadow": {
+                        "location": "New Brunswick, Canada",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["full meat", "smooth", "mildly sweet", "very briny"],
+                        "cultivation": "Tray to Beach Cultivated",
+                        "size": "up to 3.5 inches"
+                    },
+                    "french_kiss": {
+                        "location": "New Brunswick, Canada",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["plump meat", "sharp brininess", "mild sweetness"],
+                        "cultivation": "Suspension Tray",
+                        "size": "up to 3.5 inches"
                     }
                 },
-                "nj": {
-                    "cape_may_salt": {
-                        "location": "Cape May, NJ",
+                "ct": {
+                    "duck_island_petite": {
+                        "location": "Long Island Sound, CT",
                         "species": "Crassostrea Virginicas - Atlantic",
-                        "flavor_profile": ["high brininess", "strong peppery flavor"],
-                        "cultivation": "Rack and Bag",
+                        "flavor_profile": ["plump meat", "extremely mild flavor"],
+                        "cultivation": "N/A",   
+                        "size": "up to 3 inches"
+                    },
+                    "fishers_island": {
+                        "location": "Connecticut",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["sweet", "fresh", "firm meat", "high brininess", "zesty, clean finish"],
+                        "cultivation": "Suspended Lantern Nets",
+                        "size": "N/A"
+                    }
+                },
+                "me": {
+                    "belon": {
+                        "location": "Maine",
+                        "species": "Ostrea Edulis - European Flat",
+                        "flavor_profile": ["potent, strong coppery taste", "mild brininess", "tannic accent"],
+                        "cultivation": "Wild Bottom Grown",
                         "size": "3 to 5 inches"
                     },
-                    "caraquet": {
-                        "location": "New Jersey",
-                        "species": "Crassostrea Virginicas - Atlantic",
-                        "flavor_profile": ["firm texture", "light brininess", "mineral and seaweed notes", "clean, salty finish"],
-                        "cultivation": "Floating Trays, then Cages and Tumbled",
-                        "size": "up to 2.75 inches"                    
-                    }
-                },
-                "ny": {
-                    "bluepoint_genuine": {
-                        "location": "Long Island, NY (Great South Bay)",
+                    "cape_blue": {
+                        "location": "Maine",
                         "species":"Crassostrea Virginicas - Atlantic",
-                        "flavor_profile": ["plump firm meat", "very briny", "savory", "notes of pine and anise", "sweet aftertaste"],
-                        "cultivation": "Tray Cultured",
+                        "flavor_profile": ["fresh, firm meat", "high brininess"],
+                        "cultivation": "Granite Ledge Cultured",
+                        "size": "2 to 3 inches"
+                    },
+                    "colonial_cocktails": {
+                        "location": "Maine",
+                        "species":"Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["very sweet", "briny", "fruity flavor"],
+                        "cultivation": "Hatchery to Oyster Bed to Diver Harvested",
+                        "size": "N/A"
+                    },
+                    "damariscotta": {
+                        "location": "Maine",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["meaty", "salty", "clean finish"],
+                        "cultivation": "Mostly Wild or from Harvest Farms",
+                        "size": "N/A"
+                    },
+                    "dodge_cove": {
+                        "location": "Maine",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["sweet and sour citrus flavor", "light brininess"],
+                        "cultivation": "Suspended and Bottom Cultivated",
+                        "size": "N/A"
+                    },
+                    "european_flat": {
+                        "location": "Maine",
+                        "species": "Ostrea Edulis - European Flat",
+                        "flavor_profile": ["fishy", "strong minerality", "gamey flavor", "coppery finish"],
+                        "cultivation": "Bottom Cultivated, Diver Harvested",
+                        "size": "4 to 8 inches"
+                    },
+                    "flying_point": {
+                        "location": "Maine",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["full-bodied and plump", "balanced salinity", "sweet and salty finish"],
+                        "cultivation": "Upwellers, then Bottom Cultured",
                         "size": "up to 4 inches"
                     },
-                    "bluepoint_generic": {
-                        "location": "Long Island, NY (Long Island Sound)",
-                        "species":"Crassostrea Virginicas - Atlantic",
-                        "flavor_profile": ["satiny meat", "very briny", "mild flavor"],
+                    "gay_island": {
+                        "location": "Maine",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["light, clean, sweet flavor", "intense brininess"],
+                        "cultivation": "Floating Tray Cultivated",
+                        "size": "N/A"
+                    },
+                    "glidden_point": {
+                        "location": "Maine",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["firm meat", "briny", "sweet", "crisp, complex flavor"],
                         "cultivation": "Bottom Cultured",
-                        "size": "up to 4 inches"
-                    }
-                    
-                },
+                        "size": "2 to 8 inches"
+                    },
                 "ma": {
                     "barnstable": {
                         "location": "Cape Cod, MA",
@@ -131,52 +192,82 @@
                     },
                     "cuttyhunk": {
                         "location": "Massachusetts",
-                        "species":"Crassostrea Virginicas - Atlantic",
+                        "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": ["tender", "light", "clean flavor", "intense brininess"],
                         "cultivation": "Lantern Suspension",
                         "size": "up to 4 inches"
+                    },
+                    "dennis": {
+                        "location": "Cape Cod, MA",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["plump meat", "high brininess", "rich", "clean", "supple", "savory"],
+                        "cultivation": "Beach/Bottom Cultured",
+                        "size": "up to 3.5 inches"
+                    },
+                    "duxbury": {
+                        "location": "Massachusetts",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["plump meat", "sweet", "buttery", "very briny"],
+                        "cultivation": "Rack and Bag",
+                        "size": "up to 3 inches"
                     }
-                    
+                }
+            }
                 },
-                "me": {
-                    "belon": {
-                        "location": "Maine",
-                        "species": "Ostrea Edulis - European Flat",
-                        "flavor_profile": ["potent, strong coppery taste", "mild brininess", "tannic accent"],
-                        "cultivation": "Wild Bottom Grown",
-                        "size": "3 to 5 inches"
-                    },
-                    "cape_blue": {
-                        "location": "Maine",
-                        "species":"Crassostrea Virginicas - Atlantic",
-                        "flavor_profile": ["fresh, firm meat", "high brininess"],
-                        "cultivation": "Granite Ledge Cultured",
-                        "size": "2 to 3 inches"
-                    },
-                    "colonial_cocktails": {
-                        "location": "Maine",
-                        "species":"Crassostrea Virginicas - Atlantic",
-                        "flavor_profile": ["very sweet", "briny", "fruity flavor"],
-                        "cultivation": "Hatchery to Oyster Bed to Diver Harvested",
-                        "size": ""
-                    },
-                    "damariscotta": {
-                        "location": "Maine",
-                        "species":"Crassostrea Virginicas - Atlantic",
-                        "flavor_profile": ["meaty", "salty", "clean finish"],
-                        "cultivation": "Mostly Wild or from Harvest Farms",
-                        "size": ""
-                    }
-                    
+            "nj": {
+                "cape_may_salt": {
+                    "location": "Cape May, NJ",
+                    "species": "Crassostrea Virginicas - Atlantic",
+                    "flavor_profile": ["high brininess", "strong peppery flavor"],
+                    "cultivation": "Rack and Bag",
+                    "size": "3 to 5 inches"
+                },
+                "caraquet": {
+                    "location": "New Jersey",
+                    "species": "Crassostrea Virginicas - Atlantic",
+                    "flavor_profile": ["firm texture", "light brininess", "mineral and seaweed notes", "clean, salty finish"],
+                    "cultivation": "Floating Trays, then Cages and Tumbled",
+                    "size": "up to 2.75 inches"                    
                 }
             },
+            "ny": {
+                "bluepoint_genuine": {
+                    "location": "Long Island, NY (Great South Bay)",
+                    "species":"Crassostrea Virginicas - Atlantic",
+                    "flavor_profile": ["plump firm meat", "very briny", "savory", "notes of pine and anise", "sweet aftertaste"],
+                    "cultivation": "Tray Cultured",
+                    "size": "up to 4 inches"
+                },
+                "bluepoint_generic": {
+                    "location": "Long Island, NY (Long Island Sound)",
+                    "species":"Crassostrea Virginicas - Atlantic",
+                    "flavor_profile": ["satiny meat", "very briny", "mild flavor"],
+                    "cultivation": "Bottom Cultured",
+                    "size": "up to 4 inches"
+                },
+                "great_white": {
+                    "location": "Long Island, NY",
+                    "species": "Crassostrea Virginicas - Atlantic",
+                    "flavor_profile": ["full-bodied", "salty", "tannic"],
+                    "cultivation": "N/A",
+                    "size": "N/A"
+                }
+                },
+            "ri": {
+                "east_beach_blonde": {
+                    "location": "Rhode Island",
+                    "species":"Crassostrea Virginicas - Atlantic",
+                    "flavor_profile": ["mild", "balanced minerality", "mild salinity"],
+                    "cultivation": "Off-Bottom Cultured",
+                    "size": "up to 3 inches"
+                },
             "southeast": {
                 "va": {
                     "bogues_bay": {
                         "location": "Chesapeake, VA",
                         "species":"Crassostrea Virginicas - Atlantic",
                         "flavor_profile": ["firm meat", "mild, sweet flavor"],
-                        "cultivation": "",
+                        "cultivation": "N/A",
                         "size": "up to 3 inches"
                     },
                     "broadwater": {
@@ -190,7 +281,7 @@
                         "location": "Chesapeake, VA",
                         "species":"Crassostrea Virginicas - Atlantic",
                         "flavor_profile": ["mild flavor"],
-                        "cultivation": "",
+                        "cultivation": "N/A",
                         "size":"up to 4 inches"
                     },
                     "chesapeake_gold": {
@@ -206,19 +297,42 @@
                         "flavor_profile": ["very salty, sweet finish"],
                         "cultivation": "Rack and Bag",
                         "size": "up to 3.5 inches"
+                    },
+                    "dragon_creek": {
+                        "location": "Chesapeake, VA",
+                        "species":"Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["plump meat", "low brininess", "plentiful liquor"],
+                        "cultivation": "Bottom Started to Mesh Bags to Floating Cages",
+                        "size": "up to 4.5 inches"
+                    },
+                    "forbidden": {
+                        "location": "Chesapeake, VA",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["plump meat", "buttery", "medium salt, sweet artichoke notes"],
+                        "cultivation": "Rack and Bag Bottom Cultured",
+                        "size": "2 to 4 inches"
                     }
                     
                 },
                 "nc": {
                     
                 },
-                "fl":{
-                    "apalachicola": {
-                        "location": "Gulf Coast",
-                        "species": "Crassostrea Virginicas - Atlantic",
-                        "flavor_profile": ["meaty", "balanced salinity", "fine", "clean taste", "nutty", "kelp notes"],
-                        "cultivation": "Wild Bottom Harvested",
-                        "size": "up to 3 inches"
+                "gulf_coast": {
+                    "fl":{
+                        "apalachicola": {
+                            "location": "Gulf Coast",
+                            "species": "Crassostrea Virginicas - Atlantic",
+                            "flavor_profile": ["meaty", "balanced salinity", "fine", "clean taste", "nutty", "kelp notes"],
+                            "cultivation": "Wild Bottom Harvested",
+                            "size": "up to 3 inches"
+                        },
+                        "gulf_coast-generic": {
+                            "location": "Gulf Coast",
+                            "species": "Crassostrea Virginicas - Atlantic",
+                            "flavor_profile": ["mild", "soft", "low salinity"],
+                            "cultivation": "N/A",
+                            "size": "N/A"
+                        }
                     }
                 }
             },
@@ -228,16 +342,23 @@
                 }
             },
             "pacific_northwest": {
-                "al": {
+                "ak": {
                     "alaska_gold": {
                         "location": "Alaska",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": ["clean pure taste", "sweet meat", "high brininess", "hint of mineral", "lots of liquor"],
                         "cultivation": "Suspensed Tray and Tumbled",
                         "size": "up to 3 inches"
+                    },
+                    "glacier_point": {
+                        "location": "Alaska",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["firm meat", "salmony", "sweet and salty", "balanced", "light, savory cucumber notes", "crisp nori"],
+                        "cultivation": "Suspension Cultivated",
+                        "size": "N/A"
                     }
                 },
-                "ca": {
+                "can": {
                     "baynes_sound": {
                         "location": "Vancouver Island, BC",
                         "species":"Crassostrea Gigas - Pacific",
@@ -286,7 +407,42 @@
                         "flavor_profile": ["medium salinity", "sweet", "clean flavor", "watermelon finish"],
                         "cultivation": "Beach Cultivated",
                         "size": "up to 4 inches"
+                    },
+                    "effingham": {
+                        "location": "British Columbia",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["plump meat", "buttery, smooth texture", "bright, briny flavor", "lettuce-like finish", "hints of salted cucumber"],
+                        "cultivation": "Suspensed Tray and Tumbled",
+                        "size":"up to 3.5 inches"
+                    },
+                    "emerald_cove": {
+                        "location": "British Columbia",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["full, plump, creamy meat", "medium salinity", "clean, mild flavor", "cucumber finish"],
+                        "cultivation": "Suspension Tray",
+                        "size": "up to 3.5 inches"
+                    },
+                    "evening_cove": {
+                        "location": "British Columbia",
+                        "species":"Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["firm meat", "fresh, clean briny flavor", "watermelon finish"],
+                        "cultivation": "Intertidal Beach Cultivation",
+                        "size": "up to 3.5 inches"
+                    },
+                    "fanny_bay": {
+                        "location": "Vancouver Island, BC",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["firm meat", "mild brininess", "smooth", "cucumber finish"],
+                        "cultivation": "Tray Cultured",
+                        "size": "2 to 5 inches"
                     }
+                },
+                "golden_mantle": {
+                    "location": "British Columbia",
+                    "species": "Crassostrea Gigas - Pacific",
+                    "flavor_profile": ["full-flavored", "sweet, melon finish"],
+                    "cultivation": "Suspension Tray",
+                    "size": "up to 3 inches"
                 },
                 "wa": {
                     "amai": {
@@ -366,7 +522,90 @@
                         "flavor_profile": ["full meat", "crisp brininess", "clean flavor"],
                         "cultivation": "Intertidal Beach Cultivation",
                         "size": "up to 3 inches"
-                    }
+                    },
+                    "dosewallips": {
+                        "location": "Hood Canal, WA",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["light clean flavor", "creamy texture", "medium brininess", "cucumber notes"],
+                        "cultivation": "Beach Cultivated",
+                        "size": "up to 3 inches"
+                    },
+                    "drayton_harbor": {
+                        "location": "Northern Puget Sound",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["plump meat", "sweet and savory flavor"],
+                        "cultivation": "Intertidal Beach Cultivation",
+                        "size": "N/A"
+                    },
+                    "eagle_creek": {
+                        "location": "Hood Canal, WA",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["firm meat", "high brininess", "fruity finish"],
+                        "cultivation": "Bag to Beach",
+                        "size": "up to 3.5 inches"
+                    },
+                    "eagle_rock": {
+                        "location": "Southern Puget Sound",
+                        "species":"Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["creamy meat", "high brininess", "sweet flavor", "nori finish"],
+                        "cultivation": "Bag to Beach",
+                        "size": "up to 3 inches"
+                    },
+                    "eld_inlet": {
+                        "location": "Southern Puget Sound",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["plump, sweet meat", "rich, buttery texture", "notes of watermelon rind", "grassy finish"],
+                        "cultivation": "Intertidal Beach Cultivation",
+                        "size": "up to 3 inches"
+                    },
+                    "elkhorn": {
+                        "location": "Washington Coast",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["firm meat", "high brininess", "sweet flavor", "mineral, melon finish"],
+                        "cultivation": "Beach Grown",
+                        "size": "up to 3 inches"
+                    },
+                    "fat_bastards_shigoku": {
+                        "location": "Southern Puget Sound",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["firm and smooth meat", "medium brininess", "clean", "metallic finish", "hint of asparagus and cucumber"],
+                        "cultivation": "Suspension Tray, Tide Tumbled",
+                        "size": "up to 5 inches"
+                    },
+                    "fish_point": {
+                        "location": "Northern Puget Sound",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["firm meat", "medium brininess", "sweet finish"],
+                        "cultivation": "Beach Cultivated",
+                        "size": "up to 3 inches"
+                    },
+                    "gold_creek": {
+                        "location": "Hood Canal, WA",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["mild, clean flavor", "light brininess"],
+                        "cultivation": "Intertidal Beach Cultivation",
+                        "size": "up to 4 inches"
+                },
+                "hama_hama": {
+                    "location": "Hood Canal, WA",
+                    "species": "Crassostrea Gigas - Pacific",
+                    "flavor_profile": ["firm meat", "clean", "crisp", "mineral", "fruity", "lettuce and cucumber finish"],
+                    "cultivation": "Beach Cultivated",
+                    "size": "up to 3 inches"
+                },
+                "hammersley_inlet": {
+                    "location": "Southern Puget Sound",
+                    "species": "Crassostrea Gigas - Pacific",
+                    "flavor_profile": ["meaty", "full-flavored", "mild brininess", "cucumber and mineral finish"],
+                    "cultivation": "Bag to Beach",
+                    "size": "up to 4 inches"
+                },
+                "hawks_point": {
+                    "location": "Washington Coast",
+                    "species": "Crassostrea Gigas - Pacific",
+                    "flavor_profile": ["light", "floral", "citrusy", "mild brininess"],
+                    "cultivation": "Rack to Bag Cultivated",
+                    "size": "up to 4 inches"
                 }
             },
             "west": {
@@ -376,10 +615,26 @@
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": ["strong, briny flavor", "sweet", "melon and cucumber overtones", "lightly alkaline"],
                         "cultivation": "Suspension Tray",
-                        "size": ""
+                        "size": "N/A"
+                    },
+                    "endless_summer": {
+                        "location": "Southern California",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["crunchy, cucumber finish"],
+                        "cultivation": "N/A", 
+                        "size": "up to 6 inches"
+                    },
+                    "grassy_bar": {
+                        "location": "Central California",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["plump, juicy meat", "buttery", "high brininess", "seafood veloute sauce flavor", "bitter asparagus", "pistachio finish"],
+                        "cultivation": "Suspension Tray",
+                        "size": "2 to 3 inches"
                     }
                 }
             }
         }
+    }
+}
 }
 }
