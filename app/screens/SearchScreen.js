@@ -5,7 +5,7 @@ import {
     View, 
     SafeAreaView,
     Button
-} from 'react-native'
+} from 'react-native';
 
 
 import colors from '../config/colors';
