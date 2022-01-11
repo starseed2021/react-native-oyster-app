@@ -18,7 +18,6 @@ import colors from '../config/colors';
 function SearchScreen({ navigation }) {
 
     // REGIONS MODAL
-    const [gulfCoastModal, setGulfCoastModal] = useState(false);
     const [northeastModal, setNortheastModal] = useState(false);
     const [pacificNorthwestModal, setPacificNorthwestModal] = useState(false);
     const [southeastModal, setSoutheastModal] = useState(false);
@@ -27,7 +26,6 @@ function SearchScreen({ navigation }) {
 
 
     //VALUES
-    const [gulfCoast, setGulfCoast] = useState(false);
     const [northEast, setNorthEast] = useState(false);
     const [pacificNorthWest, setPacificNorthWest] = useState(false);
     const [southEast, setSouthEast] = useState(false);
@@ -42,53 +40,54 @@ function SearchScreen({ navigation }) {
     return (
         <View style={styles.container}>
             <Text style={styles.headerText}>SEARCH BY REGION</Text>
-            <TouchableOpacity
-                style={styles.button}
-                // onPress={() => setGulfCoast(!gulfCoast)}
-                onPress={(location) => 
-                    {setModalShown(true)
-                    setLocation(location)
-                    }
-                }
-            >
-                <Text style={styles.buttonText}>Gulf Coast</Text>
-            </TouchableOpacity>
+
             <TouchableOpacity
                 style={styles.button}
                 onPress={() => setNorthEast(!northEast)}
+                // can pass in multiple items as strings
+                // location variable can grab location oyster data
+                onPress={() => navigation.push('Oyster List')}
+                // onPress={(location) => 
+                //     {setModalShown(true)
+                //     setLocation(location)
+                //     }
+                // }
             >
                 <Text style={styles.buttonText}>Northeast</Text>
             </TouchableOpacity>
+
             <TouchableOpacity
                 style={styles.button}
-                // can pass in multiple items as strings
-                // location variable can grab location oyster data
-                onPress={() => navigation.push('Oyster Profile')}
+                onPress={() => setPacificNorthWest(!pacificNorthWest)}
             >
                 <Text style={styles.buttonText}>Pacific Northwest</Text>
             </TouchableOpacity>
+
             <TouchableOpacity
                 style={styles.button}
                 onPress={() => setSouthEast(!southEast)}
             >
                 <Text style={styles.buttonText}>Southeast</Text>
             </TouchableOpacity>
+
             <TouchableOpacity
                 style={styles.button}
                 onPress={() => setSouthWest(!southWest)}
             >
                 <Text style={styles.buttonText}>Southwest</Text>
             </TouchableOpacity>
+
             <TouchableOpacity
                 style={styles.button}
                 onPress={() => setWest(!west)}
             >
                 <Text style={styles.buttonText}>West</Text>
             </TouchableOpacity>
+
             <Modal
                 animationType="slide"
                 transparent={true}
-                visible={gulfCoastModal}
+                visible={northeastModal}
                 onRequestClose={() => {
                 Alert.alert("Modal has been closed.");
                 setModalVisible(!modalVisible);
@@ -149,13 +148,14 @@ const styles = StyleSheet.create({
     },
     buttonText: {
         fontSize: 15,
-        fontWeight: 'bold',
+        fontWeight: '500',
         color: colors.primary,
     },
     headerText: {
         color: colors.secondary,
         fontSize: 30,
-        marginBottom: 25
+        fontWeight: '300',
+        marginBottom: 40
     }
 });
 

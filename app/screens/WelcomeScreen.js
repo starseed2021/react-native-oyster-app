@@ -68,7 +68,8 @@ const styles = StyleSheet.create({
     },
     shellText: {
         color: colors.secondary,
-        fontWeight: '300',
+        fontWeight: '500',
+        fontSize: 18
     },
     subTitleText: {
         color: colors.secondary,
@@ -78,7 +79,7 @@ const styles = StyleSheet.create({
     titleText: {
         color: colors.secondary,
         fontSize: 35,
-        fontWeight: '600',
+        fontWeight: '500',
     },
     welcomeTitles: {
         height: 100

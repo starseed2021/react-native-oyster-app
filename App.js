@@ -4,6 +4,8 @@ import WelcomeScreen from './app/screens/WelcomeScreen';
 import IntroScreen from './app/screens/IntroScreen';
 import SearchScreen from './app/screens/SearchScreen';
 import DetailsScreen from './app/screens/DetailsScreen';
+import ProfileScreen from './app/screens/ProfileScreen';
+
 
 
 import { NavigationContainer } from '@react-navigation/native';
@@ -25,7 +27,8 @@ function App() {
           <Stack.Screen name="Home" component={ WelcomeScreen } options={{ headerShown: false }}/>
           <Stack.Screen name="About Us" component={ IntroScreen } options={{headerStyle: {backgroundColor: colors.secondary}, headerTintColor: colors.primary}} />
           <Stack.Screen name="Search" component={ SearchScreen } options={{headerStyle: {backgroundColor: colors.secondary}, headerTintColor: colors.primary}}/>
-          <Stack.Screen name="Oyster Profile" component={ DetailsScreen } options={{headerStyle: {backgroundColor: colors.secondary}, headerTintColor: colors.primary}}/>
+          <Stack.Screen name="Oyster List" component={ DetailsScreen } options={{headerStyle: {backgroundColor: colors.secondary}, headerTintColor: colors.primary}}/>
+          <Stack.Screen name="Oyster Profile" component={ ProfileScreen } options={{headerStyle: {backgroundColor: colors.secondary}, headerTintColor: colors.primary}}/>
         </Stack.Navigator>
       </NavigationContainer>
     );
