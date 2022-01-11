@@ -214,53 +214,53 @@
                 }
             }
                 },
-            "nj": {
-                "cape_may_salt": {
-                    "location": "Cape May, NJ",
-                    "species": "Crassostrea Virginicas - Atlantic",
-                    "flavor_profile": ["high brininess", "strong peppery flavor"],
-                    "cultivation": "Rack and Bag",
-                    "size": "3 to 5 inches"
+                "nj": {
+                    "cape_may_salt": {
+                        "location": "Cape May, NJ",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["high brininess", "strong peppery flavor"],
+                        "cultivation": "Rack and Bag",
+                        "size": "3 to 5 inches"
+                    },
+                    "caraquet": {
+                        "location": "New Jersey",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["firm texture", "light brininess", "mineral and seaweed notes", "clean, salty finish"],
+                        "cultivation": "Floating Trays, then Cages and Tumbled",
+                        "size": "up to 2.75 inches"                    
+                    }
                 },
-                "caraquet": {
-                    "location": "New Jersey",
-                    "species": "Crassostrea Virginicas - Atlantic",
-                    "flavor_profile": ["firm texture", "light brininess", "mineral and seaweed notes", "clean, salty finish"],
-                    "cultivation": "Floating Trays, then Cages and Tumbled",
-                    "size": "up to 2.75 inches"                    
-                }
-            },
-            "ny": {
-                "bluepoint_genuine": {
-                    "location": "Long Island, NY (Great South Bay)",
-                    "species":"Crassostrea Virginicas - Atlantic",
-                    "flavor_profile": ["plump firm meat", "very briny", "savory", "notes of pine and anise", "sweet aftertaste"],
-                    "cultivation": "Tray Cultured",
-                    "size": "up to 4 inches"
-                },
-                "bluepoint_generic": {
-                    "location": "Long Island, NY (Long Island Sound)",
-                    "species":"Crassostrea Virginicas - Atlantic",
-                    "flavor_profile": ["satiny meat", "very briny", "mild flavor"],
-                    "cultivation": "Bottom Cultured",
-                    "size": "up to 4 inches"
-                },
-                "great_white": {
-                    "location": "Long Island, NY",
-                    "species": "Crassostrea Virginicas - Atlantic",
-                    "flavor_profile": ["full-bodied", "salty", "tannic"],
-                    "cultivation": "N/A",
-                    "size": "N/A"
-                }
-                },
-            "ri": {
-                "east_beach_blonde": {
-                    "location": "Rhode Island",
-                    "species":"Crassostrea Virginicas - Atlantic",
-                    "flavor_profile": ["mild", "balanced minerality", "mild salinity"],
-                    "cultivation": "Off-Bottom Cultured",
-                    "size": "up to 3 inches"
-                },
+                "ny": {
+                    "bluepoint_genuine": {
+                        "location": "Long Island, NY (Great South Bay)",
+                        "species":"Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["plump firm meat", "very briny", "savory", "notes of pine and anise", "sweet aftertaste"],
+                        "cultivation": "Tray Cultured",
+                        "size": "up to 4 inches"
+                    },
+                    "bluepoint_generic": {
+                        "location": "Long Island, NY (Long Island Sound)",
+                        "species":"Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["satiny meat", "very briny", "mild flavor"],
+                        "cultivation": "Bottom Cultured",
+                        "size": "up to 4 inches"
+                    },
+                    "great_white": {
+                        "location": "Long Island, NY",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["full-bodied", "salty", "tannic"],
+                        "cultivation": "N/A",
+                        "size": "N/A"
+                    }
+                    },
+                "ri": {
+                    "east_beach_blonde": {
+                        "location": "Rhode Island",
+                        "species":"Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["mild", "balanced minerality", "mild salinity"],
+                        "cultivation": "Off-Bottom Cultured",
+                        "size": "up to 3 inches"
+                    },
             "southeast": {
                 "va": {
                     "bogues_bay": {
@@ -313,10 +313,10 @@
                         "size": "2 to 4 inches"
                     }
                     
-                },
-                "nc": {
-                    
-                },
+                    },
+                    "nc": {
+                        
+                    },
                 "gulf_coast": {
                     "fl":{
                         "apalachicola": {

@@ -1,4 +1,4 @@
 export default {
     primary: 'cadetblue',
-    secondary: 'blanchedalmond'
+    secondary: 'blanchedalmond',
 }
