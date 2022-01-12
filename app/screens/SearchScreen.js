@@ -18,11 +18,11 @@ import colors from '../config/colors';
 function SearchScreen({ navigation }) {
 
     // REGIONS MODAL
-    const [northeastModal, setNortheastModal] = useState(false);
-    const [pacificNorthwestModal, setPacificNorthwestModal] = useState(false);
-    const [southeastModal, setSoutheastModal] = useState(false);
-    const [southwestModal, setSouthwestModal] = useState(false);
-    const [westModal, setWestModal] = useState(false);
+    // const [northeastModal, setNortheastModal] = useState(false);
+    // const [pacificNorthwestModal, setPacificNorthwestModal] = useState(false);
+    // const [southeastModal, setSoutheastModal] = useState(false);
+    // const [southwestModal, setSouthwestModal] = useState(false);
+    // const [westModal, setWestModal] = useState(false);
 
 
     //VALUES
@@ -39,6 +39,7 @@ function SearchScreen({ navigation }) {
 
     return (
         <View style={styles.container}>
+
             <Text style={styles.headerText}>SEARCH BY REGION</Text>
 
             <TouchableOpacity
@@ -46,7 +47,7 @@ function SearchScreen({ navigation }) {
                 onPress={() => setNorthEast(!northEast)}
                 // can pass in multiple items as strings
                 // location variable can grab location oyster data
-                onPress={() => navigation.push('Oyster List')}
+                onPress={() => navigation.push('Locations')}
                 // onPress={(location) => 
                 //     {setModalShown(true)
                 //     setLocation(location)
@@ -59,6 +60,7 @@ function SearchScreen({ navigation }) {
             <TouchableOpacity
                 style={styles.button}
                 onPress={() => setPacificNorthWest(!pacificNorthWest)}
+                onPress={() => navigation.push('Locations')}
             >
                 <Text style={styles.buttonText}>Pacific Northwest</Text>
             </TouchableOpacity>
@@ -66,6 +68,7 @@ function SearchScreen({ navigation }) {
             <TouchableOpacity
                 style={styles.button}
                 onPress={() => setSouthEast(!southEast)}
+                onPress={() => navigation.push('Locations')}
             >
                 <Text style={styles.buttonText}>Southeast</Text>
             </TouchableOpacity>
@@ -73,6 +76,7 @@ function SearchScreen({ navigation }) {
             <TouchableOpacity
                 style={styles.button}
                 onPress={() => setSouthWest(!southWest)}
+                onPress={() => navigation.push('Locations')}
             >
                 <Text style={styles.buttonText}>Southwest</Text>
             </TouchableOpacity>
@@ -80,45 +84,15 @@ function SearchScreen({ navigation }) {
             <TouchableOpacity
                 style={styles.button}
                 onPress={() => setWest(!west)}
+                onPress={() => navigation.push('Locations')}
             >
                 <Text style={styles.buttonText}>West</Text>
             </TouchableOpacity>
 
-            <Modal
-                animationType="slide"
-                transparent={true}
-                visible={northeastModal}
-                onRequestClose={() => {
-                Alert.alert("Modal has been closed.");
-                setModalVisible(!modalVisible);
-            }}    
-            // USING ONPRESS TO TRY AND DEBUG       
-            // onPress={() => {console.log('button tapped')}}
-            >
-                <View 
-                style={{
-                        flex: 1,
-                        backgroundColor: 'yellow',
-                    }}
-                >
-
-                </View>    
-            </Modal>
         </View>
     )
 
 };
-    // return (
-    //     <SafeAreaView style={ styles.container }>
-    //         <Text style={ styles.textStyle }>Search for Oysters</Text>
-    //         <Button 
-    //             color={ colors.secondary }
-    //             title='Go to Oyster Profile'
-    //             onPress={() => navigation.push('Oyster Profile')}
-    //         />
-    //     </SafeAreaView>
-    // )
-
 
 
 
@@ -154,7 +128,7 @@ const styles = StyleSheet.create({
     headerText: {
         color: colors.secondary,
         fontSize: 30,
-        fontWeight: '300',
+        fontWeight: '400',
         marginBottom: 40
     }
 });

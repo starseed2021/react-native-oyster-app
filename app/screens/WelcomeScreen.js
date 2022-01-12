@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
         backgroundColor: colors.secondary,
         textAlign: 'center',
         position: 'absolute',
-        padding: 30,
+        padding: 25,
         bottom: 0
     },
     shellText: {

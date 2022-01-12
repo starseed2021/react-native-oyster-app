@@ -5,7 +5,8 @@ import {
     Text, 
     View, 
     SafeAreaView,
-    Button
+    Button,
+    Image
 } from 'react-native'
 
 import colors from '../config/colors';
@@ -15,25 +16,31 @@ import colors from '../config/colors';
 function IntroScreen({ navigation }) {
     return (
         <SafeAreaView style={ styles.container }>
+            <Image
+            source={require('../assets/images/cartoon_shell.png')}
+            style={styles.image}
+            />
+            <View style={styles.textView}>
             <Text style={styles.textStyle}>
-            Lorem ipsum dolor sit amet. Aut blanditiis iusto eos blanditiis dolores et dolorem sunt hic aliquid accusamus. Ut repellat internos ut autem voluptatem est quod tempore ut deleniti voluptatem ea nostrum pariatur quo obcaecati recusandae. Et placeat nihil est rerum iure quo perferendis exercitationem. Eos earum voluptatem ut aliquid nihil sit doloribus dolorum 33 nihil aliquam quo rerum sint non vitae illum in esse voluptates.
+                Welcome ostreophiles!
             </Text>
-
+            <Text style={styles.textBodyStyle}>
+                Birth of Pearl was created with you in mind. 
+                Here you will be able to search for your favorite oysters and learn more about them. 
+            </Text>
+            </View>
+            <View style={ styles.footerStyle }>
             <Button 
-            color={ colors.secondary }
-            title='Go to Search Page'
+            color={ colors.primary }
+            title='Begin Search'
             onPress={() => navigation.push('Search')}
             />
-            <View style={ styles.footerStyle }>
             <Text style={ styles.footerTextStyle }>{'\u00A9'} 2021 Tiffany Harper</Text> 
             </View>
         </SafeAreaView>
     );
 }
 
-
-{/* POSSIBLY PLACE MY COPYRIGHT AT BOTTOM OF PAGE
-<Text>{'\u00A9'} Tiffany Harper</Text> */}
 
 const styles = StyleSheet.create({
     container: {
@@ -47,15 +54,38 @@ const styles = StyleSheet.create({
         height: 115,
         backgroundColor: colors.secondary,
         position: 'absolute',
-        bottom: 0
+        padding: 25,
+        bottom: 0,
     },
     footerTextStyle: {
         color: colors.primary,
         textAlign: 'center',
-        marginTop: 50
+        marginTop: 15
+    },
+    image: {
+        height: '50%',
+        width: '125%',
+        opacity: 0.25,
     },
     textStyle: {
-        color: colors.secondary
+        color: colors.secondary,
+        fontSize: 30,
+        fontWeight: '600'
+    },
+    textBodyStyle: {
+        color: colors.secondary,
+        fontSize: 18,
+        fontWeight: '400',
+        textAlign: 'center'
+    },
+    textView: {
+        position: 'absolute',
+        justifyContent: 'center',
+        alignItems: 'center',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 100
     }
 });
 

@@ -79,6 +79,13 @@
                         "flavor_profile": ["plump meat", "sharp brininess", "mild sweetness"],
                         "cultivation": "Suspension Tray",
                         "size": "up to 3.5 inches"
+                    },
+                    "hurricane_harbor": {
+                        "location": "Prince Edward Island, Canada",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["firm, crisp meat", "sweet", "high salinity"],
+                        "cultivation": "Bottom Cultured",
+                        "size": "up to 3 inches"
                     }
                 },
                 "ct": {
@@ -161,6 +168,13 @@
                         "cultivation": "Bottom Cultured",
                         "size": "2 to 8 inches"
                     },
+                    "johns_river": {
+                        "location": "Maine",
+                        "species":"Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["firm meat", "fruity", "sweet", "high brininess", "banana notes", "umami taste"],
+                        "culitivation": "Bottom Cultivated",
+                        "size": "up to 8 inches"
+                    },
                 "ma": {
                     "barnstable": {
                         "location": "Cape Cod, MA",
@@ -210,6 +224,13 @@
                         "flavor_profile": ["plump meat", "sweet", "buttery", "very briny"],
                         "cultivation": "Rack and Bag",
                         "size": "up to 3 inches"
+                    },
+                    "island_creek": {
+                        "location": "Massachusetts",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["firm meat", "clean", "sweet", "buttery", "briny", "mossy notes"],
+                        "cultivation": "Rack and Bag Culivated, finished by Bottom Cultivation",
+                        "size": "up to 4 inches"
                     }
                 }
             }
@@ -311,6 +332,13 @@
                         "flavor_profile": ["plump meat", "buttery", "medium salt, sweet artichoke notes"],
                         "cultivation": "Rack and Bag Bottom Cultured",
                         "size": "2 to 4 inches"
+                    },
+                    "james_river": {
+                        "location": "Chesapeake, VA",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["plump meat", "mild brininess"],
+                        "cultivation": "Wild=Bottom Cultured, Aquacultured=Rack and Bag Cultivated",
+                        "size": "up to 4 inches"
                     }
                     
                     },
@@ -433,6 +461,20 @@
                         "flavor_profile": ["firm meat", "mild brininess", "smooth", "cucumber finish"],
                         "cultivation": "Tray Cultured",
                         "size": "2 to 5 inches"
+                    },
+                    "hollie_wood_zen": {
+                        "location": "British Columbia",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["mildly sweet", "delicate fresh melon finish"],
+                        "cultivation": "Off-Bottom Cultured and Tumbled",
+                        "size": "up to 2.5 inches"
+                    },
+                    "imperial_eagle_channel": {
+                        "location": "Vancouver Island, BC",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["plump meat", "high brininess", "mild flavor", "cucumber finish"],
+                        "cultivation": "Bag to Beach",
+                        "size": "up to 3 inches"
                     }
                 },
                 "golden_mantle": {
@@ -604,6 +646,27 @@
                     "flavor_profile": ["light", "floral", "citrusy", "mild brininess"],
                     "cultivation": "Rack to Bag Cultivated",
                     "size": "up to 4 inches"
+                },
+                "henderson_inlet": {
+                    "location": "Southern Puget Sound",
+                    "species": "Crassostrea Gigas - Pacific",
+                    "flavor_profile": ["salty, crispy flavor"],
+                    "cultivation": "Off-Bottom Cultured",
+                    "size": "up to 7 inches"
+                },
+                "hog_island_cliffside": {
+                    "location": "Washington",
+                    "species": "Crassostrea Gigas - Pacific",
+                    "flavor_profile": ["high brininess", "tannic", "spinachy", "earthy", "balanced sweet and saltiness"],
+                    "cultivation": "Rack and Bag",
+                    "size": "N/A"
+                },
+                "hunters_point": {
+                    "location": "Southern Puget Sound",
+                    "species": "Crassostrea Gigas - Pacific",
+                    "flavor_profile": ["full firm meat", "mild brininess", "sweet finish"],
+                    "cultivation": "Beach Cultivated",
+                    "size": "3 to 5 inches"
                 }
             },
             "west": {
@@ -628,6 +691,27 @@
                         "flavor_profile": ["plump, juicy meat", "buttery", "high brininess", "seafood veloute sauce flavor", "bitter asparagus", "pistachio finish"],
                         "cultivation": "Suspension Tray",
                         "size": "2 to 3 inches"
+                    },
+                    "hog_island_atlantic": {
+                        "location": "Northern California",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": ["plump meat", "intensely briny", "light", "clean", "fruity"],
+                        "cultivation": "Rack and Bag",
+                        "size": "up to 3 inches"
+                    },
+                    "hog_island_kumamoto": {
+                        "location": "Northern California",
+                        "species": "Crassostrea Sikamea - Kumamoto",
+                        "flavor_profile": ["light", "clean", "mild", "creamy", "watermelon finish"],
+                        "cultivation": "Rack and Bag",
+                        "size": "up to 2 inches"
+                    },
+                    "hog_island_sweetwater": {
+                        "location": "Northern California",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": ["high brininess", "clean", "crisp", "grass/lettuce flavor", "sweet finish"],
+                        "cultivation": "Rack and Bag",
+                        "size": "up to 4 inches"
                     }
                 }
             }

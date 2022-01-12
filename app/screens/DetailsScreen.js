@@ -36,7 +36,7 @@ const DATA = [
 
 
 function DetailsScreen( { navigation }) {
-
+    
     const renderItem = ({item, index}) => {
         return (
             <Text style={styles.itemStyle}>{ item }</Text>
@@ -54,7 +54,8 @@ function DetailsScreen( { navigation }) {
             <SectionList
                 sections={ DATA }
                 // getItemCount={oysters => oysters.length}
-                keyExtractor={(item, index) => item + index}
+                // toString was used on one of the tutorials I saw
+                keyExtractor={(item, index) => item + index.toString()}
                 renderItem={ renderItem } 
                 renderSectionHeader={ renderHeader }
                 />
@@ -68,18 +69,6 @@ function DetailsScreen( { navigation }) {
 }
 
 
-// ORIGINAL STYLING
-// const styles = StyleSheet.create({
-//     container: {
-//         flex: 1, 
-//         alignItems: 'center', 
-//         justifyContent: 'center',
-//         backgroundColor: colors.primary
-//     },
-//     textStyle: {
-//         color: colors.secondary
-//     }
-// })
 
 const styles = StyleSheet.create({
     container: {
@@ -102,10 +91,11 @@ const styles = StyleSheet.create({
         backgroundColor: colors.secondary,
         color: colors.primary,
         padding: 10,
-        textAlign: 'center'
+        textAlign: 'center',
+
     },
     title: {
-        fontSize: 24
+        fontSize: 24,
     }
 });
 
