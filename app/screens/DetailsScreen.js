@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
         height: 50,
         padding: 10,
         marginVertical: 3,
-        textAlign: 'center'
+        textAlign: 'auto'
     },
     sectionHeader: {
         fontSize: 20,
@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
         backgroundColor: colors.secondary,
         color: colors.primary,
         padding: 10,
-        textAlign: 'center',
+        textAlign: 'auto',
 
     },
     title: {
