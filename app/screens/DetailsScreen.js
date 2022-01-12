@@ -10,6 +10,7 @@ import {
 } from 'react-native'
 
 import colors from '../config/colors';
+import oysterData from '../data/data.json';
 
 // FIGURE OUT HOW TO IMPLEMENT DATA.JSON SO THAT EACH REGION 
 // GETS ITS OWN SECTIONLIST PAGE AND THEIR LOCATIONS
@@ -34,8 +35,10 @@ const DATA = [
 ]
 
 
-
 function DetailsScreen( { navigation }) {
+    // VARIABLE TO STORE THE OYSTER DATA
+    // NEED TO MAP THROUGH THE DATA TO ACCESS WHAT I NEED
+    // const oysterDataList = oysterData.locations;
     
     const renderItem = ({item, index}) => {
         return (
@@ -59,7 +62,8 @@ function DetailsScreen( { navigation }) {
                 renderItem={ renderItem } 
                 renderSectionHeader={ renderHeader }
                 />
-                <Button 
+
+                <Button
                 color={ colors.primary }
                 title='Go to Oyster Profile'
                 onPress={() => navigation.push('Oyster Profile')}
@@ -79,14 +83,14 @@ const styles = StyleSheet.create({
     itemStyle: {
         backgroundColor: colors.primary,
         color: colors.secondary,
-        fontSize: 18,
+        fontSize: 15,
         height: 50,
         padding: 10,
         marginVertical: 3,
         textAlign: 'center'
     },
     sectionHeader: {
-        fontSize: 30,
+        fontSize: 20,
         fontWeight: 'bold',
         backgroundColor: colors.secondary,
         color: colors.primary,

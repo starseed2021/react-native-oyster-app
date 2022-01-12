@@ -25,8 +25,13 @@ function IntroScreen({ navigation }) {
                 Welcome ostreophiles!
             </Text>
             <Text style={styles.textBodyStyle}>
-                Birth of Pearl was created with you in mind. 
-                Here you will be able to search for your favorite oysters and learn more about them. 
+                Birth of Pearl was created with you mind.
+                Explore your favorite oysters from the regions of North America and get your oyster's species, origins, flavor profiles, cultivation methods and sizes. 
+                <View>
+                <Text style={styles.quoteText}>
+                "I do not weep at the world. I am too busy sharpening my oyster knife."                                                                                          - Zora Neale Hurston
+                </Text>
+                </View>
             </Text>
             </View>
             <View style={ styles.footerStyle }>
@@ -65,18 +70,28 @@ const styles = StyleSheet.create({
     image: {
         height: '50%',
         width: '125%',
-        opacity: 0.25,
+        opacity: 0.20,
     },
     textStyle: {
         color: colors.secondary,
         fontSize: 30,
-        fontWeight: '600'
+        fontWeight: '600',
+        marginTop: 50
     },
     textBodyStyle: {
         color: colors.secondary,
         fontSize: 18,
         fontWeight: '400',
-        textAlign: 'center'
+        textAlign: 'center',
+        marginTop: 50,
+    },
+    quoteText: {
+        color: colors.secondary,
+        fontSize: 15,
+        fontStyle: 'italic',
+        marginBottom: 20,
+        textAlign: 'center',
+        marginTop: 100
     },
     textView: {
         position: 'absolute',
@@ -85,7 +100,7 @@ const styles = StyleSheet.create({
         top: 0,
         left: 0,
         right: 0,
-        bottom: 100
+        bottom: 0
     }
 });
 
