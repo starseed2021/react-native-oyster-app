@@ -1,9 +1,9 @@
 {
     "oysters": {
         "regions": {
-            "northeast": {
-                "can": {
-                    "alba_bras_d'or_lakes": {
+            "Northeast": {
+                "Can": {
+                    "Alba Bras D'or Lakes": {
                         "location": "Nova Scotia, Canada",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -14,7 +14,7 @@
                         "size": "up to 3.5 inches",
                         "id": "973ecf4b-5512-4ef0-af19-83352d0ab66f"
                     },
-                    "beausoleil": {
+                    "Beausoleil": {
                         "location": "New Brunswick, Canada",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -26,7 +26,7 @@
                         "size": "up to 2.5 inches",
                         "id": "36e2e1ae-c53a-4ade-99c1-c35a9f71b1e3"
                     },
-                    "bedeque_bay": {
+                    "Bedeque Bay": {
                         "location": "Prince Edward Island, Canada",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -36,7 +36,7 @@
                         "size": "up to 3 inches",
                         "id": "0f069d22-0f83-4479-b462-a9268b10eca7"
                     },
-                    "blackberry_point": {
+                    "Blackberry Point": {
                         "location": "Prince Edward Island, Canada",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -47,7 +47,7 @@
                         "size": "3.5 to 4 inches",
                         "id": "8fc192e3-d93e-4e87-a358-4e3aea66d489"
                     },
-                    "cape_breton": {
+                    "Cape Breton": {
                         "location": "Nova Scotia, Canada",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -57,7 +57,7 @@
                         "size": "up to 4 inches",
                         "id": "4694dbd1-4dda-4d77-a385-301a9b80c951"
                     },
-                    "cape_north": {
+                    "Cape North": {
                         "location": "Nova Scotia, Canada",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -69,7 +69,7 @@
                         "size": "up to 4 inches",
                         "id": "86642a48-790f-48fd-8155-75651c677468"
                     },
-                    "cavendish_cup": {
+                    "Cavendish Cup": {
                         "location": "Prince Edward Island, Canada",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -79,7 +79,7 @@
                         "size": "up to 4.5 inches",
                         "id": "0d198dba-c826-4cf2-9bb4-0dca475a5862"
                     },
-                    "colville_bay": {
+                    "Colville Bay": {
                         "location": "Prince Edward Island, Canada",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -94,7 +94,7 @@
                         "size": "up to 3 inches",
                         "id": "22d8ddf8-0bd7-4011-836b-0b0b0e1419a9"
                     },
-                    "conway_cup": {
+                    "Conway Cup": {
                         "location": "Prince Edward Island, Canada",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -107,7 +107,7 @@
                         "size": "up to 3.5 inches",
                         "id": "0a543e11-ccfc-4a38-b423-a5059e2fbcf4"
                     },
-                    "dune_shadow": {
+                    "Dune Shadow": {
                         "location": "New Brunswick, Canada",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -120,7 +120,7 @@
                         "size": "up to 3.5 inches",
                         "id": "dd98fe54-d208-4206-9a3d-50b6e06a76e8"
                     },
-                    "french_kiss": {
+                    "French Kiss": {
                         "location": "New Brunswick, Canada",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -132,7 +132,7 @@
                         "size": "up to 3.5 inches",
                         "id": "8c8191a8-de6c-4acc-a5ca-09b213c48299"
                     },
-                    "hurricane_harbor": {
+                    "Hurricane Harbor": {
                         "location": "Prince Edward Island, Canada",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -145,8 +145,8 @@
                         "id": "c1105d5b-d6e1-4b0b-9eef-07acac2cdec1"
                     }
                 },
-                "ct": {
-                    "duck_island_petite": {
+                "CT": {
+                    "Duck Island Petite": {
                         "location": "Long Island Sound, CT",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -157,7 +157,7 @@
                         "size": "up to 3 inches",
                         "id": "1f70c232-6387-4421-b41a-03bd52790309"
                     },
-                    "fishers_island": {
+                    "Fishers Island": {
                         "location": "Connecticut",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -172,8 +172,8 @@
                         "id": "179ba7df-ad07-4f15-9037-a91098215c33"
                     }
                 },
-                "me": {
-                    "belon": {
+                "ME": {
+                    "Belon": {
                         "location": "Maine",
                         "species": "Ostrea Edulis - European Flat",
                         "flavor_profile": [
@@ -185,7 +185,7 @@
                         "size": "3 to 5 inches",
                         "id": "027fad32-82af-482b-919d-f8d0ebda200a"
                     },
-                    "cape_blue": {
+                    "Cape Blue": {
                         "location": "Maine",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -196,7 +196,7 @@
                         "size": "2 to 3 inches",
                         "id": "8d15cb32-af17-48b6-b8dd-028f5d8942b8"
                     },
-                    "colonial_cocktails": {
+                    "Colonial Cocktails": {
                         "location": "Maine",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -208,7 +208,7 @@
                         "size": "N/A",
                         "id": "3c785b76-14df-40a3-acce-55e108fabce4"
                     },
-                    "damariscotta": {
+                    "Damariscotta": {
                         "location": "Maine",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -220,7 +220,7 @@
                         "size": "N/A",
                         "id": "8327587a-9b93-43c9-8322-ef1d9755c879"
                     },
-                    "dodge_cove": {
+                    "Dodge Cove": {
                         "location": "Maine",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -231,7 +231,7 @@
                         "size": "N/A",
                         "id": "58bc0312-9b2f-4b9f-b956-86f50d14eb4b"
                     },
-                    "european_flat": {
+                    "European Flat": {
                         "location": "Maine",
                         "species": "Ostrea Edulis - European Flat",
                         "flavor_profile": [
@@ -244,7 +244,7 @@
                         "size": "4 to 8 inches",
                         "id": "6b4e81fd-9d0b-494c-a2ee-b82474437b3a"
                     },
-                    "flying_point": {
+                    "Flying Point": {
                         "location": "Maine",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -256,7 +256,7 @@
                         "size": "up to 4 inches",
                         "id": "9bac07ca-f64f-4f1e-a488-ab94282e577d"
                     },
-                    "gay_island": {
+                    "Gay Island": {
                         "location": "Maine",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -267,7 +267,7 @@
                         "size": "N/A",
                         "id": "8af89f7b-874c-424d-b552-a7a8fe4572b0"
                     },
-                    "glidden_point": {
+                    "Glidden Point": {
                         "location": "Maine",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -280,7 +280,7 @@
                         "size": "2 to 8 inches",
                         "id": "4d31ff4b-d164-4dec-8433-995ad14fea32"
                     },
-                    "johns_river": {
+                    "Johns River": {
                         "location": "Maine",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -295,8 +295,8 @@
                         "size": "up to 8 inches",
                         "id": "a22c2bc7-bc6d-4d3b-988c-5f9e7bd86b93"
                     },
-                    "ma": {
-                        "barnstable": {
+                    "MA": {
+                        "Barnstable": {
                             "location": "Cape Cod, MA",
                             "species": "Crassostrea Virginicas - Atlantic",
                             "flavor_profile": [
@@ -308,7 +308,7 @@
                             "cultivation": "Rack to Bag cultivated, finished by Bottom Cultivation",
                             "size": "3 inches and up"
                         },
-                        "beach_point": {
+                        "Beach Point": {
                             "location": "Cape Cod, MA",
                             "species": "Crassostrea Virginicas - Atlantic",
                             "flavor_profile": [
@@ -319,7 +319,7 @@
                             "cultivation": "Suspension Tray",
                             "size": "2.5 to 5 inches"
                         },
-                        "chatham": {
+                        "Chatham": {
                             "location": "Cape Cod, MA",
                             "species": "Crassostrea Virginicas - Atlantic",
                             "flavor_profile": [
@@ -331,7 +331,7 @@
                             "cultivation": "Rack and Bag and some Bottom Cultured",
                             "size": "up to 3 inches"
                         },
-                        "cotuit": {
+                        "Cotuit": {
                             "location": "Cape Cod, MA",
                             "species": "Crassostrea Virginicas - Atlantic",
                             "flavor_profile": [
@@ -343,7 +343,7 @@
                             "cultivation": "Floating Bags, then Sand Bottom Cultivation",
                             "size": "2.5 to 6 inches"
                         },
-                        "cuttyhunk": {
+                        "Cuttyhunk": {
                             "location": "Massachusetts",
                             "species": "Crassostrea Virginicas - Atlantic",
                             "flavor_profile": [
@@ -355,7 +355,7 @@
                             "cultivation": "Lantern Suspension",
                             "size": "up to 4 inches"
                         },
-                        "dennis": {
+                        "Dennis": {
                             "location": "Cape Cod, MA",
                             "species": "Crassostrea Virginicas - Atlantic",
                             "flavor_profile": [
@@ -369,7 +369,7 @@
                             "cultivation": "Beach/Bottom Cultured",
                             "size": "up to 3.5 inches"
                         },
-                        "duxbury": {
+                        "Duxbury": {
                             "location": "Massachusetts",
                             "species": "Crassostrea Virginicas - Atlantic",
                             "flavor_profile": [
@@ -381,7 +381,7 @@
                             "cultivation": "Rack and Bag",
                             "size": "up to 3 inches"
                         },
-                        "island_creek": {
+                        "Island Creek": {
                             "location": "Massachusetts",
                             "species": "Crassostrea Virginicas - Atlantic",
                             "flavor_profile": [
@@ -398,8 +398,8 @@
                         "id": "0e6df301-cf1c-45f6-bb99-f4ba59f45803"
                     }
                 },
-                "nj": {
-                    "cape_may_salt": {
+                "NJ": {
+                    "Cape May Salt": {
                         "location": "Cape May, NJ",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -410,7 +410,7 @@
                         "size": "3 to 5 inches",
                         "id": "1c1dc985-8b91-4709-a879-ef75f6b3ce8e"
                     },
-                    "caraquet": {
+                    "Caraquet": {
                         "location": "New Jersey",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -424,8 +424,8 @@
                         "id": "a8367709-58f7-4223-b066-01a00896fe4e"
                     }
                 },
-                "ny": {
-                    "bluepoint_genuine": {
+                "NY": {
+                    "Bluepoint Genuine": {
                         "location": "Long Island, NY (Great South Bay)",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -439,7 +439,7 @@
                         "size": "up to 4 inches",
                         "id": "27070009-f993-4542-99f4-29ddcec3804f"
                     },
-                    "bluepoint_generic": {
+                    "Bluepoint Generic": {
                         "location": "Long Island, NY (Long Island Sound)",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -451,7 +451,7 @@
                         "size": "up to 4 inches",
                         "id": "c57e82e3-69a0-4348-afc6-3c9a6685a121"
                     },
-                    "great_white": {
+                    "Great White": {
                         "location": "Long Island, NY",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -464,8 +464,8 @@
                         "id": "b921e352-b56b-47ec-a38b-bf54341bdd5b"
                     }
                 },
-                "ri": {
-                    "east_beach_blonde": {
+                "RI": {
+                    "East Beach Blonde": {
                         "location": "Rhode Island",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -479,9 +479,9 @@
                     }
                 }
             },
-            "southeast": {
-                "va": {
-                    "bogues_bay": {
+            "Southeast": {
+                "VA": {
+                    "Bogues Bay": {
                         "location": "Chesapeake, VA",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -492,7 +492,7 @@
                         "size": "up to 3 inches",
                         "id": "4bc2e801-9555-481a-bc4d-ed6aef704adc"
                     },
-                    "broadwater": {
+                    "Broadwater": {
                         "location": "Chesapeake, VA",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -504,7 +504,7 @@
                         "size": "up to 3.5 inches",
                         "id": "42985623-9934-4771-ab69-f12b992451fd"
                     },
-                    "chesepeake": {
+                    "Chesepeake": {
                         "location": "Chesapeake, VA",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -514,7 +514,7 @@
                         "size": "up to 4 inches",
                         "id": "77c18b59-45bd-4ac8-8532-f0e1eaa6a5cd"
                     },
-                    "chesapeake_gold": {
+                    "Chesapeake Gold": {
                         "location": "Chesapeake, VA",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -524,7 +524,7 @@
                         "size": "up to 4 inches",
                         "id": "b765faf7-627a-43bf-93ac-4fa8e606c42a"
                     },
-                    "chincoteague": {
+                    "Chincoteague": {
                         "location": "Chesapeake, VA",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -534,7 +534,7 @@
                         "size": "up to 3.5 inches",
                         "id": "905d719e-c6b2-48b7-a158-99664a76595b"
                     },
-                    "dragon_creek": {
+                    "Dragon Creek": {
                         "location": "Chesapeake, VA",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -546,7 +546,7 @@
                         "size": "up to 4.5 inches",
                         "id": "edb886d2-2d5c-4432-8ab5-8d4d1ffe3d31"
                     },
-                    "forbidden": {
+                    "Forbidden": {
                         "location": "Chesapeake, VA",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -558,7 +558,7 @@
                         "size": "2 to 4 inches",
                         "id": "9de513fb-d682-4a5e-b344-64e4fe8ded7b"
                     },
-                    "james_river": {
+                    "James River": {
                         "location": "Chesapeake, VA",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -570,9 +570,9 @@
                         "id": "afc0eb84-3185-4aad-a2a6-2706cca39608"
                     }
                 },
-                "nc": {},
-                "fl": {
-                    "apalachicola": {
+                "NC": {},
+                "FL": {
+                    "Apalachicola": {
                         "location": "Gulf Coast",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -587,7 +587,7 @@
                         "size": "up to 3 inches",
                         "id": "96184130-f09c-4f87-b9f0-fdf93ab09d81"
                     },
-                    "gulf_coast-generic": {
+                    "Gulf Coast Generic": {
                         "location": "Gulf Coast",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -601,12 +601,12 @@
                     }
                 }
             },
-            "southwest": {
-                "mex": {}
+            "Southwest": {
+                "MEX": {}
             },
-            "pacific_northwest": {
-                "ak": {
-                    "alaska_gold": {
+            "Pacific Northwest": {
+                "AK": {
+                    "Alaska Gold": {
                         "location": "Alaska",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -620,7 +620,7 @@
                         "size": "up to 3 inches",
                         "id": "c63c31f7-f40d-4ea4-b4d1-d3eca0d77e2c"
                     },
-                    "glacier_point": {
+                    "Glacier Point": {
                         "location": "Alaska",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -636,8 +636,8 @@
                         "id": "1d6b590f-5955-4567-a5ee-36dd984ca720"
                     }
                 },
-                "can": {
-                    "baynes_sound": {
+                "CAN": {
+                    "Baynes Sound": {
                         "location": "Vancouver Island, BC",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -650,7 +650,7 @@
                         "size": "up to 4 inches",
                         "id": "b24751a6-981d-4766-8d0d-18d5b4c02126"
                     },
-                    "beach_angel": {
+                    "Beach Angel": {
                         "location": "British Columbia",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -663,7 +663,7 @@
                         "size": "up to 3 inches",
                         "id": "bd8860f0-664d-440c-83cf-934080065095"
                     },
-                    "brooklyn_creek": {
+                    "Brooklyn Creek": {
                         "location": "British Columbia",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -676,7 +676,7 @@
                         "size": "up to 4 inches",
                         "id": "93bcc559-0726-4bc6-828c-3f0c82b8860b"
                     },
-                    "chefs_creek": {
+                    "Chefs Creek": {
                         "location": "Vancouver Island, BC",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -688,7 +688,7 @@
                         "size": "up to 3 inches",
                         "id": "7885ca86-d5b7-4a6d-ac00-3be4d3297f44"
                     },
-                    "cortes_island": {
+                    "Cortes Island": {
                         "location": "British Columbia",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -700,7 +700,7 @@
                         "size": "up to 3 inches",
                         "id": "f04ad388-e9c9-497e-8147-02dfd74ece20"
                     },
-                    "deep_bay": {
+                    "Deep Bay": {
                         "location": "Vancouver Island, BC",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -714,7 +714,7 @@
                         "size": "up to 3 inches",
                         "id": "8ee61c58-6014-49fa-996d-e3f4169a6b57"
                     },
-                    "denman_island": {
+                    "Denman Island": {
                         "location": "Vancouver Island, BC",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -727,7 +727,7 @@
                         "size": "up to 4 inches",
                         "id": "3790fddf-28b7-418c-856d-854aff884f47"
                     },
-                    "effingham": {
+                    "Effingham": {
                         "location": "British Columbia",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -741,7 +741,7 @@
                         "size": "up to 3.5 inches",
                         "id": "73ba277b-26e9-4722-8c39-6bed5fbeba56"
                     },
-                    "emerald_cove": {
+                    "Emerald Cove": {
                         "location": "British Columbia",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -754,7 +754,7 @@
                         "size": "up to 3.5 inches",
                         "id": "a5aa663c-6785-4c4a-b082-bf62b3886209"
                     },
-                    "evening_cove": {
+                    "Evening Cove": {
                         "location": "British Columbia",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -766,7 +766,7 @@
                         "size": "up to 3.5 inches",
                         "id": "229cd124-8945-4ba5-a669-0edeab6d28df"
                     },
-                    "fanny_bay": {
+                    "Fanny Bay": {
                         "location": "Vancouver Island, BC",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -779,7 +779,7 @@
                         "size": "2 to 5 inches",
                         "id": "3a731e6f-8c7a-4522-9a47-a0d3e7dbaf81"
                     },
-                    "hollie_wood_zen": {
+                    "Hollie Wood Zen": {
                         "location": "British Columbia",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -790,7 +790,7 @@
                         "size": "up to 2.5 inches",
                         "id": "bd7d37b5-4b20-40f5-932d-113ea9143d79"
                     },
-                    "imperial_eagle_channel": {
+                    "Imperial Eagle Channel": {
                         "location": "Vancouver Island, BC",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -803,7 +803,7 @@
                         "size": "up to 3 inches",
                         "id": "7bcbafc1-2ba1-48f6-89e7-66210b6e1b94"
                     },
-                    "golden_mantle": {
+                    "Golden Mantle": {
                         "location": "British Columbia",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -815,8 +815,8 @@
                         "id": "bee84bda-2805-4227-927b-61280ea437a8"
                     }
                 },
-                "wa": {
-                    "amai": {
+                "WA": {
+                    "Amai": {
                         "species": "Crassostrea Gigas - Pacific",
                         "location": "Washington",
                         "flavor_profile": [
@@ -829,7 +829,7 @@
                         "size": "up to 3 inches",
                         "id": "62e20064-c178-44ea-b470-5e04071b147f"
                     },
-                    "bald_point": {
+                    "Bald Point": {
                         "location": "Southern Puget Sound",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -841,7 +841,7 @@
                         "size": "up to 3 inches",
                         "id": "5ab0d75c-75cf-41a7-b517-61682defdcd5"
                     },
-                    "barron_point": {
+                    "Barron Point": {
                         "location": "Southern Puget Sound",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -854,7 +854,7 @@
                         "size": "up to 3 inches",
                         "id": "5f6baad6-8ab6-422c-99ec-b3ff9f608d24"
                     },
-                    "baywater_sweet": {
+                    "Baywater Sweet": {
                         "location": "Hood Canal, WA",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -865,7 +865,7 @@
                         "size": "up to 3 inches",
                         "id": "29ada16f-ca3a-426c-9847-e2fb85d84605"
                     },
-                    "blue_pool": {
+                    "Blue Pool": {
                         "location": "Hood Canal, WA",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -880,7 +880,7 @@
                         "size": "up to 3 inches",
                         "id": "f0122422-ed26-4758-84c1-ea2ffad69d21"
                     },
-                    "brookside": {
+                    "Brookside": {
                         "location": "Hood Canal, WA",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -892,7 +892,7 @@
                         "size": "up to 3 inches",
                         "id": "0950ca36-ee2a-4ff9-a183-b96f584eec16"
                     },
-                    "chelsea_gem": {
+                    "Chelsea Gem": {
                         "location": "Southern Puget Sound",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -905,7 +905,7 @@
                         "size": "up to 3 inches",
                         "id": "43928cd2-70e6-4941-bee6-f93e5fdb645d"
                     },
-                    "cold_creek": {
+                    "Cold Creek": {
                         "location": "Southern Puget Sound",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -918,7 +918,7 @@
                         "size": "2 to 3 inches",
                         "id": "3868f322-d016-4ce6-a5d7-060f727750d5"
                     },
-                    "cranberry_creek": {
+                    "Cranberry Creek": {
                         "location": "Southern Puget Sound",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -930,7 +930,7 @@
                         "size": "up to 3 inches",
                         "id": "e337c0da-e45c-41c1-9f4d-ac7d292a0f04"
                     },
-                    "dabob_bay": {
+                    "Dabob Bay": {
                         "location": "Hood Canal, WA",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -943,7 +943,7 @@
                         "size": "up to 3 inches",
                         "id": "7e1a7905-8a03-4025-9bc1-40ccad257cd0"
                     },
-                    "deer_creek": {
+                    "Deer Creek": {
                         "location": "Hood Canal, WA",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -955,7 +955,7 @@
                         "size": "up to 3 inches",
                         "id": "da6c3706-0b13-47a3-98dc-8bf700a67d18"
                     },
-                    "dosewallips": {
+                    "Dosewallips": {
                         "location": "Hood Canal, WA",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -968,7 +968,7 @@
                         "size": "up to 3 inches",
                         "id": "2474a681-3e3a-4809-b3a6-9d8a39370038"
                     },
-                    "drayton_harbor": {
+                    "Drayton Harbor": {
                         "location": "Northern Puget Sound",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -979,7 +979,7 @@
                         "size": "N/A",
                         "id": "75a8f116-f1c3-451f-acfd-432cbf4791da"
                     },
-                    "eagle_creek": {
+                    "Eagle Creek": {
                         "location": "Hood Canal, WA",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -991,7 +991,7 @@
                         "size": "up to 3.5 inches",
                         "id": "caa074a2-fed4-43dc-bf37-c41c45bdcebc"
                     },
-                    "eagle_rock": {
+                    "Eagle Rock": {
                         "location": "Southern Puget Sound",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -1004,7 +1004,7 @@
                         "size": "up to 3 inches",
                         "id": "3ff116cc-000e-4315-aab9-7d4d1f0334e3"
                     },
-                    "eld_inlet": {
+                    "Eld Inlet": {
                         "location": "Southern Puget Sound",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -1017,7 +1017,7 @@
                         "size": "up to 3 inches",
                         "id": "4077a89b-54a5-401f-97bb-7da0ea1c6f2a"
                     },
-                    "elkhorn": {
+                    "Elkhorn": {
                         "location": "Washington Coast",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -1030,7 +1030,7 @@
                         "size": "up to 3 inches",
                         "id": "74b2b10b-e04b-474c-baeb-5529c8f88353"
                     },
-                    "fat_bastards_shigoku": {
+                    "Fat Bastards Shigoku": {
                         "location": "Southern Puget Sound",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -1044,7 +1044,7 @@
                         "size": "up to 5 inches",
                         "id": "d0d144b7-85b1-4c07-af89-bee2e0885e01"
                     },
-                    "fish_point": {
+                    "Fish Point": {
                         "location": "Northern Puget Sound",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -1056,7 +1056,7 @@
                         "size": "up to 3 inches",
                         "id": "6d4ad220-1e60-4ddf-a85d-71be6efe987f"
                     },
-                    "gold_creek": {
+                    "Gold Creek": {
                         "location": "Hood Canal, WA",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -1067,7 +1067,7 @@
                         "size": "up to 4 inches",
                         "id": "85d1c0f9-7914-44a3-8645-bf8d612c2437"
                     },
-                    "hama_hama": {
+                    "Hama Hama": {
                         "location": "Hood Canal, WA",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -1082,7 +1082,7 @@
                         "size": "up to 3 inches",
                         "id": "580f9065-5026-4cc7-a4a0-899b1058559f"
                     },
-                    "hammersley_inlet": {
+                    "Hammersley Inlet": {
                         "location": "Southern Puget Sound",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -1095,7 +1095,7 @@
                         "size": "up to 4 inches",
                         "id": "a2434f7f-93aa-4a17-82d0-9cbe90d43a91"
                     },
-                    "hawks_point": {
+                    "Hawks Point": {
                         "location": "Washington Coast",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -1108,7 +1108,7 @@
                         "size": "up to 4 inches",
                         "id": "1e54205e-5dd8-44b3-9754-94c2cc275812"
                     },
-                    "henderson_inlet": {
+                    "Henderson Inlet": {
                         "location": "Southern Puget Sound",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -1118,7 +1118,7 @@
                         "size": "up to 7 inches",
                         "id": "ee06a8a2-ab4f-4091-85e0-8f9d0813f317"
                     },
-                    "hog_island_cliffside": {
+                    "Hog Island Cliffside": {
                         "location": "Washington",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -1132,7 +1132,7 @@
                         "size": "N/A",
                         "id": "81c3321b-a74e-4c89-bdc4-ede5ea012e7f"
                     },
-                    "hunters_point": {
+                    "Hunters Point": {
                         "location": "Southern Puget Sound",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -1146,9 +1146,9 @@
                     }
                 }
             },
-            "west": {
-                "ca": {
-                    "carisbad_blonde": {
+            "West": {
+                "CA": {
+                    "Carisbad Blonde": {
                         "location": "Southern California",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -1161,7 +1161,7 @@
                         "size": "N/A",
                         "id": "2820d4f7-3763-4e4e-a63f-e310f444a92c"
                     },
-                    "endless_summer": {
+                    "Endless Summer": {
                         "location": "Southern California",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -1171,7 +1171,7 @@
                         "size": "up to 6 inches",
                         "id": "302ea7d0-f99e-466c-83cb-f1cd0c4e0cb1"
                     },
-                    "grassy_bar": {
+                    "Grassy Bar": {
                         "location": "Central California",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [
@@ -1186,7 +1186,7 @@
                         "size": "2 to 3 inches",
                         "id": "e2a38d03-f42d-4ec9-80ff-7cad3cd07485"
                     },
-                    "hog_island_atlantic": {
+                    "Hog Island Atlantic": {
                         "location": "Northern California",
                         "species": "Crassostrea Virginicas - Atlantic",
                         "flavor_profile": [
@@ -1200,7 +1200,7 @@
                         "size": "up to 3 inches",
                         "id": "b50a778d-4422-45e1-bbe8-1fad84df52a3"
                     },
-                    "hog_island_kumamoto": {
+                    "Hog Island Kumamoto": {
                         "location": "Northern California",
                         "species": "Crassostrea Sikamea - Kumamoto",
                         "flavor_profile": [
@@ -1214,7 +1214,7 @@
                         "size": "up to 2 inches",
                         "id": "0f70f415-1486-41bc-b8c4-1434e0a06638"
                     },
-                    "hog_island_sweetwater": {
+                    "Hog Island Sweetwater": {
                         "location": "Northern California",
                         "species": "Crassostrea Gigas - Pacific",
                         "flavor_profile": [

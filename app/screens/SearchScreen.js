@@ -6,35 +6,35 @@ import {
     SafeAreaView,
     Button,
     TouchableOpacity,
-    Modal 
 } from 'react-native';
 
-
-
 import colors from '../config/colors';
+
+
+// IS THIS THE RIGHT SYNTAX???
+// import oysterData from '../data/new_data.json'; 
+
+
+
+
+
 
 
 // HERE WILL BE THE SEARCH PAGE
 function SearchScreen({ navigation }) {
 
-    // REGIONS MODAL
-    // const [northeastModal, setNortheastModal] = useState(false);
-    // const [pacificNorthwestModal, setPacificNorthwestModal] = useState(false);
-    // const [southeastModal, setSoutheastModal] = useState(false);
-    // const [southwestModal, setSouthwestModal] = useState(false);
-    // const [westModal, setWestModal] = useState(false);
-
 
     //VALUES
-    const [northEast, setNorthEast] = useState(false);
+    const [northEast, setNorthEast] = useState(false);    
     const [pacificNorthWest, setPacificNorthWest] = useState(false);
     const [southEast, setSouthEast] = useState(false);
     const [southWest, setSouthWest] = useState(false);
     const [west, setWest] = useState(false);
 
     // useState for location
-
-
+    // update the state with specific region and its locations
+    // implement useEffect to access the specific keys in the json
+    const [Data, setData] = useState({});
 
 
     return (
@@ -48,13 +48,10 @@ function SearchScreen({ navigation }) {
                 // can pass in multiple items as strings
                 // location variable can grab location oyster data
                 onPress={() => navigation.push('Locations')}
-                // onPress={(location) => 
-                //     {setModalShown(true)
-                //     setLocation(location)
-                //     }
-                // }
+
             >
                 <Text style={styles.buttonText}>Northeast</Text>
+
             </TouchableOpacity>
 
             <TouchableOpacity
