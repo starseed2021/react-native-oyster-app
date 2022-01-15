@@ -4,7 +4,7 @@ import {
     Text, 
     View,
     SafeAreaView,
-    Image 
+    Image
 } from 'react-native';
 
 import {FontAwesome5, MaterialCommunityIcons } from '@expo/vector-icons';
@@ -22,12 +22,11 @@ function ProfileScreen({ route }) {
         <SafeAreaView style={styles.container}>
             <Image
                 style={styles.iconStyle}
-                source={require('../assets/images/oyster_icon.png')}/>
-            <Text style={styles.textStyle}> { oyster }</Text>
+                source={require('../assets/images/icon_shell.png')}/>
+            <View style={styles.itemViewStyle}>
+                <Text style={styles.textStyle}> { oyster }</Text>
+            </View>
         </SafeAreaView>
-        // <SafeAreaView style={styles.container}>
-        //     <Text style={styles.textStyle}>Oyster Profile</Text>
-        // </SafeAreaView>
     )
 }
 
@@ -39,13 +38,25 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     iconStyle: {
-        marginBottom: 10
+        height: '50%',
+        width: '125%',
+        opacity: 0.25,
+    },
+    itemViewStyle: {
+        position: 'absolute',
+        justifyContent: 'center',
+        alignItems: 'center',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0
     },
     textStyle: {
         color: colors.secondary,
-        fontSize: 25
+        fontSize: 25,
+        
     }
-})
+});
 
 
 

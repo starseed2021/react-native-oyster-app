@@ -27,7 +27,7 @@ const DATA = [
     {
         region: "Northeast",
         data: ["NY", "CAN", "MA", "ME", "NJ"],
-        oyster: 'Blue Point'
+        oyster: ['Blue Point']
     },
     {
         region: "Pacific Northwest",
@@ -42,14 +42,9 @@ const DATA = [
     {   
         region: "West",
         data: ["CA"],
-        oyster: 'Grassy Bar'
+        oyster: ['Grassy Bar', 'Watery Bar', 'Soily Bar']
     }
 ]
-
-
-
-
-
 
 
 function DetailsScreen( { navigation }) {

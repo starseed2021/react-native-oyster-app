@@ -26,7 +26,7 @@ function WelcomeScreen({ navigation }) {
             </View>
             <TouchableOpacity style={ styles.image } onPress={() => navigation.navigate('Search')} >
                 <Image 
-                source={require('../assets/images/cartoon_shell.png')}/>
+                source={require('../assets/images/icon_shell.png')}/>
             </TouchableOpacity>
             <Text style={styles.shellText}>Tap Oyster</Text>
             <StatusBar sytle='auto' />

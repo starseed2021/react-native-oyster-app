@@ -14,27 +14,21 @@ import colors from '../config/colors';
 // IS THIS THE RIGHT SYNTAX???
 // import oysterData from '../data/new_data.json'; 
 
-
-
-
-
-
-
 // HERE WILL BE THE SEARCH PAGE
 function SearchScreen({ navigation }) {
 
 
     //VALUES
-    const [northEast, setNorthEast] = useState(false);    
-    const [pacificNorthWest, setPacificNorthWest] = useState(false);
-    const [southEast, setSouthEast] = useState(false);
-    const [southWest, setSouthWest] = useState(false);
-    const [west, setWest] = useState(false);
+    // const [northEast, setNorthEast] = useState(false);    
+    // const [pacificNorthWest, setPacificNorthWest] = useState(false);
+    // const [southEast, setSouthEast] = useState(false);
+    // const [southWest, setSouthWest] = useState(false);
+    // const [west, setWest] = useState(false);
 
     // useState for location
     // update the state with specific region and its locations
     // implement useEffect to access the specific keys in the json
-    const [Data, setData] = useState({});
+    // const [Data, setData] = useState({});
 
 
     return (
@@ -44,7 +38,7 @@ function SearchScreen({ navigation }) {
 
             <TouchableOpacity
                 style={styles.button}
-                onPress={() => setNorthEast(!northEast)}
+                // onPress={() => setNorthEast(!northEast)}
                 // can pass in multiple items as strings
                 // location variable can grab location oyster data
                 onPress={() => navigation.push('Locations')}
@@ -56,7 +50,7 @@ function SearchScreen({ navigation }) {
 
             <TouchableOpacity
                 style={styles.button}
-                onPress={() => setPacificNorthWest(!pacificNorthWest)}
+                // onPress={() => setPacificNorthWest(!pacificNorthWest)}
                 onPress={() => navigation.push('Locations')}
             >
                 <Text style={styles.buttonText}>Pacific Northwest</Text>
@@ -64,7 +58,7 @@ function SearchScreen({ navigation }) {
 
             <TouchableOpacity
                 style={styles.button}
-                onPress={() => setSouthEast(!southEast)}
+                // onPress={() => setSouthEast(!southEast)}
                 onPress={() => navigation.push('Locations')}
             >
                 <Text style={styles.buttonText}>Southeast</Text>
@@ -72,7 +66,7 @@ function SearchScreen({ navigation }) {
 
             <TouchableOpacity
                 style={styles.button}
-                onPress={() => setSouthWest(!southWest)}
+                // onPress={() => setSouthWest(!southWest)}
                 onPress={() => navigation.push('Locations')}
             >
                 <Text style={styles.buttonText}>Southwest</Text>
@@ -80,7 +74,7 @@ function SearchScreen({ navigation }) {
 
             <TouchableOpacity
                 style={styles.button}
-                onPress={() => setWest(!west)}
+                // onPress={() => setWest(!west)}
                 onPress={() => navigation.push('Locations')}
             >
                 <Text style={styles.buttonText}>West</Text>

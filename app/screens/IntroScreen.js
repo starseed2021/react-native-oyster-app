@@ -12,12 +12,14 @@ import {
 import colors from '../config/colors';
 
 
+
 // HERE WILL BE AN 'ABOUT US' PAGE AND WILL HAVE A BUTTON TO 'BEGIN SEARCH'
+
 function IntroScreen({ navigation }) {
     return (
         <SafeAreaView style={ styles.container }>
             <Image
-            source={require('../assets/images/cartoon_shell.png')}
+            source={require('../assets/images/icon_shell.png')}
             style={styles.image}
             />
             <View style={styles.textView}>
@@ -47,6 +49,7 @@ function IntroScreen({ navigation }) {
 }
 
 
+
 const styles = StyleSheet.create({
     container: {
         flex: 1, 
@@ -70,7 +73,7 @@ const styles = StyleSheet.create({
     image: {
         height: '50%',
         width: '125%',
-        opacity: 0.20,
+        opacity: 0.25,
     },
     textStyle: {
         color: colors.secondary,
