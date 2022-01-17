@@ -51,8 +51,6 @@ const DATA = [
     }
 ]
 
-
-
 // useState functions here ??
 
 
