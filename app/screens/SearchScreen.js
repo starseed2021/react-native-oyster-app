@@ -12,23 +12,26 @@ import colors from '../config/colors';
 
 
 // IS THIS THE RIGHT SYNTAX???
-// import oysterData from '../data/new_data.json'; 
+import oysterData from '../data/new_data.json'; 
 
 // HERE WILL BE THE SEARCH PAGE
 function SearchScreen({ navigation }) {
 
 
-    //VALUES
-    // const [northEast, setNorthEast] = useState(false);    
-    // const [pacificNorthWest, setPacificNorthWest] = useState(false);
-    // const [southEast, setSouthEast] = useState(false);
-    // const [southWest, setSouthWest] = useState(false);
-    // const [west, setWest] = useState(false);
+    // Create useState for updating locations for each specific region
+    const [northEast, setNorthEast] = useState([]);    
+    const [pacificNorthWest, setPacificNorthWest] = useState([]);
+    const [southEast, setSouthEast] = useState([]);
+    const [southWest, setSouthWest] = useState([]);
+    const [west, setWest] = useState([]);
 
     // useState for location
     // update the state with specific region and its locations
     // implement useEffect to access the specific keys in the json
     // const [Data, setData] = useState({});
+
+    // do I need to map through the data here?
+
 
 
     return (
@@ -41,7 +44,9 @@ function SearchScreen({ navigation }) {
                 // onPress={() => setNorthEast(!northEast)}
                 // can pass in multiple items as strings
                 // location variable can grab location oyster data
-                onPress={() => navigation.push('Locations')}
+                onPress={() => navigation.push('Locations', {
+                    northEast: ['NY', 'CAN', 'MA', 'ME', 'NJ']
+                })}
 
             >
                 <Text style={styles.buttonText}>Northeast</Text>
@@ -51,7 +56,9 @@ function SearchScreen({ navigation }) {
             <TouchableOpacity
                 style={styles.button}
                 // onPress={() => setPacificNorthWest(!pacificNorthWest)}
-                onPress={() => navigation.push('Locations')}
+                onPress={() => navigation.push('Locations', {
+                    pacificNorthWest: ['CAN', 'WA', 'AK']
+                })}
             >
                 <Text style={styles.buttonText}>Pacific Northwest</Text>
             </TouchableOpacity>
@@ -59,7 +66,9 @@ function SearchScreen({ navigation }) {
             <TouchableOpacity
                 style={styles.button}
                 // onPress={() => setSouthEast(!southEast)}
-                onPress={() => navigation.push('Locations')}
+                onPress={() => navigation.push('Locations', {
+                    southEast: ['VA', 'FL']
+                })}
             >
                 <Text style={styles.buttonText}>Southeast</Text>
             </TouchableOpacity>
@@ -67,7 +76,9 @@ function SearchScreen({ navigation }) {
             <TouchableOpacity
                 style={styles.button}
                 // onPress={() => setSouthWest(!southWest)}
-                onPress={() => navigation.push('Locations')}
+                onPress={() => navigation.push('Locations', {
+                    southWest: 'MEX'
+                })}
             >
                 <Text style={styles.buttonText}>Southwest</Text>
             </TouchableOpacity>
@@ -75,7 +86,9 @@ function SearchScreen({ navigation }) {
             <TouchableOpacity
                 style={styles.button}
                 // onPress={() => setWest(!west)}
-                onPress={() => navigation.push('Locations')}
+                onPress={() => navigation.push('Locations', {
+                    west: 'CA'
+                })}
             >
                 <Text style={styles.buttonText}>West</Text>
             </TouchableOpacity>

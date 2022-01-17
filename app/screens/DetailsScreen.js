@@ -8,7 +8,7 @@ import {
     StatusBar,
     Button,
     TouchableOpacity,
-    FlatList
+    FlatList,
 } from 'react-native';
 
 import colors from '../config/colors';
@@ -27,7 +27,7 @@ const DATA = [
     {
         region: "Northeast",
         data: ["NY", "CAN", "MA", "ME", "NJ"],
-        oyster: ['Blue Point']
+        oyster: 'Blue Point'
     },
     {
         region: "Pacific Northwest",
@@ -39,6 +39,11 @@ const DATA = [
         data: ["VA", "FL"],
         oyster: 'Chesapeake'
     },
+    {
+        region: "Southwest",
+        data: ["MEX"],
+        oyster: ['Baja Sweet', 'Baja Sunrise']
+    },
     {   
         region: "West",
         data: ["CA"],
@@ -47,42 +52,26 @@ const DATA = [
 ]
 
 
-function DetailsScreen( { navigation }) {
+
+// useState functions here ??
+
+
+function DetailsScreen( { route, navigation }) {
     // VARIABLE TO STORE THE OYSTER DATA
     // NEED TO MAP THROUGH THE DATA TO ACCESS WHAT I NEED
-    // const [details, setDetails] = useState([
-        //     {
-            //         region: "Northeast",
-            //         locations: ["NY", "CAN", "MA", "ME", "NJ"],
-            //         oyster: 'blue point'
-            //     },
-            //     {
-                //         region: "Pacific Northwest",
-                //         locations: ["CAN", "WA", "AK"],
-                //         oyster: 'baywater_sweet'
-                //     },
-                //     {   
-                    //         region: "Southeast",
-                    //         locations: ["VA", "FL"],
-                    //         oyster: 'chesapeake'
-                    //     },
-                    //     {   
-                        //         region: "West",
-                        //         locations: ["CA"],
-                        //         oyster: 'grassy bar'
-                        //     }
-                        // ])
-                        
-                        
-    // const display = () => {
-    //     const oysterData = DATA.map((item) => {
-    //         <Text style={styles.itemStyle}>{ item }</Text>
-    //     })
-    // }
-                        
+
+    const onPressFunction = () => {
+        // code you want to fire on press
+    }
+    
+
     const renderItem = ({ item, index}) => {
         return (
-            <Text style={styles.itemStyle}>{ item }</Text>
+            <TouchableOpacity style={styles.itemStyle} onPress={() => navigation.push('Oyster Profile', {
+                oyster: 'Blue Point'
+            })}>
+                <Text style={styles.itemTextStyle}>{ item }</Text>
+            </TouchableOpacity>
         )
     }
 
@@ -99,19 +88,7 @@ function DetailsScreen( { navigation }) {
                 sections={ DATA }
                 renderItem={ renderItem }
                 renderSectionHeader={ renderHeader }
-                keyExtractor={(item, index) => item + index}
-                // PASS IN A FUNCTION THAT RENDERS THE ITEM LIST W/ TOUCHABLEOPACITY AND
-                // THEN NAVIGATE TO DETAILS SCREEN
-                />
-                <FlatList
-                data={ DATA }
                 keyExtractor={(item, index) => item + index.toString()}
-s                // toString is because these lists only take index as a string
-                renderItem={({ item }) => (
-                        <TouchableOpacity onPress={() => navigation.push('Oyster Profile', item)}>
-                            <Text style={styles.flatItemStyle}>{ item.data }</Text>
-                        </TouchableOpacity>
-                    )} 
                 />
 
                 <Button
@@ -131,7 +108,7 @@ const styles = StyleSheet.create({
         paddingTop: StatusBar.currentHeight, 
         backgroundColor: colors.secondary,
     },  
-    itemStyle: {
+    itemTextStyle: {
         backgroundColor: colors.secondary,
         color: colors.primary,
         fontSize: 15,
@@ -149,15 +126,6 @@ const styles = StyleSheet.create({
         textAlign: 'auto',
         
     },
-    flatItemStyle: {
-        backgroundColor: colors.secondary,
-        color: colors.primary,
-        fontSize: 25,
-        height: 50,
-        padding: 10,
-        marginVertical: 3,
-        textAlign: 'center'
-    }
 });
 
 

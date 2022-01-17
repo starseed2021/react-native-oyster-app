@@ -1,5 +1,5 @@
 import { NavigationContainer } from '@react-navigation/native';
-import React from 'react'
+import React from 'react';
 import { 
     StyleSheet, 
     Text, 
@@ -7,7 +7,7 @@ import {
     SafeAreaView,
     Button,
     Image
-} from 'react-native'
+} from 'react-native';
 
 import colors from '../config/colors';
 

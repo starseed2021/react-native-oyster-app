@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { 
     StyleSheet, 
     Text, 
@@ -12,10 +12,11 @@ import {FontAwesome5, MaterialCommunityIcons } from '@expo/vector-icons';
 import colors from '../config/colors';
 
 
-function ProfileScreen({ route }) {
+
+function ProfileScreen({ route, navigation}) {
     // USE GET PARAM TO GRAB THE KEYS OF THE OBJECT TO DISPLAY
     
-    const { oyster } = route.params;
+//    const { oyster } = route.params;
 
 
     return (
@@ -24,11 +25,15 @@ function ProfileScreen({ route }) {
                 style={styles.iconStyle}
                 source={require('../assets/images/icon_shell.png')}/>
             <View style={styles.itemViewStyle}>
-                <Text style={styles.textStyle}> { oyster }</Text>
+                <Text style={styles.textStyle}>Oyster Name: { route.params.oyster }</Text>
             </View>
         </SafeAreaView>
     )
 }
+
+
+
+
 
 const styles = StyleSheet.create({
     container: {
