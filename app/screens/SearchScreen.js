@@ -8,22 +8,51 @@ import {
     TouchableOpacity,
 } from 'react-native';
 
+import { useFonts } from '@expo-google-fonts/inter';
+import * as Font from 'expo-font';
 import colors from '../config/colors';
 
 
 // IS THIS THE RIGHT SYNTAX???
 import oysterData from '../data/new_data.json'; 
 
+
+
+// DUMMY DATA
+const dummyData = [
+    {
+        region: "Northeast",
+        data: ["NY", "CAN", "MA", "ME", "NJ"]
+    },
+    {
+        region: "Pacific Northwest",
+        data: ["CAN", "WA", "AK"]
+    },
+    {
+        region: "Southeast",
+        data: ["VA", "FL"]
+    },
+    {
+        region: "Southwest",
+        data: ["MEX"]
+    },
+    {
+        region: "West",
+        data: ["CA"]
+    }
+]
+
+
 // HERE WILL BE THE SEARCH PAGE
 function SearchScreen({ navigation }) {
 
-
     // Create useState for updating locations for each specific region
-    const [northEast, setNorthEast] = useState([]);    
-    const [pacificNorthWest, setPacificNorthWest] = useState([]);
-    const [southEast, setSouthEast] = useState([]);
-    const [southWest, setSouthWest] = useState([]);
-    const [west, setWest] = useState([]);
+    // const [northEast, setNorthEast] = useState(false);    
+    // const [pacificNorthWest, setPacificNorthWest] = useState(false);
+    // const [southEast, setSouthEast] = useState(false);
+    // const [southWest, setSouthWest] = useState(false);
+    // const [west, setWest] = useState(false);
+
 
     // useState for location
     // update the state with specific region and its locations
@@ -32,10 +61,13 @@ function SearchScreen({ navigation }) {
 
     // do I need to map through the data here?
 
+    const onPressFunction = () => {
+        // code to be fired on press
 
+    }
 
     return (
-        <View style={styles.container}>
+        <SafeAreaView style={styles.container}>
 
             <Text style={styles.headerText}>SEARCH BY REGION</Text>
 
@@ -44,21 +76,17 @@ function SearchScreen({ navigation }) {
                 // onPress={() => setNorthEast(!northEast)}
                 // can pass in multiple items as strings
                 // location variable can grab location oyster data
-                onPress={() => navigation.push('Locations', {
-                    northEast: ['NY', 'CAN', 'MA', 'ME', 'NJ']
-                })}
-
+                onPress={() => navigation.push('Locations'), {
+                    ny: "NY"
+                }}
             >
                 <Text style={styles.buttonText}>Northeast</Text>
-
             </TouchableOpacity>
 
             <TouchableOpacity
                 style={styles.button}
                 // onPress={() => setPacificNorthWest(!pacificNorthWest)}
-                onPress={() => navigation.push('Locations', {
-                    pacificNorthWest: ['CAN', 'WA', 'AK']
-                })}
+                onPress={() => navigation.push('Locations')}
             >
                 <Text style={styles.buttonText}>Pacific Northwest</Text>
             </TouchableOpacity>
@@ -66,9 +94,7 @@ function SearchScreen({ navigation }) {
             <TouchableOpacity
                 style={styles.button}
                 // onPress={() => setSouthEast(!southEast)}
-                onPress={() => navigation.push('Locations', {
-                    southEast: ['VA', 'FL']
-                })}
+                onPress={() => navigation.push('Locations')}
             >
                 <Text style={styles.buttonText}>Southeast</Text>
             </TouchableOpacity>
@@ -76,9 +102,7 @@ function SearchScreen({ navigation }) {
             <TouchableOpacity
                 style={styles.button}
                 // onPress={() => setSouthWest(!southWest)}
-                onPress={() => navigation.push('Locations', {
-                    southWest: 'MEX'
-                })}
+                onPress={() => navigation.push('Locations')}
             >
                 <Text style={styles.buttonText}>Southwest</Text>
             </TouchableOpacity>
@@ -86,14 +110,12 @@ function SearchScreen({ navigation }) {
             <TouchableOpacity
                 style={styles.button}
                 // onPress={() => setWest(!west)}
-                onPress={() => navigation.push('Locations', {
-                    west: 'CA'
-                })}
+                onPress={() => navigation.push('Locations')}
             >
                 <Text style={styles.buttonText}>West</Text>
             </TouchableOpacity>
 
-        </View>
+        </SafeAreaView>
     )
 
 };

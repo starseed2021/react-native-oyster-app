@@ -16,8 +16,13 @@ import colors from '../config/colors';
 function ProfileScreen({ route, navigation}) {
     // USE GET PARAM TO GRAB THE KEYS OF THE OBJECT TO DISPLAY
     
-//    const { oyster } = route.params;
-
+   const { oyster } = route.params;
+   const { location } = route.params;
+   const { species } = route.params;
+   const { flavorProfile } = route.params;
+   const { cultivation } = route.params;
+   const { size } = route.params;
+  
 
     return (
         <SafeAreaView style={styles.container}>
@@ -25,7 +30,12 @@ function ProfileScreen({ route, navigation}) {
                 style={styles.iconStyle}
                 source={require('../assets/images/icon_shell.png')}/>
             <View style={styles.itemViewStyle}>
-                <Text style={styles.textStyle}>Oyster Name: { route.params.oyster }</Text>
+                <Text style={styles.textStyle}>Location: { location }</Text>
+                <Text style={styles.textStyle}>Oyster Name: { oyster }</Text>
+                <Text style={styles.textStyle}>Species: { species }</Text>
+                <Text style={styles.textStyle}>Flavor Profile: { flavorProfile}</Text>
+                <Text style={styles.textStyle}>Cultivation: { cultivation }</Text>
+                <Text style={styles.textStyle}>Size: { size }</Text>
             </View>
         </SafeAreaView>
     )
@@ -58,7 +68,7 @@ const styles = StyleSheet.create({
     },
     textStyle: {
         color: colors.secondary,
-        fontSize: 25,
+        fontSize: 20,
         
     }
 });

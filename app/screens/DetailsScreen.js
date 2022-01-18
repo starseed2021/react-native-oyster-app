@@ -8,7 +8,6 @@ import {
     StatusBar,
     Button,
     TouchableOpacity,
-    FlatList,
 } from 'react-native';
 
 import colors from '../config/colors';
@@ -18,8 +17,6 @@ import colors from '../config/colors';
 // DETERMINE WHICH 'EVENT STATE' THAT'S SELECTED AND FILTER BY THE SPECIFIC LOCATIONS
 // (EG. 'CAN', 'NY', 'NJ')
 // .filter((item) => {item.region == 'ny})
-
-
 
 
 // GET ROUTED TO THEIR PERSPECTIVE OYSTERS LIST
@@ -58,15 +55,30 @@ function DetailsScreen( { route, navigation }) {
     // VARIABLE TO STORE THE OYSTER DATA
     // NEED TO MAP THROUGH THE DATA TO ACCESS WHAT I NEED
 
+    // const [region, setRegion] = useState([])
+
+    // const { northEast } = route.params;
+    // const { pacificNorthWest } = route.params;
+    // const { southEast } = route.params;
+    // const { southWest } = route.params;
+    // const { west } = route.params;
+
+
     const onPressFunction = () => {
-        // code you want to fire on press
+        // code to be fired on press
     }
     
 
-    const renderItem = ({ item, index}) => {
+
+    const renderItem = ({ item, index, oyster }) => {
         return (
             <TouchableOpacity style={styles.itemStyle} onPress={() => navigation.push('Oyster Profile', {
-                oyster: 'Blue Point'
+                oyster: 'Blue Point',
+                location: 'NY',
+                species: 'Crassostrea Virginicas - Atlantic',
+                flavorProfile: 'Briny',
+                cultivation: 'Rack to Bag',
+                size: 'up to 4.5 inches'
             })}>
                 <Text style={styles.itemTextStyle}>{ item }</Text>
             </TouchableOpacity>
