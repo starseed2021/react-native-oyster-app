@@ -24,11 +24,13 @@ function IntroScreen({ navigation }) {
             />
             <View style={styles.textView}>
             <Text style={styles.textStyle}>
-                Welcome ostreophiles!
+                Welcome Ostreophiles!
             </Text>
             <Text style={styles.textBodyStyle}>
-                Birth of Pearl was created with you mind.
-                Explore your favorite oysters from the regions of North America and get your oyster's species, origins, flavor profiles, cultivation methods and sizes. 
+                Birth of Pearl was created with you in mind.
+                Explore your favorite oysters from the various regions of the Americas. 
+                Obtain their profiles and acquire the knowledge to take with you to any restaurant, farmers market, or excursion.
+
                 <View>
                 <Text style={styles.quoteText}>
                 "I do not weep at the world. I am too busy sharpening my oyster knife."                                                                                          - Zora Neale Hurston
