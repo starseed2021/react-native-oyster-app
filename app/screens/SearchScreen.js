@@ -3,15 +3,11 @@ import React, { useState } from "react";
 import {
   StyleSheet,
   Text,
-  View,
   SafeAreaView,
-  Button,
   TouchableOpacity,
 } from "react-native";
 
 import colors from "../config/colors";
-
-
 
 // HERE WILL BE THE SEARCH PAGE
 // SEARCH SCREEN COMPONENT

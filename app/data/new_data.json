@@ -1134,7 +1134,7 @@
     },
     {
         "id": 3,
-        "region": "SouthEast",
+        "region": "Southeast",
         "data": [
             {
                 "location": "VA",
@@ -1297,7 +1297,7 @@
     },
     {
         "id": 4,
-        "region": "SouthWest",
+        "region": "Southwest",
         "data": [
             {
                 "location": "MEX",

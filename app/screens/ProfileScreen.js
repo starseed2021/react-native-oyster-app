@@ -8,14 +8,14 @@ import {
   FlatList,
 } from "react-native";
 
+
 import colors from "../config/colors";
 
 function ProfileScreen({ route, navigation }) {
   // USE GET PARAM TO GRAB THE KEYS OF THE OBJECT TO DISPLAY
 
-  const { oysters } = route.params;
 
-  const ItemSeparator = () => <View style={styles.itemSeparatorStyle} />
+  const { oysters } = route.params;
 
   return (
     <SafeAreaView style={styles.container}>
@@ -27,9 +27,8 @@ function ProfileScreen({ route, navigation }) {
         style={ styles.itemViewStyle }
         data={ oysters }
         keyExtractor={ (item, index) => item + index }
-        ItemSeparatorComponent={ ItemSeparator }
         renderItem={({ item }) => (
-          <View>
+          <View style={styles.profileStyle}>
             <Text style={ styles.textStyle }>
               Oyster Name: { item.oyster_name }
             </Text>
@@ -37,8 +36,9 @@ function ProfileScreen({ route, navigation }) {
               Location: { item.location }
             </Text>
             <Text style={ styles.textStyle }>
-              Species: { item.species } 
+              Species: <Text style={styles.profileTextStyle}>{ item.species }</Text>
             </Text>
+            {/* Can I map through this and then render each element? */}
             <Text style={ styles.textStyle }>
               Flavor Profile: { item.flavor_profile }
             </Text>
@@ -69,16 +69,22 @@ const styles = StyleSheet.create({
   },
   itemViewStyle: {
     position: "absolute",
-    marginBottom: 15,
+    top: 0,
+    bottom: 0,
+    left: 0,
+    right: 0
   },
-  itemSeparatorStyle: {
-    height: 3,
-    width: "100%",
-    backgroundColor: colors.primary,
+  profileStyle: {
+    padding: 25,
+    alignItems: 'flex-start',
+  },
+  profileTextStyle: {
+    fontStyle: 'italic'
   },
   textStyle: {
     color: colors.secondary,
-    fontSize: 20,
+    fontSize: 13,
+    fontWeight: '600'
   },
 });
 
