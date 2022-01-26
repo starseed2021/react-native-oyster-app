@@ -15,6 +15,8 @@ function ProfileScreen({ route, navigation }) {
 
   const { oysters } = route.params;
 
+  const ItemSeparator = () => <View style={styles.itemSeparatorStyle} />
+
   return (
     <SafeAreaView style={styles.container}>
       <Image
@@ -22,29 +24,29 @@ function ProfileScreen({ route, navigation }) {
         source={require("../assets/images/icon_shell.png")}
       />
       <FlatList
-        style={styles.itemViewStyle}
-        data={oysters}
-        keyExtractor={(item, index) => item + index}
-        // ItemSeparatorComponent={}
+        style={ styles.itemViewStyle }
+        data={ oysters }
+        keyExtractor={ (item, index) => item + index }
+        ItemSeparatorComponent={ ItemSeparator }
         renderItem={({ item }) => (
           <View>
-            <Text style={styles.textStyle}>
-              Location: {item.location}
+            <Text style={ styles.textStyle }>
+              Oyster Name: { item.oyster_name }
             </Text>
-            <Text style={styles.textStyle}>
-              Oyster Name: {item.oyster_name}
+            <Text style={ styles.textStyle }>
+              Location: { item.location }
             </Text>
-            <Text style={styles.textStyle}>
-              Species: {item.species}
+            <Text style={ styles.textStyle }>
+              Species: { item.species } 
             </Text>
-            <Text style={styles.textStyle}>
-              Flavor Profile: {item.flavorProfile}
+            <Text style={ styles.textStyle }>
+              Flavor Profile: { item.flavor_profile }
             </Text>
-            <Text style={styles.textStyle}>
-              Cultivation: {item.cultivation}
+            <Text style={ styles.textStyle }>
+              Cultivation: { item.cultivation }
             </Text>
-            <Text style={styles.textStyle}>
-              Size: {item.size}
+            <Text style={ styles.textStyle }>
+              Size: { item.size }
             </Text>
           </View>
         )}
@@ -68,6 +70,11 @@ const styles = StyleSheet.create({
   itemViewStyle: {
     position: "absolute",
     marginBottom: 15,
+  },
+  itemSeparatorStyle: {
+    height: 3,
+    width: "100%",
+    backgroundColor: colors.primary,
   },
   textStyle: {
     color: colors.secondary,

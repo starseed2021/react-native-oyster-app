@@ -11,84 +11,72 @@ import {
 
 import colors from "../config/colors";
 
-// IS THIS THE RIGHT SYNTAX???
-import oysterData from "../data/new_data.json";
 
 
 // HERE WILL BE THE SEARCH PAGE
 // SEARCH SCREEN COMPONENT
 function SearchScreen({ navigation }) {
-  // CREATED CONDITIONALS TO UPDATE THE STATE WHEN A SPECIFIC BUTTON IS TAPPED
   const onPressFunction = () => {
     // code to be fired on press
   };
 
   return (
-    <SafeAreaView style={styles.container}>
-      <Text style={styles.headerText}>SEARCH BY REGION</Text>
+    <SafeAreaView style={ styles.container }>
+      <Text style={ styles.headerText }>SEARCH BY REGION</Text>
 
       <TouchableOpacity
-        style={styles.button}
+        style={ styles.button }
         onPress={() =>
           navigation.push("Locations", {
             region: "Northeast",
           })
         }
       >
-        {/* <NorthEastRegion/> */}
-        <Text style={styles.buttonText}>Northeast</Text>
+        <Text style={ styles.buttonText }>Northeast</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
-        style={styles.button}
-        // onPress={() => setPacificNorthWest(!pacificNorthWest)}
+        style={ styles.button }
         onPress={() =>
           navigation.push("Locations", {
             region: "Pacific Northwest",
           })
         }
       >
-        <Text style={styles.buttonText}>Pacific Northwest</Text>
-        {/* <PacificNorthWestRegion /> */}
+        <Text style={ styles.buttonText }>Pacific Northwest</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
-        style={styles.button}
-        // onPress={() => setSouthEast(!southEast)}
+        style={ styles.button }
         onPress={() =>
           navigation.push("Locations", {
             region: "Southeast",
           })
         }
       >
-        <Text style={styles.buttonText}>Southeast</Text>
-        {/* <SouthEastRegion /> */}
+        <Text style={ styles.buttonText }>Southeast</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
-        style={styles.button}
-        // onPress={() => setSouthWest(!southWest)}
+        style={ styles.button }
         onPress={() =>
           navigation.push("Locations", {
             region: "Southwest",
           })
         }
       >
-        <Text style={styles.buttonText}>Southwest</Text>
-        {/* <SouthWestRegion /> */}
+        <Text style={ styles.buttonText }>Southwest</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
-        style={styles.button}
-        // onPress={() => setWest(!west)}
+        style={ styles.button }
         onPress={() =>
           navigation.push("Locations", {
             region: "West",
           })
         }
       >
-        <Text style={styles.buttonText}>West</Text>
-        {/* <WestRegion /> */}
+        <Text style={ styles.buttonText }>West</Text>
       </TouchableOpacity>
     </SafeAreaView>
   );
