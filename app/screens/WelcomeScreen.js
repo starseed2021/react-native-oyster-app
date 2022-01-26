@@ -11,8 +11,6 @@ import {
     Dimensions 
 } from 'react-native';
 
-import { useDimensions, useDeviceOrientation } from '@react-native-community/hooks';
-
 import colors from '../config/colors';
 
 

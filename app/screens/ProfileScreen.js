@@ -28,18 +28,24 @@ function ProfileScreen({ route, navigation }) {
         // ItemSeparatorComponent={}
         renderItem={({ item }) => (
           <View>
-            <Text style={styles.textStyle}>Location: {item.location}</Text>
+            <Text style={styles.textStyle}>
+              Location: {item.location}
+            </Text>
             <Text style={styles.textStyle}>
               Oyster Name: {item.oyster_name}
             </Text>
-            <Text style={styles.textStyle}>Species: {item.species}</Text>
+            <Text style={styles.textStyle}>
+              Species: {item.species}
+            </Text>
             <Text style={styles.textStyle}>
               Flavor Profile: {item.flavorProfile}
             </Text>
             <Text style={styles.textStyle}>
               Cultivation: {item.cultivation}
             </Text>
-            <Text style={styles.textStyle}>Size: {item.size}</Text>
+            <Text style={styles.textStyle}>
+              Size: {item.size}
+            </Text>
           </View>
         )}
       ></FlatList>

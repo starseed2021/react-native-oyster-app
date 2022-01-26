@@ -14,84 +14,10 @@ import colors from "../config/colors";
 // IS THIS THE RIGHT SYNTAX???
 import oysterData from "../data/new_data.json";
 
-// DUMMY DATA
-const dummyData = [
-  {
-    id: 1,
-    region: "Northeast",
-    data: ["NY", "CAN", "MA", "ME", "NJ"],
-  },
-  {
-    id: 2,
-    region: "Pacific Northwest",
-    data: ["CAN", "WA", "AK"],
-  },
-  {
-    id: 3,
-    region: "Southeast",
-    data: ["VA", "FL"],
-  },
-  {
-    id: 4,
-    region: "Southwest",
-    data: ["MEX"],
-  },
-  {
-    id: 5,
-    region: "West",
-    data: ["CA"],
-  },
-];
 
 // HERE WILL BE THE SEARCH PAGE
 // SEARCH SCREEN COMPONENT
-function SearchScreen({ route, navigation }) {
-  // MAKE A COMPONENT FOR EACH REGION AND ITS LOCATIONS ???
-  // const NorthEastRegion = () => {
-  //     const locationData = dummyData.data;
-  //     if (dummyData.region === 'Northeast') {
-  //         for (data of locationData) {
-  //             console.log(data)
-  //             return data;
-  //         }
-  //     }
-  // };
-
-  // Create useState for updating locations for each specific region
-
-  // const [region, setRegionLocations] = useState("")
-
-  // const [northEast, setNorthEast] = useState({
-  //         id: 1,
-  //         region: "Northeast",
-  //         data: ["NY", "CAN", "MA", "ME", "NJ"]
-  //     });
-  // const [pacificNorthWest, setPacificNorthWest] = useState({
-  //     id: 2,
-  //     region: "Pacific Northwest",
-  //     data: ["CAN", "WA", "AK"]
-  // });
-  // const [southEast, setSouthEast] = useState( {
-  //     id: 3,
-  //     region: "Southeast",
-  //     data: ["VA", "FL"]
-  // });
-  // const [southWest, setSouthWest] = useState({
-  //     id: 4,
-  //     region: "Southwest",
-  //     data: ["MEX"]
-  // });
-  // const [west, setWest] = useState( {
-  //     id: 5,
-  //     region: "West",
-  //     data: ["CA"]
-  // });
-
-  // useState for location
-  // update the state with specific region and its locations
-  // implement useEffect to access the specific keys in the json
-  // const [locations, setLocations] = useState();
-
+function SearchScreen({ navigation }) {
   // CREATED CONDITIONALS TO UPDATE THE STATE WHEN A SPECIFIC BUTTON IS TAPPED
   const onPressFunction = () => {
     // code to be fired on press
@@ -103,9 +29,6 @@ function SearchScreen({ route, navigation }) {
 
       <TouchableOpacity
         style={styles.button}
-        // onPress={() => setNorthEast(!northEast)}
-        // can pass in multiple items as strings
-        // location variable can grab location oyster data
         onPress={() =>
           navigation.push("Locations", {
             region: "Northeast",

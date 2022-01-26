@@ -228,6 +228,7 @@ function DetailsScreen({ route, navigation }) {
   //         <View style={styles.itemSeparatorStyle} />
   //     )
   // }
+  
   const { region } = route.params;
 
   return (
