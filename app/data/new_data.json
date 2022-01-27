@@ -4,7 +4,7 @@
         "region": "Northeast",
         "data": [
             {
-                "location": "CAN",
+                "location": "Canada",
                 "oysters": [
                     {
                         "oyster_name": "Alba Bras D'or Lakes",
@@ -150,7 +150,7 @@
                 ]
             },
             {
-                "location": "CT",
+                "location": "Connecticut",
                 "oysters": [
                     {
                         "oyster_name": "Duck Island Petite",
@@ -193,7 +193,7 @@
                 ]
             },
             {
-                "location": "ME",
+                "location": "Maine",
                 "oysters": [
                     {
                         "oyster_name": "Belon",
@@ -320,7 +320,7 @@
                 ]
             },
             {
-                "location": "MA",
+                "location": "Massachusetts",
                 "oysters": [
                     {
                         "oyster_name": "Barnstable",
@@ -430,7 +430,7 @@
                 ]
             },
             {
-                "location": "NJ",
+                "location": "New Jersey",
                 "oysters": [
                     {
                         "oyster_name": "Cape May Salt",
@@ -459,7 +459,7 @@
                 ]
             },
             {
-                "location": "NY",
+                "location": "New York",
                 "oysters": [
                     {
                         "oyster_name": "Bluepoint Genuine",
@@ -502,7 +502,7 @@
                 ]
             },
             {
-                "location": "RI",
+                "location": "Rhode Island",
                 "oysters": [
                     {
                         "oyster_name": "East Beach Blonde",
@@ -537,7 +537,7 @@
         "region": "Pacific Northwest",
         "data": [
             {
-                "location": "AK",
+                "location": "Alaska",
                 "oysters": [
                     {
                         "oyster_name": "Alaska Gold",
@@ -568,7 +568,7 @@
                 ]
             },
             {
-                "location": "CAN",
+                "location": "Canada",
                 "oysters": [
                     {
                         "oyster_name": "Baynes Sound",
@@ -774,7 +774,7 @@
                 ]
             },
             {
-                "location": "WA",
+                "location": "Washington",
                 "oysters": [
                     {
                         "oyster_name": "Amai",
@@ -1137,7 +1137,7 @@
         "region": "Southeast",
         "data": [
             {
-                "location": "VA",
+                "location": "Virginia",
                 "oysters": [
                     {
                         "oyster_name": "Bogues Bay",
@@ -1230,7 +1230,7 @@
                 ]
             },
             {
-                "location": "SC",
+                "location": "South Carolina",
                 "oysters": [
                     {
                         "oyster_name": "Lady's Island (Single Lady)",
@@ -1248,7 +1248,7 @@
                 ]
             },
             {
-                "location": "FL",
+                "location": "Florida",
                 "oysters": [
                     {
                         "oyster_name": "Apalachicola",
@@ -1300,7 +1300,7 @@
         "region": "Southwest",
         "data": [
             {
-                "location": "MEX",
+                "location": "Mexico",
                 "oysters": [
                     {
                         "oyster_name": "Kumamoto",
@@ -1349,7 +1349,7 @@
         "region": "West",
         "data": [
             {
-                "location": "CA",
+                "location": "California",
                 "oysters": [
                     {
                         "oyster_name": "Carisbad Blonde",

@@ -30,7 +30,7 @@ function DetailsScreen({ route, navigation }) {
   return (
     <SafeAreaView style={ styles.container }>
       <SectionList
-        ItemSeparatorComponent={ ItemSeparator }
+        // ItemSeparatorComponent={ ItemSeparator }
         sections={ oysterData.filter((item) => item.region == region)}
         renderItem={({ item }) => (
           <TouchableOpacity
@@ -67,19 +67,19 @@ const styles = StyleSheet.create({
   itemTextStyle: {
     backgroundColor: colors.secondary,
     color: colors.primary,
-    fontSize: 15,
+    fontSize: 18,
     height: 50,
     padding: 10,
     marginVertical: 3,
-    textAlign: "auto",
+    textAlign: "center",
   },
   sectionHeader: {
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: "bold",
     backgroundColor: colors.primary,
     color: colors.secondary,
     padding: 10,
-    textAlign: "auto",
+    textAlign: "center",
   },
   // itemSeparatorStyle: {
   //   height: 2,

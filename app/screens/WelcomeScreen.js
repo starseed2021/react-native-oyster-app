@@ -26,7 +26,7 @@ function WelcomeScreen({ navigation }) {
                 <Image 
                 source={require('../assets/images/icon_shell.png')}/>
             </TouchableOpacity>
-            <Text style={styles.shellText}>Tap Oyster</Text>
+            {/* <Text style={styles.shellText}>Tap Oyster</Text> */}
             <StatusBar sytle='auto' />
 
             {/* CREATE FOOTER BACKGROUND; COLORS REVERSED; BUTTON DISPLAYED */}

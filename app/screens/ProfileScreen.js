@@ -11,11 +11,18 @@ import {
 
 import colors from "../config/colors";
 
-function ProfileScreen({ route, navigation }) {
+function ProfileScreen({ route }) {
   // USE GET PARAM TO GRAB THE KEYS OF THE OBJECT TO DISPLAY
-
-
+  
   const { oysters } = route.params;
+
+  
+  const renderFlavorProfile = ( flavorProfile ) => {
+      const flavors = flavorProfile.join(', ')
+      return (
+        <Text key={ flavors } style={styles.renTextStyle}> { flavors } </Text>
+        )
+      }
 
   return (
     <SafeAreaView style={styles.container}>
@@ -30,23 +37,29 @@ function ProfileScreen({ route, navigation }) {
         renderItem={({ item }) => (
           <View style={styles.profileStyle}>
             <Text style={ styles.textStyle }>
-              Oyster Name: { item.oyster_name }
+              Oyster Name: 
+              <Text style={styles.renTextStyle}> { item.oyster_name }</Text>
             </Text>
             <Text style={ styles.textStyle }>
-              Location: { item.location }
+              Location: 
+              <Text style={styles.renTextStyle}> { item.location }</Text>
             </Text>
             <Text style={ styles.textStyle }>
-              Species: <Text style={styles.profileTextStyle}>{ item.species }</Text>
+              Species: 
+              <Text style={styles.profileTextStyle}> { item.species }</Text>
             </Text>
             {/* Can I map through this and then render each element? */}
             <Text style={ styles.textStyle }>
-              Flavor Profile: { item.flavor_profile }
+              Flavor Profile: 
+              {renderFlavorProfile(item.flavor_profile)}
             </Text>
             <Text style={ styles.textStyle }>
-              Cultivation: { item.cultivation }
+              Cultivation: 
+              <Text style={styles.renTextStyle}> { item.cultivation }</Text>
             </Text>
             <Text style={ styles.textStyle }>
-              Size: { item.size }
+              Size: 
+              <Text style={styles.renTextStyle}> { item.size }</Text>
             </Text>
           </View>
         )}
@@ -79,11 +92,19 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
   },
   profileTextStyle: {
-    fontStyle: 'italic'
+    fontStyle: 'italic',
+    color: colors.highlight,
+    fontSize: 15,
+    fontWeight: '500'
+  },
+  renTextStyle: {
+    color: colors.highlight,
+    fontSize: 15,
+    fontWeight: '500'
   },
   textStyle: {
+    fontSize: 18,
     color: colors.secondary,
-    fontSize: 13,
     fontWeight: '600'
   },
 });
