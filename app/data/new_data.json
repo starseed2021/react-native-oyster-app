@@ -146,6 +146,69 @@
                         ],
                         "cultivation": "Bottom Cultured",
                         "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "La Saint Simon",
+                        "location": "New Brunswick, Canada",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "light-bodied",
+                            "medium brininess",
+                            "sweet finish"
+                        ],
+                        "cultivation": "Upweller the Off-Bottom Bag",
+                        "size": "up to 2.5 inches"
+                    },
+                    {
+                        "oyster_name": "Lameque",
+                        "location": "New Brunswick, Canada",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "delicate",
+                            "medium brininess",
+                            "vegetable and forest flavors",
+                            "sweet finish"
+                        ],
+                        "cultivation": "N/A",
+                        "size": "up to 2.5 inches"
+                    },
+                    {
+                        "oyster_name": "Little Shemogue",
+                        "location": "New Brunswick, Canada",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "creamy",
+                            "sweet",
+                            "clean, mineral finish"
+                        ],
+                        "cultivation": "Both Bottom Cultured & Suspension Cultivated",
+                        "size": "2.5 to 5 inches"
+                    },
+                    {
+                        "oyster_name": "Malagash Thrumcap",
+                        "location": "Nova Scotia, Canada",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "firm meat",
+                            "mild vegetal flavor"
+                        ],
+                        "cultivation": "Bottom Cultured",
+                        "size": "up to 4 inches"
+                    },
+                    {
+                        "oyster_name": "Malpeque",
+                        "location": "Prince Edward Island, Canada",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "tender meat",
+                            "crisp",
+                            "clean",
+                            "sweet",
+                            "balanced brinines",
+                            "lettuce and pickle notes"
+                        ],
+                        "cultivation": "Bottom Cultured",
+                        "size": "up to 3 inches"
                     }
                 ]
             },
@@ -189,6 +252,32 @@
                         ],
                         "cultivation": "Upwellers to Floating Bag to Bottom Cultivated then Tumbled",
                         "size": "N/A"
+                    },
+                    {
+                        "oyster_name": "Mystic",
+                        "location": "Connecticut",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "high brininess",
+                            "mineral",
+                            "metallic, robust flavor"
+                        ],
+                        "cultivation": "Upwellers to Bottom Cultured",
+                        "size": "up to 4 inches"
+                    },
+                    {
+                        "oyster_name": "Ned's Island",
+                        "location": "Long Island Sound, Connecticut",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "firm meat",
+                            "complex, sweet flavor",
+                            "lively medium brininess",
+                            "tannic",
+                            "green peppery"
+                        ],
+                        "cultivation": "Off-Bottom Floating Cage Cultivation",
+                        "size": "3 to 4 inches"
                     }
                 ]
             },
@@ -426,6 +515,31 @@
                         ],
                         "cultivation": "Rack and Bag Culivated",
                         "size": "up to 3.5 inches"
+                    },
+                    {
+                        "oyster_name": "Martha's Vineyard",
+                        "location": "Massachusetts",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "creamy meat",
+                            "clean flavor",
+                            "inconsistent brininess",
+                            "notes of seaweed"
+                        ],
+                        "cultivation": "Rack and Bag Culivated",
+                        "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Moon Shoal",
+                        "location": "Cape Cod Bay, Massachusetts",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "savory, sweet cream flavor",
+                            "notes of herbal and mineral flavors",
+                            "fruit and citrusy finish"
+                        ],
+                        "cultivation": "Suspension Tray to Beach",
+                        "size": "N/A"
                     }
                 ]
             },
@@ -498,6 +612,31 @@
                         ],
                         "cultivation": "N/A",
                         "size": "N/A"
+                    },
+                    {
+                        "oyster_name": "Mecox Bay",
+                        "location": "New York",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "mild, crisp flavor",
+                            "low salinity",
+                            "slightly sweet"
+                        ],
+                        "cultivation": "Wild, Bottom Cultured",
+                        "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Naked Cowboy",
+                        "location": "Long Island, New York",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "firm, plump meat",
+                            "briny",
+                            "savory",
+                            "mineral notes"
+                        ],
+                        "cultivation": "Wild, Bottom Cultured",
+                        "size": "up to 4 inches"
                     }
                 ]
             },
@@ -527,6 +666,19 @@
                         ],
                         "cultivation": "Rack and Bag Cultivated",
                         "size": "N/A"
+                    },
+                    {
+                        "oyster_name": "Moonstone",
+                        "location": "Rhode Island",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "briny",
+                            "full bodied",
+                            "rich umami taste",
+                            "mineral notes"
+                        ],
+                        "cultivation": "Rack and Bag Cultivated",
+                        "size": "up to 4 inches"
                     }
                 ]
             }
@@ -770,6 +922,44 @@
                         ],
                         "cultivation": "Suspended Tray and Tumbled",
                         "size": "up to 2.5 inches"
+                    },
+                    {
+                        "oyster_name": "Lambertini",
+                        "location": "British Columbia",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "clean",
+                            "light",
+                            "crisp, balanced brininess"
+                        ],
+                        "cultivation": "Wild Beach Cultivated",
+                        "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Malaspina",
+                        "location": "Vancouver Island, BC",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "plump, creamy meat",
+                            "mild",
+                            "sweet",
+                            "medium brininess",
+                            "notes of watermelon"
+                        ],
+                        "cultivation": "Suspended Tray Cultivation",
+                        "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Metcalfe Bay",
+                        "location": "British Columbia",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "plump, creamy meat",
+                            "sweet flavor",
+                            "smoky finish"
+                        ],
+                        "cultivation": "Suspension Tray Cultivation",
+                        "size": "up to 4 inches"
                     }
                 ]
             },
@@ -1127,6 +1317,82 @@
                         ],
                         "cultivation": "Beach Cultivated",
                         "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Maple Point",
+                        "location": "Southern Puget Sound",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "full plump meat",
+                            "mild brininess",
+                            "light and sweet flavor",
+                            "cucumber, clean finish"
+                        ],
+                        "cultivation": "Beach Cultivated",
+                        "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Marrowstone",
+                        "location": "Northern Puget Sound",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "firm plump meat",
+                            "medium brininess",
+                            "sweet flavor",
+                            "honeydew finish"
+                        ],
+                        "cultivation": "Beach Cultivated",
+                        "size": "up to 4 inches"
+                    },
+                    {
+                        "oyster_name": "Minter Sweet Select",
+                        "location": "Central Puget Sound",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "plump full meat",
+                            "medium brininess",
+                            "sweet finish"
+                        ],
+                        "cultivation": "Suspension Tray Cultivation",
+                        "size": "up to 4 inches"
+                    },
+                    {
+                        "oyster_name": "Mirada",
+                        "location": "Hood Canal, WA",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "full meat",
+                            "medium brininess",
+                            "sweet finish"
+                        ],
+                        "cultivation": "Beach Cultivated",
+                        "size": "up to 3.5 inches"
+                    },
+                    {
+                        "oyster_name": "Miyagi",
+                        "location": "Southern Puget Sound",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "full meat",
+                            "medium brininess",
+                            "crisp flavor"
+                        ],
+                        "cultivation": "Intertidal Beach Cultivation",
+                        "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Naked Roy's Beach",
+                        "location": "Northern Puget Sound",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "mild brininess",
+                            "rich",
+                            "sweet",
+                            "fruity",
+                            "mineral notes"
+                        ],
+                        "cultivation": "Suspension Line Cultivated",
+                        "size": "up to 3 inches"
                     }
                 ]
             }
@@ -1430,6 +1696,20 @@
                         ],
                         "cultivation": "Rack and Bag",
                         "size": "up to 4 inches"
+                    },
+                    {
+                        "oyster_name": "Luna",
+                        "location": "Southern California",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "delicate meat",
+                            "sweet",
+                            "briny",
+                            "hint of sweet melon",
+                            "subtle metallic finish"
+                        ],
+                        "cultivation": "Suspended Long-Line Tray Cultured",
+                        "size": "up to 3 inches"
                     }
                 ]
             }

@@ -28,9 +28,9 @@ function IntroScreen({ navigation }) {
             </Text>
             <Text style={styles.textBodyStyle}>
                 Birth of Pearl was created with you in mind.
-                Explore your favorite oysters from the various regions of the Americas. 
-                Obtain their profiles and acquire the knowledge to take with you to any restaurant, farmers market, or excursion.
-
+                Explore your favorite oysters from the various regions of North America. 
+                Obtain their profiles and get the right information you need to take with you to any restaurant, farmers market, or excursion.
+            
                 <View>
                 <Text style={styles.quoteText}>
                 "I do not weep at the world. I am too busy sharpening my oyster knife."                                                                                          - Zora Neale Hurston

@@ -44,7 +44,6 @@ function DetailsScreen({ route, navigation }) {
           >
             <Text
               style={ styles.itemTextStyle }
-              // onPress={() => alert(JSON.stringify(item))}
             >
               { item.location }
             </Text>

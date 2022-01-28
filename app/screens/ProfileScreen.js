@@ -11,9 +11,7 @@ import {
 
 import colors from "../config/colors";
 
-function ProfileScreen({ route }) {
-  // USE GET PARAM TO GRAB THE KEYS OF THE OBJECT TO DISPLAY
-  
+function ProfileScreen({ route }) {  
   const { oysters } = route.params;
 
   
@@ -48,7 +46,6 @@ function ProfileScreen({ route }) {
               Species: 
               <Text style={styles.profileTextStyle}> { item.species }</Text>
             </Text>
-            {/* Can I map through this and then render each element? */}
             <Text style={ styles.textStyle }>
               Flavor Profile: 
               {renderFlavorProfile(item.flavor_profile)}

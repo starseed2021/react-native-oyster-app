@@ -9,12 +9,8 @@ import {
 
 import colors from "../config/colors";
 
-// HERE WILL BE THE SEARCH PAGE
-// SEARCH SCREEN COMPONENT
+
 function SearchScreen({ navigation }) {
-  const onPressFunction = () => {
-    // code to be fired on press
-  };
 
   return (
     <SafeAreaView style={ styles.container }>
