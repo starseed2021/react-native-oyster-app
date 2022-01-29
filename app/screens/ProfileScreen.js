@@ -25,7 +25,7 @@ function ProfileScreen({ route }) {
   return (
     <SafeAreaView style={styles.container}>
       <Image
-        style={styles.iconStyle}
+        style={styles.shellStyle}
         source={require("../assets/images/icon_shell.png")}
       />
       <FlatList
@@ -34,7 +34,7 @@ function ProfileScreen({ route }) {
         keyExtractor={ (item, index) => item + index }
         renderItem={({ item }) => (
           <View style={styles.profileStyle}>
-            <Text style={ styles.textStyle }>
+              <Text style={ styles.textStyle }>
               Oyster Name: 
               <Text style={styles.renTextStyle}> { item.oyster_name }</Text>
             </Text>
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  iconStyle: {
+  shellStyle: {
     height: "50%",
     width: "125%",
     opacity: 0.25,
@@ -85,10 +85,13 @@ const styles = StyleSheet.create({
     right: 0
   },
   profileStyle: {
-    padding: 25,
+    // create styling for each oyster profile
+    // maybe a border or elevation look like a button??
+    padding: 35,
     alignItems: 'flex-start',
   },
   profileTextStyle: {
+    // strictly for species' value
     fontStyle: 'italic',
     color: colors.highlight,
     fontSize: 15,
@@ -100,9 +103,9 @@ const styles = StyleSheet.create({
     fontWeight: '500'
   },
   textStyle: {
-    fontSize: 18,
+    fontSize: 15,
     color: colors.secondary,
-    fontWeight: '600'
+    fontWeight: '500'
   },
 });
 

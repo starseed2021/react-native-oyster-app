@@ -37,7 +37,6 @@ function DetailsScreen({ route, navigation }) {
             style={ styles.itemStyle }
             onPress={() =>
               navigation.push("Oyster Profile", {
-                // How to pass in params dynamically??
                 oysters: item.oysters,
               })
             }
@@ -50,7 +49,9 @@ function DetailsScreen({ route, navigation }) {
           </TouchableOpacity>
         )}
         renderSectionHeader={({ section }) => (
-          <Text style={styles.sectionHeader}>{ section.region }</Text>
+          <View style={styles.headerStyle}>
+            <Text style={styles.headerText}>{ section.region }</Text>
+          </View>
         )}
         keyExtractor={ (item, index) => item + index }
       />
@@ -62,18 +63,39 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.secondary,
+
+  },
+  itemStyle: {
+    backgroundColor: colors.primary,
+    width: "70%",
+    height: 70,
+    left: 60,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 15,
+    shadowColor: "black",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.8,
+    elevation: 3,
+    marginBottom: 15,
   },
   itemTextStyle: {
-    backgroundColor: colors.secondary,
-    color: colors.primary,
+    color: colors.secondary,
     fontSize: 18,
+    fontWeight: '500',
     height: 50,
     padding: 10,
-    marginVertical: 3,
-    textAlign: "center",
   },
-  sectionHeader: {
-    fontSize: 24,
+  headerStyle: {
+    marginBottom: 25,
+
+  },
+  headerText: {
+    fontSize: 25,
     fontWeight: "bold",
     backgroundColor: colors.primary,
     color: colors.secondary,

@@ -1,5 +1,5 @@
 export default {
     primary: 'cadetblue',
     secondary: 'blanchedalmond',
-    highlight: '#6e5fa0'
+    highlight: '#2d4a4b'
 }
