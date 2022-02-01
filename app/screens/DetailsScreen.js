@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   StyleSheet,
   Text,
@@ -16,21 +16,12 @@ import data from "../data/new_data.json";
 const oysterData = data; 
 
 function DetailsScreen({ route, navigation }) {
-
-  // const SectionListItemSeparator = () => {
-  //     return (
-  //         <View style={styles.itemSeparatorStyle} />
-  //     )
-  // }
   
   const { region } = route.params;
-
-  const ItemSeparator = () => <View style={styles.itemSeparatorStyle} />
 
   return (
     <SafeAreaView style={ styles.container }>
       <SectionList
-        // ItemSeparatorComponent={ ItemSeparator }
         sections={ oysterData.filter((item) => item.region == region)}
         renderItem={({ item }) => (
           <TouchableOpacity
@@ -101,12 +92,7 @@ const styles = StyleSheet.create({
     color: colors.secondary,
     padding: 10,
     textAlign: "center",
-  },
-  // itemSeparatorStyle: {
-  //   height: 2,
-  //   width: "100%",
-  //   backgroundColor: colors.primary,
-  // },
+  }
 });
 
 export default DetailsScreen;

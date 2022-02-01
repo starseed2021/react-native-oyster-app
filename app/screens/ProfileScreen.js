@@ -86,26 +86,43 @@ const styles = StyleSheet.create({
   },
   profileStyle: {
     // create styling for each oyster profile
-    // maybe a border or elevation look like a button??
+    // maybe a border or elevation look like a card??
+    // text in full color; background of card opaque
     padding: 35,
     alignItems: 'flex-start',
+    backgroundColor: colors.secondary,
+    opacity: .55,
+    borderRadius: 24,
+    marginTop: 16,
+    marginBottom: 16,
+    marginLeft: 12,
+    marginRight: 12,
+  //   shadowColor: colors.shadow,
+  //   shadowOffset: {
+  //     width: 0,
+  //     height: 1,
+  //   },
+  //   // sO: .22, sR: 2.22, e: 3
+  //   shadowOpacity: 0.22,
+  //   shadowRadius: 2.22,
+  //   elevation: 3,
   },
   profileTextStyle: {
     // strictly for species' value
     fontStyle: 'italic',
     color: colors.highlight,
     fontSize: 15,
-    fontWeight: '500'
+    fontWeight: '600'
   },
   renTextStyle: {
     color: colors.highlight,
     fontSize: 15,
-    fontWeight: '500'
+    fontWeight: '600'
   },
   textStyle: {
     fontSize: 15,
-    color: colors.secondary,
-    fontWeight: '500'
+    color: colors.highlight,
+    fontWeight: '700'
   },
 });
 

@@ -209,6 +209,30 @@
                         ],
                         "cultivation": "Bottom Cultured",
                         "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Northumberland",
+                        "location": "New Brunswick, Canada",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "very mild, clean crisp taste",
+                            "mild, fruity finish"
+                        ],
+                        "cultivation": "Wild Bottom Harvested",
+                        "size": "4 inches and up"
+                    },
+                    {
+                        "oyster_name": "Pickle Point",
+                        "location": "Prince Edward Island, Canada",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "firm meat",
+                            "exceptionally sweet",
+                            "high salinity",
+                            "lemony aftertaste"
+                        ],
+                        "cultivation": "N/A",
+                        "size": "up to 3.5 inches"
                     }
                 ]
             },
@@ -405,6 +429,68 @@
                         ],
                         "cultivation": "Bottom Cultivated",
                         "size": "up to 8 inches"
+                    },
+                    {
+                        "oyster_name": "Nonesuch - Belons",
+                        "location": "Portland, Maine",
+                        "species": "Ostrea Edulis - European Flat",
+                        "flavor_profile": [
+                            "bold brininess",
+                            "strong flavor",
+                            "hazelnut finish"
+                        ],
+                        "cultivation": "Floating Bag Cultivation",
+                        "size": "up to 6 inches"
+                    },
+                    {
+                        "oyster_name": "Nonesuch - Virginicas",
+                        "location": "Portland, Maine",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "high brininess",
+                            "fresh",
+                            "salty-sweet",
+                            "grassy notes",
+                            "bitter green olive finish"
+                        ],
+                        "cultivation": "Floating Bag Cultivation",
+                        "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "North Haven",
+                        "location": "Maine",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "firm",
+                            "high salinity",
+                            "crisp, clean refreshing finish"
+                        ],
+                        "cultivation": "Upwellers to Floating Bag to Bottom Cultivated",
+                        "size": "up to 4 inches"
+                    },
+                    {
+                        "oyster_name": "Norumbega",
+                        "location": "Maine",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "light salinity",
+                            "mild, tangy flavor"
+                        ],
+                        "cultivation": "Floating Bags to Bottom Cultivated",
+                        "size": "N/A"
+                    },
+                    {
+                        "oyster_name": "Pemaquid",
+                        "location": "Maine",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "plump, firm meat",
+                            "very briny",
+                            "mildly sweet",
+                            "clean, bright lemon zest notes"
+                        ],
+                        "cultivation": "Bottom Cultivated",
+                        "size": "up to 5 inches"
                     }
                 ]
             },
@@ -540,6 +626,55 @@
                         ],
                         "cultivation": "Suspension Tray to Beach",
                         "size": "N/A"
+                    },
+                    {
+                        "oyster_name": "Onset - Cultured",
+                        "location": "Massachusetts",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "high brininess",
+                            "seaweed notes",
+                            "mineral finish",
+                            "delicate"
+                        ],
+                        "cultivation": "Upweller then Rack and Bag",
+                        "size": "up to 4 inches"
+                    },
+                    {
+                        "oyster_name": "Onset - Wild",
+                        "location": "Massachusetts",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "high brininess",
+                            "strong sea flavored",
+                            "mineral finish"
+                        ],
+                        "cultivation": "Wild Bottom Harvested",
+                        "size": "up to 3.5 inches"
+                    },
+                    {
+                        "oyster_name": "Pleasant Bay",
+                        "location": "Massachusetts",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "briny",
+                            "crisp, clean, buttery texture",
+                            "sweet finish"
+                        ],
+                        "cultivation": "Rack and Bag Cultivated",
+                        "size": "up to 4 inches"
+                    },
+                    {
+                        "oyster_name": "Plymouth Rock",
+                        "location": "Massachusetts",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "chewy meat",
+                            "extreme brininess",
+                            "bright and clean"
+                        ],
+                        "cultivation": "Wild Bottom Harvested",
+                        "size": "up to 3 inches"
                     }
                 ]
             },
@@ -637,6 +772,42 @@
                         ],
                         "cultivation": "Wild, Bottom Cultured",
                         "size": "up to 4 inches"
+                    },
+                    {
+                        "oyster_name": "Oysterponds",
+                        "location": "Long Island, New York",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "very flavorful",
+                            "savory",
+                            "high brininess",
+                            "metallic bite"
+                        ],
+                        "cultivation": "Rack and Bag Cultivated",
+                        "size": "4 inches and up"
+                    },
+                    {
+                        "oyster_name": "Peconic Bay",
+                        "location": "Long Island, New York",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "plump meat",
+                            "full, buttery flavor"
+                        ],
+                        "cultivation": "Rack and Bag Cultivated",
+                        "size": "3 to 5 inches"
+                    },
+                    {
+                        "oyster_name": "Pipes Cove",
+                        "location": "Long Island, New York",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "plump meat",
+                            "medium brininess",
+                            "iron notes"
+                        ],
+                        "cultivation": "N/A",
+                        "size": "up to 3 inches"
                     }
                 ]
             },
@@ -679,6 +850,18 @@
                         ],
                         "cultivation": "Rack and Bag Cultivated",
                         "size": "up to 4 inches"
+                    },
+                    {
+                        "oyster_name": "Ninigret Cup",
+                        "location": "Rhode Island",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "smooth and buttery",
+                            "sweet",
+                            "mild, saline finish"
+                        ],
+                        "cultivation": "Rack and Tray Suspension to Bottom Cultured",
+                        "size": "up to 3 inches"
                     }
                 ]
             }
@@ -957,6 +1140,83 @@
                             "plump, creamy meat",
                             "sweet flavor",
                             "smoky finish"
+                        ],
+                        "cultivation": "Suspension Tray Cultivation",
+                        "size": "up to 4 inches"
+                    },
+                    {
+                        "oyster_name": "Nootka Sound",
+                        "location": "Vancouver Island, BC",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "complex flavor",
+                            "high brininess",
+                            "nutty sweetness of nori",
+                            "hint of anise"
+                        ],
+                        "cultivation": "Intertidal Beach Cultivation",
+                        "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Okeover Organic",
+                        "location": "British Columbia ",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "fresh, cucumber finish"
+                        ],
+                        "cultivation": "Suspended Tray and Tumbled then Beach Cultured",
+                        "size": "2 to 7 inches"
+                    },
+                    {
+                        "oyster_name": "Pearl Bay",
+                        "location": "British Columbia ",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "medium to high brininess",
+                            "smooth, sweet flavor",
+                            "cucumber finish"
+                        ],
+                        "cultivation": "Suspended Tray Cultivation",
+                        "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Phantom Creek",
+                        "location": "British Columbia",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "petite, plump meat",
+                            "mild flavor",
+                            "clean finish"
+                        ],
+                        "cultivation": "Suspended Tray Cultivation to Beach Cultivation",
+                        "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Quadra Island",
+                        "location": "British Columbia",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "petite meat",
+                            "mild flavor",
+                            "hints of anise",
+                            "tarragon and green apple"
+                        ],
+                        "cultivation": "Suspended Tray Cultivation",
+                        "size": "up to 3 inches"
+                    }
+                ]
+            },
+            {
+                "location": "Oregon",
+                "oysters": [
+                    {
+                        "oyster_name": "Pearl Point",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "location": "Oregon Coast, OR",
+                        "flavor_profile": [
+                            "plump meat",
+                            "medium brininess",
+                            "sweet, clean melon finish"
                         ],
                         "cultivation": "Suspension Tray Cultivation",
                         "size": "up to 4 inches"
@@ -1393,6 +1653,108 @@
                         ],
                         "cultivation": "Suspension Line Cultivated",
                         "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Nisqually Sweet",
+                        "location": "Southern Puget Sound",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "plump buttery meat",
+                            "bright brininess",
+                            "sweet flavor"
+                        ],
+                        "cultivation": "Beach Cultivated",
+                        "size": "up to 5 inches"
+                    },
+                    {
+                        "oyster_name": "Olympia",
+                        "location": "Southern Puget Sound",
+                        "species": "Ostrea Lurida - Olympia",
+                        "flavor_profile": [
+                            "small meat",
+                            "high brininess",
+                            "sweet, melon finish",
+                            "coppery",
+                            "celery-salt notes",
+                            "musky"
+                        ],
+                        "cultivation": "Beach Grown",
+                        "size": "1.5 to 2 inches"
+                    },
+                    {
+                        "oyster_name": "Olympic Miyagi",
+                        "location": "Hood Canal, WA",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "full meat",
+                            "mild brininess",
+                            "crisp flavor"
+                        ],
+                        "cultivation": "Beach Cultivated",
+                        "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Otter Cove",
+                        "location": "Northern Puget Sound",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "plump meat",
+                            "medium-high brininess",
+                            "mild",
+                            "clean",
+                            "sweet"
+                        ],
+                        "cultivation": "Beach to Rack and Bag",
+                        "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Oysterville Select",
+                        "location": "Washington Coast",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "briny",
+                            "delicate texture",
+                            "rich, complex flavor",
+                            "fruity finish"
+                        ],
+                        "cultivation": "Beach Grown",
+                        "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Pebble Cove",
+                        "location": "Hood Canal, WA",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "full meat",
+                            "medium brininess",
+                            "clean, lettuce-like flavor"
+                        ],
+                        "cultivation": "Rack and Bag Cultivated",
+                        "size": "up to 3.5 inches"
+                    },
+                    {
+                        "oyster_name": "Penn Cove Select",
+                        "location": "Northern Puget Sound",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "firm meat",
+                            "bright brininess",
+                            "fresh, cucumber finish"
+                        ],
+                        "cultivation": "Beach Cultivated then Bag Suspended",
+                        "size": "up to 4 inches"
+                    },
+                    {
+                        "oyster_name": "Port Gamble",
+                        "location": "Hood Canal, WA",
+                        "species": "Crassostrea Gigas - Pacific",
+                        "flavor_profile": [
+                            "firm meat",
+                            "medium brininess",
+                            "mildly sweet flavor"
+                        ],
+                        "cultivation": "Beach Cultivated",
+                        "size": "up to 8 inches"
                     }
                 ]
             }
@@ -1492,6 +1854,67 @@
                         ],
                         "cultivation": "Wild=Bottom Cultured, Aquacultured=Rack and Bag Cultivated",
                         "size": "up to 4 inches"
+                    },
+                    {
+                        "oyster_name": "New Point",
+                        "location": "Chesapeake, VA",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "meaty",
+                            "mild flavor",
+                            "buttery, smooth texture"
+                        ],
+                        "cultivation": "Floating Tray Cultivated",
+                        "size": "N/A"
+                    },
+                    {
+                        "oyster_name": "Olde Salt",
+                        "location": "Chesapeake, VA",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "very salty",
+                            "smooth",
+                            "clean"
+                        ],
+                        "cultivation": "Off-Bottom Rack and Bag Cultured",
+                        "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Paramour",
+                        "location": "Chesapeake, VA",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "firm meat",
+                            "mild salinity",
+                            "lettuce notes",
+                            "clean, fruity finish"
+                        ],
+                        "cultivation": "N/A",
+                        "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Parrot Island Oyster",
+                        "location": "Chesapeake, VA",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "creamy meat",
+                            "mild brininess",
+                            "slightly sweet"
+                        ],
+                        "cultivation": "Rack and Bag Cultivated",
+                        "size": "up to 3 inches"
+                    },
+                    {
+                        "oyster_name": "Pungoteague Creek",
+                        "location": "Chesapeake, VA",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "light-bodied",
+                            "balanced salinity",
+                            "rusty, alkaline finish"
+                        ],
+                        "cultivation": "N/A",
+                        "size": "N/A"
                     }
                 ]
             },
@@ -1555,6 +1978,47 @@
                             "umami taste"
                         ],
                         "cultivation": "N/A",
+                        "size": "N/A"
+                    },
+                    {
+                        "oyster_name": "Pepper Grove",
+                        "location": "Gulf Coast",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "large firm meat",
+                            "high brininess",
+                            "chewy",
+                            "green bean and asparagus notes",
+                            "umami taste"
+                        ],
+                        "cultivation": "N/A",
+                        "size": "N/A"
+                    },
+                    {
+                        "oyster_name": "Pepper Grove",
+                        "location": "Gulf Coast",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "large firm meat",
+                            "high brininess",
+                            "chewy",
+                            "green bean and asparagus notes",
+                            "umami taste"
+                        ],
+                        "cultivation": "N/A",
+                        "size": "N/A"
+                    },
+                    {
+                        "oyster_name": "Point aux Pins",
+                        "location": "Gulf Coast",
+                        "species": "Crassostrea Virginicas - Atlantic",
+                        "flavor_profile": [
+                            "plump meat",
+                            "clean",
+                            "creamy",
+                            "light brininess"
+                        ],
+                        "cultivation": "Cylindrical Cage Tumbled",
                         "size": "N/A"
                     }
                 ]
