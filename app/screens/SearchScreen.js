@@ -4,70 +4,80 @@ import {
   Text,
   SafeAreaView,
   TouchableOpacity,
+  Alert
 } from "react-native";
 
 import colors from "../config/colors";
 
+function SearchScreen({ route, navigation }) {
+  const { fact } = route.params;
 
-function SearchScreen({ navigation }) {
-
+  React.useEffect(() => {
+    Alert.alert(
+      "Oyster Fact of the Day", fact,
+      [
+        { text: "OK" }
+      ]
+    );
+  },
+    []
+  )
   return (
-    <SafeAreaView style={ styles.container }>
-      <Text style={ styles.headerText }>SEARCH BY REGION</Text>
-
+    <SafeAreaView style={styles.container}>
+      <Text style={styles.headerText}>SEARCH BY REGION</Text>
       <TouchableOpacity
-        style={ styles.button }
+        style={styles.button}
         onPress={() =>
           navigation.push("Locations", {
             region: "Northeast",
           })
         }
       >
-        <Text style={ styles.buttonText }>Northeast</Text>
+        <Text style={styles.buttonText}>Northeast</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
-        style={ styles.button }
+        style={styles.button}
         onPress={() =>
           navigation.push("Locations", {
             region: "Pacific Northwest",
           })
         }
       >
-        <Text style={ styles.buttonText }>Pacific Northwest</Text>
+        <Text style={styles.buttonText}>Pacific Northwest</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
-        style={ styles.button }
+        style={styles.button}
         onPress={() =>
           navigation.push("Locations", {
             region: "Southeast",
           })
         }
       >
-        <Text style={ styles.buttonText }>Southeast</Text>
+        <Text style={styles.buttonText}>Southeast</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
-        style={ styles.button }
+        style={styles.button}
         onPress={() =>
           navigation.push("Locations", {
             region: "Southwest",
           })
         }
       >
-        <Text style={ styles.buttonText }>Southwest</Text>
+        <Text style={styles.buttonText}>Southwest</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
-        style={ styles.button }
+        style={styles.button}
         onPress={() =>
           navigation.push("Locations", {
             region: "West",
           })
         }
       >
-        <Text style={ styles.buttonText }>West</Text>
+        <Text style={styles.buttonText}>West</Text>
       </TouchableOpacity>
     </SafeAreaView>
   );

@@ -1,5 +1,4 @@
 import React from 'react';
-import { StatusBar } from 'expo-status-bar';
 import WelcomeScreen from './app/screens/WelcomeScreen';
 import IntroScreen from './app/screens/IntroScreen';
 import SearchScreen from './app/screens/SearchScreen';
@@ -16,7 +15,11 @@ import colors from './app/config/colors';
 // CREATE STACK NAVIGATOR
 const Stack = createNativeStackNavigator();
 
+
+
+
 function App() {
+
   return (
       <NavigationContainer>
         <Stack.Navigator initialRouteName="Home">
@@ -24,7 +27,7 @@ function App() {
           <Stack.Screen name="About Us" component={ IntroScreen } options={{headerStyle: {backgroundColor: colors.secondary}, headerTintColor: colors.primary}} />
           <Stack.Screen name="Search" component={ SearchScreen } options={{headerStyle: {backgroundColor: colors.secondary}, headerTintColor: colors.primary}}/>
           <Stack.Screen name="Locations" component={ DetailsScreen } options={{headerStyle: {backgroundColor: colors.secondary}, headerTintColor: colors.primary}}/>
-          <Stack.Screen name="Oyster Profile" component={ ProfileScreen } options={{headerStyle: {backgroundColor: colors.secondary}, headerTintColor: colors.primary}}/>
+          <Stack.Screen name="Oyster Profiles" component={ ProfileScreen } options={{headerStyle: {backgroundColor: colors.secondary}, headerTintColor: colors.primary}}/>
         </Stack.Navigator>
       </NavigationContainer>
     );

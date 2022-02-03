@@ -1,14 +1,13 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { 
+import {
     Image,
-    StyleSheet, 
-    SafeAreaView, 
-    Text, 
-    View, 
-    TouchableOpacity, 
-    Button, 
-    Dimensions 
+    StyleSheet,
+    SafeAreaView,
+    Text,
+    View,
+    TouchableOpacity,
+    Button,
 } from 'react-native';
 
 import colors from '../config/colors';
@@ -16,39 +15,55 @@ import colors from '../config/colors';
 
 
 function WelcomeScreen({ navigation }) {
+    const facts = "https://my-oyster-facts-api.herokuapp.com/oysterFacts";
+
+    const randomFact = () =>
+        fetch(facts)
+            .then(res => res.json())
+            .then(result => {
+                // still got all the facts on the console passing in randomGenerator as well
+                return result[Math.floor(Math.random() * result.length)].fact;
+            })
+
     return (
-        <SafeAreaView style={ styles.container }>
-            <View style={ styles.welcomeTitles }>
-                <Text style={ styles.titleText }>Birth of Pearl</Text>
-                <Text style={ styles.subTitleText }>The world is your...</Text>
+        <SafeAreaView style={styles.container}>
+            <View style={styles.welcomeTitles}>
+                <Text style={styles.titleText}>Birth of Pearl</Text>
+                <Text style={styles.subTitleText}>The world is your...</Text>
             </View>
-            <TouchableOpacity style={ styles.image } onPress={() => navigation.navigate('Search')} >
-                <Image 
-                source={require('../assets/images/icon_shell.png')}/>
+            <TouchableOpacity style={styles.image} onPress={() => {
+                randomFact().then(fact =>
+                    navigation.navigate('Search', { fact })
+                )
+            }} >
+                <Image
+                    source={require('../assets/images/icon_shell.png')} />
             </TouchableOpacity>
             {/* <Text style={styles.shellText}>Tap Oyster</Text> */}
             <StatusBar sytle='auto' />
 
             {/* CREATE FOOTER BACKGROUND; COLORS REVERSED; BUTTON DISPLAYED */}
             {/* SHOULD THE BUTTON BE ANOTHER COMPONENT */}
-            <View style={ styles.footerStyle }>
-            <Button
-            color={ colors.primary }
-            title='Enter'
-            onPress={() => navigation.navigate('About Us')}
-            />
+            <View style={styles.footerStyle}>
+                <Button
+                    color={colors.primary}
+                    title='Enter'
+                    onPress={() => {
+                        navigation.navigate('About Us')
+                    }
+                    } />
             </View>
         </SafeAreaView>
     );
 };
 
 
-const styles = StyleSheet.create({ 
+const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: colors.primary,
         alignItems: 'center',
-        justifyContent: 'center', 
+        justifyContent: 'center',
     },
     image: {
         // REPOSITION THE IMAGE SO THAT EDGES AREN'T CUT OFF

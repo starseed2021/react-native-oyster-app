@@ -27,7 +27,7 @@ function DetailsScreen({ route, navigation }) {
           <TouchableOpacity
             style={ styles.itemStyle }
             onPress={() =>
-              navigation.push("Oyster Profile", {
+              navigation.push("Oyster Profiles", {
                 oysters: item.oysters,
               })
             }

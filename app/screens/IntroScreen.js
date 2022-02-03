@@ -1,9 +1,8 @@
-import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
-import { 
-    StyleSheet, 
-    Text, 
-    View, 
+import {
+    StyleSheet,
+    Text,
+    View,
     SafeAreaView,
     Button,
     Image
@@ -16,35 +15,49 @@ import colors from '../config/colors';
 // HERE WILL BE AN 'ABOUT US' PAGE AND WILL HAVE A BUTTON TO 'BEGIN SEARCH'
 
 function IntroScreen({ navigation }) {
+    const facts = "https://my-oyster-facts-api.herokuapp.com/oysterFacts";
+
+    const randomFact = () =>
+        fetch(facts)
+            .then(res => res.json())
+            .then(result => {
+                // still got all the facts on the console passing in randomGenerator as well
+                return result[Math.floor(Math.random() * result.length)].fact;
+            })
+
     return (
-        <SafeAreaView style={ styles.container }>
+        <SafeAreaView style={styles.container}>
             <Image
-            source={require('../assets/images/icon_shell.png')}
-            style={styles.image}
+                source={require('../assets/images/icon_shell.png')}
+                style={styles.image}
             />
             <View style={styles.textView}>
-            <Text style={styles.textStyle}>
-                Welcome Ostreophiles!
-            </Text>
-            <Text style={styles.textBodyStyle}>
-                Birth of Pearl was created with you in mind.
-                Explore your favorite oysters from the various regions of North America. 
-                Obtain their profiles and get the right information you need to take with you to any restaurant, farmers market, or excursion.
-            
-                <View>
-                <Text style={styles.quoteText}>
-                "I do not weep at the world. I am too busy sharpening my oyster knife."                                                                                          - Zora Neale Hurston
+                <Text style={styles.textStyle}>
+                    Welcome Ostreophiles!
                 </Text>
-                </View>
-            </Text>
+                <Text style={styles.textBodyStyle}>
+                    Birth of Pearl was created with you in mind.
+                    Explore your favorite oysters from the various regions of North America.
+                    Obtain their profiles and get the right information you need to take with you to any restaurant, farmers market, or excursion.
+
+                    <View>
+                        <Text style={styles.quoteText}>
+                            "I do not weep at the world. I am too busy sharpening my oyster knife."                                                                                          - Zora Neale Hurston
+                        </Text>
+                    </View>
+                </Text>
             </View>
-            <View style={ styles.footerStyle }>
-            <Button 
-            color={ colors.primary }
-            title='Begin Search'
-            onPress={() => navigation.push('Search')}
-            />
-            <Text style={ styles.footerTextStyle }>{'\u00A9'} 2021 Tiffany Harper</Text> 
+            <View style={styles.footerStyle}>
+                <Button
+                    color={colors.primary}
+                    title='Begin Search'
+                    onPress={() => {
+                        randomFact().then(fact =>
+                            navigation.navigate('Search', { fact })
+                        )
+                    }}
+                />
+                <Text style={styles.footerTextStyle}>{'\u00A9'} 2021 Tiffany Harper</Text>
             </View>
         </SafeAreaView>
     );
@@ -54,8 +67,8 @@ function IntroScreen({ navigation }) {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1, 
-        alignItems: 'center', 
+        flex: 1,
+        alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: colors.primary
     },
