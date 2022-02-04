@@ -11,9 +11,6 @@ import {
 import colors from '../config/colors';
 
 
-
-// HERE WILL BE AN 'ABOUT US' PAGE AND WILL HAVE A BUTTON TO 'BEGIN SEARCH'
-
 function IntroScreen({ navigation }) {
     const facts = "https://my-oyster-facts-api.herokuapp.com/oysterFacts";
 
@@ -21,7 +18,6 @@ function IntroScreen({ navigation }) {
         fetch(facts)
             .then(res => res.json())
             .then(result => {
-                // still got all the facts on the console passing in randomGenerator as well
                 return result[Math.floor(Math.random() * result.length)].fact;
             })
 

@@ -84,9 +84,6 @@ const styles = StyleSheet.create({
     right: 0
   },
   profileStyle: {
-    // create styling for each oyster profile
-    // maybe a border or elevation look like a card??
-    // text in full color; background of card opaque
     padding: 20,
     alignItems: 'stretch',
     backgroundColor: colors.secondary,

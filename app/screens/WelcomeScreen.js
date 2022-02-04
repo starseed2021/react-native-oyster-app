@@ -21,7 +21,6 @@ function WelcomeScreen({ navigation }) {
         fetch(facts)
             .then(res => res.json())
             .then(result => {
-                // still got all the facts on the console passing in randomGenerator as well
                 return result[Math.floor(Math.random() * result.length)].fact;
             })
 
