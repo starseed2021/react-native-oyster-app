@@ -38,7 +38,7 @@ function IntroScreen({ navigation }) {
                 <Text style={styles.textBodyStyle}>
                     Birth of Pearl was created with you in mind.
                     Explore your favorite oysters from the various regions of North America.
-                    Obtain their profiles and get the right information you need to take with you to any restaurant, farmers market, or excursion.
+                    Obtain their profiles and get the information you need to take with you to any restaurant, farmers market, or excursion.
 
                     <View>
                         <Text style={styles.quoteText}>
@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
     },
     quoteText: {
         color: colors.secondary,
-        fontSize: 15,
+        fontSize: 16,
         fontStyle: 'italic',
         marginBottom: 20,
         textAlign: 'center',

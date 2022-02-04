@@ -6,7 +6,6 @@ import {
   TouchableOpacity,
   View,
   Image,
-  Alert
 } from "react-native";
 
 import Swiper from 'react-native-deck-swiper';
@@ -23,7 +22,7 @@ const renderSwiper = (fact) => {
           return (
             <View style={swipeStyles.card}>
               <Image style={swipeStyles.imageStyle} source={require('../assets/images/oyster_platter.png')} />
-              <Text style={swipeStyles.headerText}>Oyster Fact of the Day</Text>
+              <Text style={swipeStyles.headerText}>Oyster Fact</Text>
               <Text style={swipeStyles.factText}>{card}</Text>
               <Text style={swipeStyles.swipeText}>Swipe</Text>
             </View>

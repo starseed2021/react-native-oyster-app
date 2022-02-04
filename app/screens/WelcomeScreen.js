@@ -42,8 +42,6 @@ function WelcomeScreen({ navigation }) {
             </TouchableOpacity>
             <StatusBar style='auto' />
 
-            {/* CREATE FOOTER BACKGROUND; COLORS REVERSED; BUTTON DISPLAYED */}
-            {/* SHOULD THE BUTTON BE ANOTHER COMPONENT */}
             <View style={styles.footerStyle}>
                 <Button
                     color={colors.primary}
@@ -67,7 +65,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     image: {
-        // REPOSITION THE IMAGE SO THAT EDGES AREN'T CUT OFF
         height: '50%',
         width: '125%'
     },
