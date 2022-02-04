@@ -96,15 +96,6 @@ const styles = StyleSheet.create({
     marginBottom: 16,
     marginLeft: 12,
     marginRight: 12,
-    // shadowColor: colors.shadow,
-    // shadowOffset: {
-    //   width: 0,
-    //   height: 1,
-    // },
-    // // sO: .22, sR: 2.22, e: 3
-    // shadowOpacity: 0.22,
-    // shadowRadius: 2.22,
-    // elevation: 3,
   },
   specieTextStyle: {
     // strictly for species' value
@@ -116,7 +107,7 @@ const styles = StyleSheet.create({
   nameTextStyle: {
     color: colors.highlight,
     fontSize: 18,
-    fontWeight: '700',
+    fontWeight: '800',
     textAlign: 'center'
   },
   renTextStyle: {

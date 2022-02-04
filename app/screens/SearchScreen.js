@@ -14,7 +14,6 @@ import Swiper from 'react-native-deck-swiper';
 import colors from "../config/colors";
 
 
-// TESTING SWIPER
 const renderSwiper = (fact) => {
   return (
     <SafeAreaView style={swipeStyles.container}>
@@ -23,7 +22,7 @@ const renderSwiper = (fact) => {
         renderCard={(card) => {
           return (
             <View style={swipeStyles.card}>
-              <Image style={swipeStyles.imageStyle} source={require('../assets/images/small_icon.png')} />
+              <Image style={swipeStyles.imageStyle} source={require('../assets/images/oyster_platter.png')} />
               <Text style={swipeStyles.headerText}>Oyster Fact of the Day</Text>
               <Text style={swipeStyles.factText}>{card}</Text>
               <Text style={swipeStyles.swipeText}>Swipe</Text>
@@ -31,7 +30,6 @@ const renderSwiper = (fact) => {
           )
         }}
         cardIndex={0}
-        // backgroundColor={colors.highlight}
         stackSize={1}>
       </Swiper>
     </SafeAreaView>
@@ -40,19 +38,6 @@ const renderSwiper = (fact) => {
 
 function SearchScreen({ route, navigation }) {
   const { fact } = route.params;
-
-  // React.useEffect(() => {
-  //   Alert.alert(
-  //     "Oyster Fact of the Day",
-  //     fact,
-  //     [
-  //       { text: "Ok" }
-  //     ]
-  //   );
-  // },
-  //   []
-  // )
-
 
   return (
     <SafeAreaView style={styles.container}>
@@ -124,17 +109,17 @@ const swipeStyles = StyleSheet.create({
     left: 0,
   },
   card: {
-    flex: .80,
+    flex: .85,
     borderRadius: 28,
     justifyContent: 'center',
     backgroundColor: colors.secondary,
   },
   headerText: {
     textAlign: 'center',
-    fontSize: 22,
+    fontSize: 24,
     fontWeight: '600',
     color: colors.primary,
-    marginBottom: 55
+    marginBottom: 28,
   },
   factText: {
     fontSize: 16,
@@ -149,13 +134,13 @@ const swipeStyles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '500',
     textAlign: 'center',
-    marginTop: 45,
+    marginTop: 40,
   },
   imageStyle: {
     alignItems: 'center',
-    marginLeft: 110,
+    height: '60%',
+    width: "100%",
   }
-
 });
 
 

@@ -78,22 +78,17 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         position: 'absolute',
         padding: 25,
-        bottom: 0
-    },
-    shellText: {
-        color: colors.secondary,
-        fontWeight: '500',
-        fontSize: 18
+        bottom: 0,
     },
     subTitleText: {
         color: colors.secondary,
-        fontSize: 18,
-        fontWeight: '300'
+        fontSize: 20,
+        fontWeight: '400'
     },
     titleText: {
         color: colors.secondary,
         fontSize: 35,
-        fontWeight: '500',
+        fontWeight: '600',
     },
     welcomeTitles: {
         height: 100
