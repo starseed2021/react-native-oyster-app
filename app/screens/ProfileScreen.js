@@ -11,16 +11,16 @@ import {
 
 import colors from "../config/colors";
 
-function ProfileScreen({ route }) {  
+function ProfileScreen({ route }) {
   const { oysters } = route.params;
 
-  
-  const renderFlavorProfile = ( flavorProfile ) => {
-      const flavors = flavorProfile.join(', ')
-      return (
-        <Text key={ flavors } style={styles.renTextStyle}> { flavors } </Text>
-        )
-      }
+
+  const renderFlavorProfile = (flavorProfile) => {
+    const flavors = flavorProfile.join(', ')
+    return (
+      <Text key={flavors} style={styles.renTextStyle}> {flavors} </Text>
+    )
+  }
 
   return (
     <SafeAreaView style={styles.container}>
@@ -29,34 +29,33 @@ function ProfileScreen({ route }) {
         source={require("../assets/images/icon_shell.png")}
       />
       <FlatList
-        style={ styles.itemViewStyle }
-        data={ oysters }
-        keyExtractor={ (item, index) => item + index }
+        style={styles.itemViewStyle}
+        data={oysters}
+        keyExtractor={(item, index) => item + index}
         renderItem={({ item }) => (
           <View style={styles.profileStyle}>
-              <Text style={ styles.textStyle }>
-              Oyster Name: 
-              <Text style={styles.renTextStyle}> { item.oyster_name }</Text>
+            <Text style={styles.textStyle}>
+              <Text style={styles.nameTextStyle}> {item.oyster_name}</Text>
             </Text>
-            <Text style={ styles.textStyle }>
-              Location: 
-              <Text style={styles.renTextStyle}> { item.location }</Text>
+            <Text style={styles.textStyle}>
+              Location:
+              <Text style={styles.renTextStyle}> {item.location}</Text>
             </Text>
-            <Text style={ styles.textStyle }>
-              Species: 
-              <Text style={styles.profileTextStyle}> { item.species }</Text>
+            <Text style={styles.textStyle}>
+              Species:
+              <Text style={styles.specieTextStyle}> {item.species}</Text>
             </Text>
-            <Text style={ styles.textStyle }>
-              Flavor Profile: 
+            <Text style={styles.textStyle}>
+              Flavor Profile:
               {renderFlavorProfile(item.flavor_profile)}
             </Text>
-            <Text style={ styles.textStyle }>
-              Cultivation: 
-              <Text style={styles.renTextStyle}> { item.cultivation }</Text>
+            <Text style={styles.textStyle}>
+              Cultivation:
+              <Text style={styles.renTextStyle}> {item.cultivation}</Text>
             </Text>
-            <Text style={ styles.textStyle }>
-              Size: 
-              <Text style={styles.renTextStyle}> { item.size }</Text>
+            <Text style={styles.textStyle}>
+              Size:
+              <Text style={styles.renTextStyle}> {item.size}</Text>
             </Text>
           </View>
         )}
@@ -89,7 +88,7 @@ const styles = StyleSheet.create({
     // maybe a border or elevation look like a card??
     // text in full color; background of card opaque
     padding: 20,
-    alignItems: 'flex-start',
+    alignItems: 'stretch',
     backgroundColor: colors.secondary,
     opacity: .65,
     borderRadius: 18,
@@ -97,7 +96,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
     marginLeft: 12,
     marginRight: 12,
-    shadowColor: colors.shadow,
+    // shadowColor: colors.shadow,
     // shadowOffset: {
     //   width: 0,
     //   height: 1,
@@ -107,12 +106,18 @@ const styles = StyleSheet.create({
     // shadowRadius: 2.22,
     // elevation: 3,
   },
-  profileTextStyle: {
+  specieTextStyle: {
     // strictly for species' value
     fontStyle: 'italic',
     color: colors.highlight,
     fontSize: 15,
     fontWeight: '600'
+  },
+  nameTextStyle: {
+    color: colors.highlight,
+    fontSize: 18,
+    fontWeight: '700',
+    textAlign: 'center'
   },
   renTextStyle: {
     color: colors.highlight,

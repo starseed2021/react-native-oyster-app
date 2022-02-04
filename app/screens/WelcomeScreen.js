@@ -25,6 +25,7 @@ function WelcomeScreen({ navigation }) {
                 return result[Math.floor(Math.random() * result.length)].fact;
             })
 
+
     return (
         <SafeAreaView style={styles.container}>
             <View style={styles.welcomeTitles}>
@@ -39,8 +40,7 @@ function WelcomeScreen({ navigation }) {
                 <Image
                     source={require('../assets/images/icon_shell.png')} />
             </TouchableOpacity>
-            {/* <Text style={styles.shellText}>Tap Oyster</Text> */}
-            <StatusBar sytle='auto' />
+            <StatusBar style='auto' />
 
             {/* CREATE FOOTER BACKGROUND; COLORS REVERSED; BUTTON DISPLAYED */}
             {/* SHOULD THE BUTTON BE ANOTHER COMPONENT */}
@@ -56,6 +56,7 @@ function WelcomeScreen({ navigation }) {
         </SafeAreaView>
     );
 };
+
 
 
 const styles = StyleSheet.create({
