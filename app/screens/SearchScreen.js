@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   StyleSheet,
   Text,
@@ -130,10 +130,11 @@ const swipeStyles = StyleSheet.create({
   },
   swipeText: {
     color: colors.primary,
-    fontSize: 14,
+    fontSize: 12,
     fontWeight: '500',
     textAlign: 'center',
     marginTop: 40,
+    marginBottom: 18
   },
   imageStyle: {
     alignItems: 'center',
@@ -175,8 +176,8 @@ const styles = StyleSheet.create({
   },
   headerText: {
     color: colors.secondary,
-    fontSize: 30,
-    fontWeight: "400",
+    fontSize: 32,
+    fontWeight: "500",
     marginBottom: 40,
   },
 });

@@ -12,18 +12,16 @@ import {
 
 import colors from '../config/colors';
 
-
-
 function WelcomeScreen({ navigation }) {
+
     const facts = "https://my-oyster-facts-api.herokuapp.com/oysterFacts";
 
     const randomFact = () =>
         fetch(facts)
-            .then(res => res.json())
+            .then(response => response.json())
             .then(result => {
                 return result[Math.floor(Math.random() * result.length)].fact;
             })
-
 
     return (
         <SafeAreaView style={styles.container}>
@@ -52,9 +50,7 @@ function WelcomeScreen({ navigation }) {
             </View>
         </SafeAreaView>
     );
-};
-
-
+}
 
 const styles = StyleSheet.create({
     container: {
@@ -79,12 +75,14 @@ const styles = StyleSheet.create({
     subTitleText: {
         color: colors.secondary,
         fontSize: 20,
-        fontWeight: '400'
+        fontWeight: '500',
+
     },
     titleText: {
         color: colors.secondary,
         fontSize: 35,
         fontWeight: '600',
+
     },
     welcomeTitles: {
         height: 100

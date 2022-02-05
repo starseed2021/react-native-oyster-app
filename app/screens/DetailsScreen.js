@@ -12,20 +12,22 @@ import colors from "../config/colors";
 
 import data from "../data/new_data.json";
 
+const oysterData = data;
 
-const oysterData = data; 
+
 
 function DetailsScreen({ route, navigation }) {
-  
+
   const { region } = route.params;
 
+
   return (
-    <SafeAreaView style={ styles.container }>
+    <SafeAreaView style={styles.container}>
       <SectionList
-        sections={ oysterData.filter((item) => item.region == region)}
+        sections={oysterData.filter((item) => item.region == region)}
         renderItem={({ item }) => (
           <TouchableOpacity
-            style={ styles.itemStyle }
+            style={styles.itemStyle}
             onPress={() =>
               navigation.push("Oyster Profiles", {
                 oysters: item.oysters,
@@ -33,28 +35,29 @@ function DetailsScreen({ route, navigation }) {
             }
           >
             <Text
-              style={ styles.itemTextStyle }
+              style={styles.itemTextStyle}
             >
-              { item.location }
+              {item.location}
             </Text>
           </TouchableOpacity>
         )}
         renderSectionHeader={({ section }) => (
           <View style={styles.headerStyle}>
-            <Text style={styles.headerText}>{ section.region }</Text>
+            <Text style={styles.headerText}>{section.region}</Text>
           </View>
         )}
-        keyExtractor={ (item, index) => item + index }
+        keyExtractor={(item, index) => item + index}
       />
     </SafeAreaView>
   );
 }
 
+
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.secondary,
-
   },
   itemStyle: {
     backgroundColor: colors.primary,
@@ -83,7 +86,6 @@ const styles = StyleSheet.create({
   },
   headerStyle: {
     marginBottom: 25,
-
   },
   headerText: {
     fontSize: 25,

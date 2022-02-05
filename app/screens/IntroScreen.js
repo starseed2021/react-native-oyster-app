@@ -21,6 +21,7 @@ function IntroScreen({ navigation }) {
                 return result[Math.floor(Math.random() * result.length)].fact;
             })
 
+
     return (
         <SafeAreaView style={styles.container}>
             <Image
@@ -105,7 +106,7 @@ const styles = StyleSheet.create({
         fontStyle: 'italic',
         marginBottom: 20,
         textAlign: 'center',
-        marginTop: 100
+        marginTop: 100,
     },
     textView: {
         position: 'absolute',
