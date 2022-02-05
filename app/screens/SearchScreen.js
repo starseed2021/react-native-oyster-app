@@ -134,7 +134,7 @@ const swipeStyles = StyleSheet.create({
     fontWeight: '500',
     textAlign: 'center',
     marginTop: 40,
-    marginBottom: 18
+    marginBottom: 28
   },
   imageStyle: {
     alignItems: 'center',
