@@ -10,10 +10,24 @@ import {
 
 
 import colors from "../config/colors";
+import AppLoading from 'expo-app-loading';
+import { useFonts } from 'expo-font';
+import {
+  OriginalSurfer_400Regular
+} from '@expo-google-fonts/original-surfer'
+
+
 
 function ProfileScreen({ route }) {
-  const { oysters } = route.params;
+  let [fontsLoaded, error] = useFonts({
+    OriginalSurfer_400Regular
+  })
 
+  if (!fontsLoaded) {
+    return <AppLoading />
+  }
+
+  const { oysters } = route.params;
 
   const renderFlavorProfile = (flavorProfile) => {
     const flavors = flavorProfile.join(', ')
@@ -98,24 +112,29 @@ const styles = StyleSheet.create({
     // strictly for species' value
     fontStyle: 'italic',
     color: colors.highlight,
-    fontSize: 15,
-    fontWeight: '600'
+    fontSize: 16,
+    // fontWeight: '600',
+    fontFamily: 'OriginalSurfer_400Regular'
+
   },
   nameTextStyle: {
     color: colors.highlight,
-    fontSize: 18,
-    fontWeight: '800',
-    textAlign: 'center'
+    fontSize: 20,
+    // fontWeight: '800',
+    textAlign: 'center',
+    fontFamily: 'OriginalSurfer_400Regular'
   },
   renTextStyle: {
     color: colors.highlight,
-    fontSize: 15,
-    fontWeight: '600'
+    fontSize: 16,
+    // fontWeight: '600',
+    fontFamily: 'OriginalSurfer_400Regular'
   },
   textStyle: {
-    fontSize: 15,
+    fontSize: 17,
     color: colors.highlight,
-    fontWeight: '700'
+    // fontWeight: "700",
+    fontFamily: 'OriginalSurfer_400Regular'
   },
 });
 

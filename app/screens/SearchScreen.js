@@ -12,6 +12,12 @@ import Swiper from 'react-native-deck-swiper';
 
 import colors from "../config/colors";
 
+import AppLoading from 'expo-app-loading';
+import { useFonts } from 'expo-font';
+import {
+  OriginalSurfer_400Regular
+} from '@expo-google-fonts/original-surfer'
+
 
 const renderSwiper = (fact) => {
   return (
@@ -36,6 +42,14 @@ const renderSwiper = (fact) => {
 }
 
 function SearchScreen({ route, navigation }) {
+  let [fontsLoaded, error] = useFonts({
+    OriginalSurfer_400Regular
+  })
+
+  if (!fontsLoaded) {
+    return <AppLoading />
+  }
+
   const { fact } = route.params;
 
   return (
@@ -115,10 +129,11 @@ const swipeStyles = StyleSheet.create({
   },
   headerText: {
     textAlign: 'center',
-    fontSize: 24,
-    fontWeight: '600',
+    fontSize: 26,
+    fontWeight: '700',
     color: colors.primary,
     marginBottom: 28,
+    fontFamily: 'OriginalSurfer_400Regular'
   },
   factText: {
     fontSize: 16,
@@ -126,7 +141,8 @@ const swipeStyles = StyleSheet.create({
     color: colors.primary,
     textAlign: 'center',
     marginLeft: 20,
-    marginRight: 20
+    marginRight: 20,
+    fontFamily: 'OriginalSurfer_400Regular'
   },
   swipeText: {
     color: colors.primary,
@@ -134,7 +150,8 @@ const swipeStyles = StyleSheet.create({
     fontWeight: '500',
     textAlign: 'center',
     marginTop: 40,
-    marginBottom: 28
+    marginBottom: 28,
+    fontFamily: 'OriginalSurfer_400Regular'
   },
   imageStyle: {
     alignItems: 'center',
@@ -173,12 +190,14 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: "500",
     color: colors.primary,
+    fontFamily: 'OriginalSurfer_400Regular'
   },
   headerText: {
     color: colors.secondary,
     fontSize: 32,
     fontWeight: "500",
     marginBottom: 40,
+    fontFamily: 'OriginalSurfer_400Regular'
   },
 });
 

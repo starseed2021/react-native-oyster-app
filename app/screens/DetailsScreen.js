@@ -12,11 +12,24 @@ import colors from "../config/colors";
 
 import data from "../data/new_data.json";
 
+import AppLoading from 'expo-app-loading';
+import { useFonts } from 'expo-font';
+import {
+  OriginalSurfer_400Regular
+} from '@expo-google-fonts/original-surfer'
+
+
+
 const oysterData = data;
 
-
-
 function DetailsScreen({ route, navigation }) {
+  let [fontsLoaded, error] = useFonts({
+    OriginalSurfer_400Regular
+  })
+
+  if (!fontsLoaded) {
+    return <AppLoading />
+  }
 
   const { region } = route.params;
 
@@ -83,6 +96,7 @@ const styles = StyleSheet.create({
     fontWeight: '500',
     height: 50,
     padding: 10,
+    fontFamily: 'OriginalSurfer_400Regular'
   },
   headerStyle: {
     marginBottom: 25,
@@ -94,6 +108,7 @@ const styles = StyleSheet.create({
     color: colors.secondary,
     padding: 10,
     textAlign: "center",
+    fontFamily: 'OriginalSurfer_400Regular'
   }
 });
 

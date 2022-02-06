@@ -10,8 +10,27 @@ import {
 
 import colors from '../config/colors';
 
+import AppLoading from 'expo-app-loading';
+import { useFonts } from 'expo-font';
+
+import {
+    Quintessential_400Regular
+} from '@expo-google-fonts/quintessential'
+import {
+    OriginalSurfer_400Regular
+} from '@expo-google-fonts/original-surfer'
+
 
 function IntroScreen({ navigation }) {
+    let [fontsLoaded, error] = useFonts({
+        Quintessential_400Regular,
+        OriginalSurfer_400Regular
+    })
+
+    if (!fontsLoaded) {
+        return <AppLoading />
+    }
+
     const facts = "https://my-oyster-facts-api.herokuapp.com/oysterFacts";
 
     const randomFact = () =>
@@ -91,14 +110,16 @@ const styles = StyleSheet.create({
         color: colors.secondary,
         fontSize: 30,
         fontWeight: '600',
-        marginTop: 50
+        marginTop: 50,
+        fontFamily: 'OriginalSurfer_400Regular'
     },
     textBodyStyle: {
         color: colors.secondary,
-        fontSize: 18,
+        fontSize: 20,
         fontWeight: '400',
         textAlign: 'center',
         marginTop: 50,
+        fontFamily: 'OriginalSurfer_400Regular'
     },
     quoteText: {
         color: colors.secondary,
@@ -107,6 +128,7 @@ const styles = StyleSheet.create({
         marginBottom: 20,
         textAlign: 'center',
         marginTop: 100,
+        fontFamily: 'OriginalSurfer_400Regular'
     },
     textView: {
         position: 'absolute',

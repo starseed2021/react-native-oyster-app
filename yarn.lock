@@ -1074,9 +1074,19 @@
   dependencies:
     "@types/hammerjs" "^2.0.36"
 
-"@expo-google-fonts/andika@^0.2.2":
-  "integrity" "sha512-ny0cltYgHY0uq3NUYehK3XN/n0YE+73RqiYqzu0jC0dFIdFGbmG05UCOe+Tu+I0dd5R/4D6XJGv6mwrP3cVl3g=="
-  "resolved" "https://registry.npmjs.org/@expo-google-fonts/andika/-/andika-0.2.2.tgz"
+"@expo-google-fonts/acme@^0.2.2":
+  "integrity" "sha512-lbtQ+rVARbBxFG/DUxdeHqn5Ulw5pkytY1Q+DX4cGjpWbBgt1hgPI9cm/MhvKc7v9XT63rPQpfjvypb+Suc6Ew=="
+  "resolved" "https://registry.npmjs.org/@expo-google-fonts/acme/-/acme-0.2.2.tgz"
+  "version" "0.2.2"
+
+"@expo-google-fonts/baloo-bhaijaan@^0.0.2":
+  "integrity" "sha512-x/u3NdfI2e8Yp65eEGjLqFZ/EndCOl5DRWijaS/w7GNHa/UwHPaM0HLpTpu/7UrGfowzBbIB94dh//V7ShsaXA=="
+  "resolved" "https://registry.npmjs.org/@expo-google-fonts/baloo-bhaijaan/-/baloo-bhaijaan-0.0.2.tgz"
+  "version" "0.0.2"
+
+"@expo-google-fonts/baloo-bhaina-2@^0.2.2":
+  "integrity" "sha512-NWLGdVFqiT8zq3iF02Zzrc+Cz0w1Y1HeCnywAfXW54IGaZ1n0K/cq5I0zxLP0Sd9Rh7e2nHq1ZVIlVnAusQKag=="
+  "resolved" "https://registry.npmjs.org/@expo-google-fonts/baloo-bhaina-2/-/baloo-bhaina-2-0.2.2.tgz"
   "version" "0.2.2"
 
 "@expo-google-fonts/dancing-script@^0.2.2":
@@ -1084,14 +1094,19 @@
   "resolved" "https://registry.npmjs.org/@expo-google-fonts/dancing-script/-/dancing-script-0.2.2.tgz"
   "version" "0.2.2"
 
+"@expo-google-fonts/emilys-candy@^0.2.2":
+  "integrity" "sha512-Q/t+l8OvqnigDJp8PzmdcIJ27ogqGhicpgGIudQ7b3Kl0L5fJYocMfjz6gN6NN2KOUSkACsTkGaraclGdHg45Q=="
+  "resolved" "https://registry.npmjs.org/@expo-google-fonts/emilys-candy/-/emilys-candy-0.2.2.tgz"
+  "version" "0.2.2"
+
 "@expo-google-fonts/gotu@^0.2.2":
   "integrity" "sha512-lm/Zaq6psmoZMW9iv76HFUc0WnCO9idDTv3AL7+IU1zkHhubcj8DId1vl/bguUgail0v3IU/DTQ+639gHJBOEg=="
   "resolved" "https://registry.npmjs.org/@expo-google-fonts/gotu/-/gotu-0.2.2.tgz"
   "version" "0.2.2"
 
-"@expo-google-fonts/happy-monkey@^0.2.2":
-  "integrity" "sha512-Tg+w1GGZANUC19fxBlj0+CWbKmg1cBoI0aX49P5XmYkUoc2dqSl89OcAg9EtFLX2wjRs8U1tn6YTXCaXPIZ+dw=="
-  "resolved" "https://registry.npmjs.org/@expo-google-fonts/happy-monkey/-/happy-monkey-0.2.2.tgz"
+"@expo-google-fonts/kaushan-script@^0.2.2":
+  "integrity" "sha512-jRsY6akIhA282N5rtGL7p2HGqwV/JuyVpSE9WrZMdmH+LM/beEImv5WEIMRu6J8OGz4yxlK5Olg07WwTmJpZJg=="
+  "resolved" "https://registry.npmjs.org/@expo-google-fonts/kaushan-script/-/kaushan-script-0.2.2.tgz"
   "version" "0.2.2"
 
 "@expo-google-fonts/kodchasan@^0.2.2":
@@ -1099,14 +1114,34 @@
   "resolved" "https://registry.npmjs.org/@expo-google-fonts/kodchasan/-/kodchasan-0.2.2.tgz"
   "version" "0.2.2"
 
-"@expo-google-fonts/raleway@^0.2.2":
-  "integrity" "sha512-/MUWS14hN9K25PgS7viQwZwasijwL1plIs1gSFu03uyaMCoSMXXrp+Jc1Am51Gj7IomPfVqSOhrbkSfYTeq6cQ=="
-  "resolved" "https://registry.npmjs.org/@expo-google-fonts/raleway/-/raleway-0.2.2.tgz"
+"@expo-google-fonts/original-surfer@^0.2.2":
+  "integrity" "sha512-/RPh/d/8rSiok5R1PcpNGcreokspP4AI5U9SEbZ/yrqujveD1iM4dxFQO4ZmE0zrXQJapI4EYWe8Q8S0EzZQow=="
+  "resolved" "https://registry.npmjs.org/@expo-google-fonts/original-surfer/-/original-surfer-0.2.2.tgz"
   "version" "0.2.2"
 
-"@expo-google-fonts/rock-salt@^0.2.2":
-  "integrity" "sha512-hSqtMAh1LmB3gPeRSU+O7hU5MvHbdPa5oKxYF7ut0sdGQOH0ZyFV+3O4EJplopAznX7JQ3BnWdgJ5X5jJTQNFQ=="
-  "resolved" "https://registry.npmjs.org/@expo-google-fonts/rock-salt/-/rock-salt-0.2.2.tgz"
+"@expo-google-fonts/quintessential@^0.2.2":
+  "integrity" "sha512-9Anp48AQb64fPBDzOFsS5NTpVzZa8+9DxVKFhfwRUt4qklmmlnuD2kE9lTMlPmPgcSC7RDHPGvMqIBG4l4m/JA=="
+  "resolved" "https://registry.npmjs.org/@expo-google-fonts/quintessential/-/quintessential-0.2.2.tgz"
+  "version" "0.2.2"
+
+"@expo-google-fonts/raleway-dots@^0.2.2":
+  "integrity" "sha512-nRFiKb8VZt5LlsLOFz3UzkHUqsu4+5uqyGAaw0pL2KjGFj6WKzGUBmehB2nmU7wcZc8ZfT3zQPt6i5DZ8G6AWA=="
+  "resolved" "https://registry.npmjs.org/@expo-google-fonts/raleway-dots/-/raleway-dots-0.2.2.tgz"
+  "version" "0.2.2"
+
+"@expo-google-fonts/righteous@^0.2.2":
+  "integrity" "sha512-9kwTv/WQjxSVpCKJZRrCAMZfGb4EvBMt1XVRYO2GnvCB8RMMVZLCNw0+FWNGNSiRxpL9V5Tk5pwmnYiJ/79WBw=="
+  "resolved" "https://registry.npmjs.org/@expo-google-fonts/righteous/-/righteous-0.2.2.tgz"
+  "version" "0.2.2"
+
+"@expo-google-fonts/special-elite@^0.2.2":
+  "integrity" "sha512-74Yt+alpmjbR2WPbp5yOxkAhiCqlHuJqH2QOyahct6ny5GNxJkg/1pKyhmK1zTXJRBVH3fMNWtcDSqP8dn/EUg=="
+  "resolved" "https://registry.npmjs.org/@expo-google-fonts/special-elite/-/special-elite-0.2.2.tgz"
+  "version" "0.2.2"
+
+"@expo-google-fonts/ubuntu@^0.2.2":
+  "integrity" "sha512-x9TAJWd/SmGoOMO/sb2MF4uzz3OELGxVHB2k2I2TRgO+aDHEnZYrr+B0c8QSSfMlWwizZLSOcmB+MTyVU0lgUw=="
+  "resolved" "https://registry.npmjs.org/@expo-google-fonts/ubuntu/-/ubuntu-0.2.2.tgz"
   "version" "0.2.2"
 
 "@expo/config-plugins@^4.0.2", "@expo/config-plugins@4.0.15":
@@ -2782,7 +2817,7 @@
     "snapdragon" "^0.8.1"
     "to-regex" "^3.0.1"
 
-"expo-app-loading@^1.3.0":
+"expo-app-loading@~1.3.0":
   "integrity" "sha512-IbMI1w2a79IXw2uH/dgwxWmXW9uR5DNjY/mDKdUCGR0tjMeeliZRq66gGdRLgCkfXS2b2WMIi03gB05l7SiQeg=="
   "resolved" "https://registry.npmjs.org/expo-app-loading/-/expo-app-loading-1.3.0.tgz"
   "version" "1.3.0"
