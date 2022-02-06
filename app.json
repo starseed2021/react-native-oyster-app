@@ -3,7 +3,7 @@
     "name": "Birth of Pearl",
     "slug": "birth-of-pearl",
     "privacy": "public",
-    "description": "An application to search oysters by their location",
+    "description": "An application for users to gain information about oysters by searching specific locations and retrieving oyster profiles.",
     "version": "1.0.0",
     "orientation": "default",
     "icon": "./app/assets/images/small_icon.png",
