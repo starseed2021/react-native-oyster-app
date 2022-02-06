@@ -1,14 +1,16 @@
 {
   "expo": {
-    "name": "Birth-of-Pearl",
-    "slug": "Birth-of-Pearl",
+    "name": "Birth of Pearl",
+    "slug": "birth-of-pearl",
+    "privacy": "public",
+    "description": "An application to search oysters by their location",
     "version": "1.0.0",
     "orientation": "default",
-    "icon": "./assets/images/icon.png",
+    "icon": "./app/assets/images/small_icon.png",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./app/assets/images/oyster_platter.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FFEBCD"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,12 +23,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./app/assets/images/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./app/assets/images/favicon.png"
     }
   }
 }
