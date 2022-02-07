@@ -8,7 +8,8 @@ A **React Native** application for users to gain information about oysters by se
 ## App Features
 
 - **Tappable Image** on Welcome screen for one-touch search.
-- **Swiper Component** displays random oyster facts -  NOTE: swiper developed for iOS but has not been optimized for Android at this time. The random oyster facts are called from an external [API](https://github.com/starseed2021/oyster-facts-api) I created. 
+- **Swiper Component** displays random oyster facts -  NOTE: swiper developed for iOS but has not been optimized for Android at this time. 
+- The random oyster facts are called from an external [API](https://github.com/starseed2021/oyster-facts-api). 
 - **Buttons** to navigate search based on region and location.
 
 ## Installation/Environment Set-Up
