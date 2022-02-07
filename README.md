@@ -15,7 +15,7 @@ A **React Native** application for users to gain information about oysters by se
 ## Installation/Environment Set-Up
 
 - Clone this repository.
-- Install the Expo Command Line Interface by run the command `npm install -g expo-cli`.
+- Install the Expo Command Line Interface by running the command `npm install -g expo-cli`.
 - Install all the dependencies by running the command `npm install`.
 - There are 2 ways to test the app on your cell phone:
   - Install Expo for either [iPhone](https://apps.apple.com/us/app/expo-client/id982107779) or [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en&gl=US).
