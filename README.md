@@ -14,7 +14,6 @@ A **React Native** application for users to gain information about oysters by se
 
 ## Requirements
 - Node.js
-- An Integrated Development Environment (IDE) 
 
 
 ## Installation/Environment Set-Up
