@@ -9,8 +9,9 @@ A **React Native** application for users to gain information about oysters by se
 
 - **Tappable Image** on Welcome screen for one-touch search.
 - **Swiper Component** displays random oyster facts -  **NOTE:** swiper developed for iOS but has not been optimized for Android at this time. 
-- The random oyster facts are called from an external [API](https://github.com/starseed2021/oyster-facts-api) which has the following [link](https://my-oyster-facts-api.herokuapp.com/oysterFacts).
 - **Buttons** to navigate search based on region and location.
+- The random oyster facts are called from an external [API](https://github.com/starseed2021/oyster-facts-api) which has the following [link](https://my-oyster-facts-api.herokuapp.com/oysterFacts).
+
 
 ## Requirements
 - Node.js
@@ -36,5 +37,6 @@ A **React Native** application for users to gain information about oysters by se
     - Download [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
   - To test on an Android Emulator 
     - [Android Studio](https://developer.android.com/studio)
+- The oyster database is stored in a **JSON file** inside the application. There is no backend service to access at this time.
 
 - To start the server run the command `npm start` or `expo start`.
