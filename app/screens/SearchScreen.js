@@ -120,6 +120,7 @@ const swipeStyles = StyleSheet.create({
     position: 'absolute',
     top: 0,
     left: 0,
+    // research zIndex positioning
   },
   card: {
     flex: .85,
