@@ -21,6 +21,7 @@ A **React Native** application for users to gain information about oysters by se
   - For iPhone: 
     - Download Expo for [iOS](https://apps.apple.com/us/app/expo-client/id982107779) and set up an account.
     - Provide the owner (starseed2021) with your email in order to be given access.
+    - Accept the member invitation.
     - Scan the QR Code provided in the Published App Link above.
   - For Android:
     - Download Expo for [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en&gl=US).
