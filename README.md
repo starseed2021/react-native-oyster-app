@@ -26,7 +26,7 @@ A **React Native** application for users to gain information about oysters by se
     - Download Expo for [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en&gl=US).
     - Scan the QR Code that appears when you click the Published App Link above.
   **NOTE:** These processes are very different because the app is still in development mode. 
-- To test the app on your local machine:
+- To test the app on your local machine with either an iOS simulator or an Android emulator:
   - Download [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) or [Android Studio](https://developer.android.com/studio).
 
 - To start the server run the command `npm start` or `expo start`.
