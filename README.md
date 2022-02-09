@@ -30,7 +30,7 @@ A **React Native** application for users to gain information about oysters by se
     - Scan the QR Code provided in the Published App Link above.
   - For Android:
     - Download Expo for [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en&gl=US).
-    - Scan the QR Code that appears when you click the Published App Link above.
+    - Scan the QR Code provided in the Published App Link above.
   - **NOTE:** These processes are very different because the app is still in development mode. 
 - To test the app on your local machine:
   - To test on an iPhone Simulator
