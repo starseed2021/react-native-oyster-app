@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
     image: {
         height: '50%',
         width: '125%',
-        opacity: 0.25,
+        opacity: 0.15,
     },
     textStyle: {
         color: colors.secondary,
