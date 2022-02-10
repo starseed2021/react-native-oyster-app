@@ -34,8 +34,8 @@ A **React Native** application for users to gain information about oysters by se
   - **NOTE:** These processes are very different because the app is still in development mode. 
 - To test the app on your local machine:
   - To test on an iPhone Simulator
-    - Download [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
+    - Download [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) for follow instructions.
   - To test on an Android Emulator 
-    - [Android Studio](https://developer.android.com/studio)
+    - Download [Android Studio](https://developer.android.com/studio) for follow instructions.
 - The database is stored in a **JSON file** inside the application. This application is not accessing a backend database storage at this time.
 - To start the server run the command `npm start` or `expo start`.
