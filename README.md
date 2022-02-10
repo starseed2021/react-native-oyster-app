@@ -14,7 +14,7 @@ A **React Native** application for users to gain information about oysters by se
 
 
 ## Requirements
-- Node.js
+- Node.js - this is needed in order to access the Node Package Manager (npm).
 
 
 ## Installation/Environment Set-Up
