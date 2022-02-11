@@ -56,7 +56,7 @@ function IntroScreen({ navigation }) {
                     Explore your favorite oysters from the various regions of North America.
                     Obtain their profiles and get the information you need to take with you to any restaurant, farmers market, or excursion.
 
-                    <View>
+                    <View style={styles.quoteView}>
                         <Text style={styles.quoteText}>
                             "I do not weep at the world. I am too busy sharpening my oyster knife."                                                                                          - Zora Neale Hurston
                         </Text>
@@ -125,8 +125,8 @@ const styles = StyleSheet.create({
         color: colors.secondary,
         fontSize: 16,
         fontStyle: 'italic',
-        marginBottom: 20,
         textAlign: 'center',
+        marginBottom: 20,
         marginTop: 100,
         fontFamily: 'OriginalSurfer_400Regular'
     },

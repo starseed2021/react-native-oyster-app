@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {
   StyleSheet,
   Text,
@@ -7,6 +7,8 @@ import {
   View,
   Image,
 } from "react-native";
+
+// import { Platform } from 'react-native';
 
 import Swiper from 'react-native-deck-swiper';
 
@@ -23,6 +25,7 @@ const renderSwiper = (fact) => {
   return (
     <SafeAreaView style={swipeStyles.container}>
       <Swiper
+        // useViewOverflow={Platform.OS === 'ios'}
         cards={[fact]}
         renderCard={(card) => {
           return (
@@ -120,7 +123,10 @@ const swipeStyles = StyleSheet.create({
     position: 'absolute',
     top: 0,
     left: 0,
-    // research zIndex positioning
+    // positioning needed for Android 
+    // swiper above search buttons
+    // but doesn't swipe
+    // elevation: 3
   },
   card: {
     flex: .85,
