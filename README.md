@@ -41,4 +41,4 @@ This app was written in **React Native** as a Capstone Project at [Ada Developer
   - To test on an Android Emulator 
     - Download [Android Studio](https://developer.android.com/studio) and follow instructions.
 - Currently, the database is small and therefore stored in a **JSON file**.  This application is not leveraging a backend storage solution at this time.
-- To start the server run `npm start` or `expo start`.  These commands are interchangeable. 
+- To start the server run `npm start` or `expo start`.  These commands are interchangeable.
