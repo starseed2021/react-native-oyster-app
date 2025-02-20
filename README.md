@@ -6,6 +6,7 @@ Users also receive a random fact about oysters upon app load. <br>
 This app was written in **React Native** as a Capstone Project at [Ada Developers Academy](https://adadevelopersacademy.org/).
 
 ### PUBLISHED APP LINK with [QR CODE](https://expo.dev/@starseed999/birth-of-pearl)
+## NOTE: The link is currently not active at this time. 
 <img src="/Images/Welcome.png" alt="Welcome" width="250" height="500">.  <img src="/Images/AboutUs.png" alt="About Us" width="250" height="500">. <img src="/Images/RandomFact.png" alt="Random Fact" width="250" height="500">.  <img src="/Images/RegionSearch.png" alt="Regional Search" width="250" height="500">.  <img src="/Images/LocationSearch.png" alt="Location Search" width="250" height="500">. <img src="/Images/Profile.png" alt="Oyster Profile" width="250" height="500">
 
 ## App Features
