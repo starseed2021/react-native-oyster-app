@@ -2,17 +2,30 @@ import React from "react";
 import {
   StyleSheet,
   Text,
-  SafeAreaView,
   SectionList,
   TouchableOpacity,
-  View
+  View,
+  ActivityIndicator
 } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+// ========== ORIGINAL IMPORTS (before migration) ==========
+// import {
+//   StyleSheet,
+//   Text,
+//   SafeAreaView,
+//   SectionList,
+//   TouchableOpacity,
+//   View
+// } from "react-native-safe-area-context";
+//
+// import AppLoading from 'expo-app-loading';
+// =========================================================
 
 import colors from "../config/colors";
 
 import data from "../data/new_data.json";
 
-import AppLoading from 'expo-app-loading';
 import { useFonts } from 'expo-font';
 import {
   OriginalSurfer_400Regular
@@ -23,12 +36,22 @@ import {
 const oysterData = data;
 
 function DetailsScreen({ route, navigation }) {
-  let [fontsLoaded, error] = useFonts({
+  let [fontsLoaded] = useFonts({
     OriginalSurfer_400Regular
   })
 
+  // ========== ORIGINAL LOADING STATE ==========
+  // if (!fontsLoaded) {
+  //   return <AppLoading />
+  // }
+  // ==============================================
+
   if (!fontsLoaded) {
-    return <AppLoading />
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: colors.secondary }}>
+        <ActivityIndicator size="large" color={colors.primary} />
+      </View>
+    );
   }
 
   const { region } = route.params;

@@ -3,14 +3,26 @@ import {
   StyleSheet,
   Text,
   View,
-  SafeAreaView,
   Image,
   FlatList,
+  ActivityIndicator
 } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
+// ========== ORIGINAL IMPORTS (before migration) ==========
+// import {
+//   StyleSheet,
+//   Text,
+//   View,
+//   SafeAreaView,
+//   Image,
+//   FlatList,
+// } from "react-native-safe-area-context";
+//
+// import AppLoading from 'expo-app-loading';
+// =========================================================
 
 import colors from "../config/colors";
-import AppLoading from 'expo-app-loading';
 import { useFonts } from 'expo-font';
 import {
   OriginalSurfer_400Regular
@@ -19,12 +31,22 @@ import {
 
 
 function ProfileScreen({ route }) {
-  let [fontsLoaded, error] = useFonts({
+  let [fontsLoaded] = useFonts({
     OriginalSurfer_400Regular
   })
 
+  // ========== ORIGINAL LOADING STATE ==========
+  // if (!fontsLoaded) {
+  //   return <AppLoading />
+  // }
+  // ==============================================
+
   if (!fontsLoaded) {
-    return <AppLoading />
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: colors.primary }}>
+        <ActivityIndicator size="large" color={colors.secondary} />
+      </View>
+    );
   }
 
   const { oysters } = route.params;
@@ -78,24 +100,40 @@ function ProfileScreen({ route }) {
   );
 }
 
+// ========== ORIGINAL STYLES (before scroll fix) ==========
+// container: {
+//   flex: 1,
+//   backgroundColor: colors.primary,
+//   alignItems: "center",
+//   justifyContent: "center",
+// },
+// shellStyle: {
+//   height: "50%",
+//   width: "125%",
+//   opacity: 0.25,
+// },
+// itemViewStyle: {
+//   position: "absolute",
+//   top: 0,
+//   bottom: 0,
+//   left: 0,
+//   right: 0
+// },
+// ==========================================================
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.primary,
-    alignItems: "center",
-    justifyContent: "center",
   },
   shellStyle: {
+    position: "absolute",
     height: "50%",
     width: "125%",
     opacity: 0.25,
   },
   itemViewStyle: {
-    position: "absolute",
-    top: 0,
-    bottom: 0,
-    left: 0,
-    right: 0
+    flex: 1,
   },
   profileStyle: {
     padding: 20,
