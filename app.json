@@ -3,7 +3,6 @@
     "owner": "starseed999",
     "name": "Birth of Pearl",
     "slug": "birth-of-pearl",
-    "privacy": "public",
     "description": "An application for users to gain information about oysters by searching specific locations and retrieving oyster profiles.",
     "version": "1.0.0",
     "orientation": "default",
@@ -20,7 +19,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.birth-of-pearl"
     },
     "android": {
       "adaptiveIcon": {
@@ -30,6 +30,9 @@
     },
     "web": {
       "favicon": "./app/assets/images/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }

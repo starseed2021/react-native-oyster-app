@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import {
   StyleSheet,
   Text,
@@ -10,6 +10,7 @@ import {
   PanResponder
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { useFocusEffect } from "@react-navigation/native";
 
 // ========== ORIGINAL IMPORTS (before migration) ==========
 // import {
@@ -65,6 +66,14 @@ import {
 function SearchScreen({ route, navigation }) {
   const [showCard, setShowCard] = useState(true);
   const [pan] = useState(new Animated.ValueXY());
+
+  // Reset card visibility and position when screen comes into focus
+  useFocusEffect(
+    useCallback(() => {
+      setShowCard(true);
+      pan.setValue({ x: 0, y: 0 });
+    }, [pan])
+  );
 
   const panResponder = PanResponder.create({
     onStartShouldSetPanResponder: () => true,
