@@ -124,16 +124,21 @@ function ProfileScreen({ route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
     backgroundColor: colors.primary,
   },
   shellStyle: {
-    position: "absolute",
     height: "50%",
     width: "125%",
-    opacity: 0.25,
+    opacity: 0.15,
   },
   itemViewStyle: {
-    flex: 1,
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
   },
   profileStyle: {
     padding: 20,

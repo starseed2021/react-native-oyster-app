@@ -202,7 +202,7 @@ const swipeStyles = StyleSheet.create({
     bottom: 0,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'rgba(0,0,0,0.5)',
+    backgroundColor: 'rgba(95,158,160,0.85)',
   },
   card: {
     width: '85%',
